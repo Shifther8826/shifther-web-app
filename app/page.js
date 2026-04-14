@@ -63,18 +63,20 @@ export default function Page() {
               }}
             >
               Read Today’s Devotional
-            </button>
-            <button
-              style={{
-                backgroundColor: "transparent",
-                color: "white",
-                border: "1px solid white",
-                borderRadius: "10px",
-                padding: "14px 20px",
-                fontWeight: "bold",
-                cursor: "pointer",
-              }}
-            >
+<a
+  href="/devotionals"
+  style={{
+    display: "inline-block",
+    backgroundColor: "#ffeb3b",
+    color: "#0d1b2a",
+    borderRadius: "10px",
+    padding: "14px 20px",
+    fontWeight: "bold",
+    textDecoration: "none",
+  }}
+>
+  Read Today’s Devotional
+</a>
               View Upcoming Events
             </button>
           </div>
