@@ -91,7 +91,7 @@ export default function DevotionalsPage() {
                 color: "#642a9d",
               }}
             >
-              Devotional 1
+              April 11
             </p>
             <h2 style={{ marginTop: "10px" }}>Draw Near</h2>
             <p style={{ fontWeight: "bold", color: "#0d1b2a" }}>James 4:8</p>
@@ -126,7 +126,7 @@ export default function DevotionalsPage() {
                 color: "#642a9d",
               }}
             >
-              Devotional 2
+              April 12
             </p>
             <h2 style={{ marginTop: "10px" }}>Seek Him Wholeheartedly</h2>
             <p style={{ fontWeight: "bold", color: "#0d1b2a" }}>Jeremiah 29:13</p>
@@ -161,7 +161,7 @@ export default function DevotionalsPage() {
                 color: "#642a9d",
               }}
             >
-              Devotional 3
+              April 13
             </p>
             <h2 style={{ marginTop: "10px" }}>Faith That Shows Up</h2>
             <p style={{ fontWeight: "bold", color: "#0d1b2a" }}>Hebrews 11:6</p>
@@ -178,22 +178,43 @@ export default function DevotionalsPage() {
               Reflection: Where is God calling you to stay consistent?
             </p>
           </div>
+
+          <div
+            style={{
+              backgroundColor: "white",
+              borderRadius: "18px",
+              padding: "28px",
+              boxShadow: "0 8px 24px rgba(0,0,0,0.06)",
+            }}
+          >
+            <p
+              style={{
+                fontSize: "12px",
+                fontWeight: "bold",
+                letterSpacing: "2px",
+                textTransform: "uppercase",
+                color: "#642a9d",
+              }}
+            >
+              April 14
+            </p>
+            <h2 style={{ marginTop: "10px" }}>Stay Planted</h2>
+            <p style={{ fontWeight: "bold", color: "#0d1b2a" }}>Psalm 1:3</p>
+            <p style={{ lineHeight: "1.7" }}>
+              She shall be like a tree planted by the rivers of water.
+            </p>
+            <p style={{ lineHeight: "1.7" }}>
+              Growth does not come from moving constantly. It comes from staying
+              rooted in the right place. When you stay planted in God, strength
+              is developed beneath the surface before it is seen outwardly.
+            </p>
+            <p style={{ lineHeight: "1.7" }}>
+              Reflection: Where is God calling you to stay planted instead of
+              moving?
+            </p>
+          </div>
         </div>
       </section>
     </main>
   );
 }
-<p style={{ fontSize: "12px", fontWeight: "bold", letterSpacing: "2px", textTransform: "uppercase", color: "#642a9d" }}>
-  Devotional 4
-</p>
-<h2>Stay Planted</h2>
-<p style={{ fontWeight: "bold", color: "#0d1b2a" }}>Psalm 1:3</p>
-<p style={{ lineHeight: "1.7" }}>
-  She shall be like a tree planted by the rivers of water...
-</p>
-<p style={{ lineHeight: "1.7" }}>
-  Growth does not come from moving constantly. It comes from staying rooted in the right place.
-</p>
-<p style={{ lineHeight: "1.7" }}>
-  Reflection: Where is God calling you to stay planted instead of moving?
-</p>
