@@ -183,3 +183,17 @@ export default function DevotionalsPage() {
     </main>
   );
 }
+<p style={{ fontSize: "12px", fontWeight: "bold", letterSpacing: "2px", textTransform: "uppercase", color: "#642a9d" }}>
+  Devotional 4
+</p>
+<h2>Stay Planted</h2>
+<p style={{ fontWeight: "bold", color: "#0d1b2a" }}>Psalm 1:3</p>
+<p style={{ lineHeight: "1.7" }}>
+  She shall be like a tree planted by the rivers of water...
+</p>
+<p style={{ lineHeight: "1.7" }}>
+  Growth does not come from moving constantly. It comes from staying rooted in the right place.
+</p>
+<p style={{ lineHeight: "1.7" }}>
+  Reflection: Where is God calling you to stay planted instead of moving?
+</p>
