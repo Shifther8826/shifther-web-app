@@ -220,7 +220,7 @@ export default function Page() {
             </p>
             <h2 style={{ marginTop: "10px" }}>SHIFTHer Prayer Circle</h2>
             <p style={{ lineHeight: "1.7" }}>
-              Thursday at 7:00 PM
+              Wednesday at 5:00 AM
             </p>
             <p style={{ lineHeight: "1.7" }}>
               Join us for prayer, encouragement, and strengthening as women who
