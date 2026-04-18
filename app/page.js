@@ -50,23 +50,36 @@ export default function Page() {
             devotionals, events, prayer, and practical resources to help you move
             forward with intention.
           </p>
-          <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
-            <button
-              style={{
-                backgroundColor: "#ffeb3b",
-                color: "#0d1b2a",
-                border: "none",
-                borderRadius: "10px",
-                padding: "14px 20px",
-                fontWeight: "bold",
-                cursor: "pointer",
-              }}
+         <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
+  <a
+    href="/devotionals"
+    style={{
+      display: "inline-block",
+      backgroundColor: "#ffeb3b",
+      color: "#0d1b2a",
+      borderRadius: "10px",
+      padding: "14px 20px",
+      fontWeight: "bold",
+      textDecoration: "none",
+    }}
+  >
+    Explore Devotionals
+  </a>
 
-  Read Today’s Devotional
-</a>
-              View Upcoming Events
-            </button>
-          </div>
+  <button
+    style={{
+      backgroundColor: "transparent",
+      color: "white",
+      border: "1px solid white",
+      borderRadius: "10px",
+      padding: "14px 20px",
+      fontWeight: "bold",
+      cursor: "pointer",
+    }}
+  >
+    View Upcoming Events
+  </button>
+</div>
         </div>
       </section>
 
