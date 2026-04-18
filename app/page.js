@@ -61,20 +61,7 @@ export default function Page() {
                 fontWeight: "bold",
                 cursor: "pointer",
               }}
-            >
-              Read Today’s Devotional
-<a
-  href="/devotionals"
-  style={{
-    display: "inline-block",
-    backgroundColor: "#ffeb3b",
-    color: "#0d1b2a",
-    borderRadius: "10px",
-    padding: "14px 20px",
-    fontWeight: "bold",
-    textDecoration: "none",
-  }}
->
+
   Read Today’s Devotional
 </a>
               View Upcoming Events
