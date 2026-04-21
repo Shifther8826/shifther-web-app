@@ -50,7 +50,7 @@ export default function Page() {
   devotionals, events, prayer, and practical resources to help you move
   forward with intention.
 </p>
-
+<p style={{ color: "red", fontWeight: "bold" }}>NEW HOME PAGE TEST</p>
 <div style={{ textAlign: "center", marginBottom: "20px" }}>
   <img
     src="/michelle.jpg"
