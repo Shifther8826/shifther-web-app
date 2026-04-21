@@ -62,7 +62,17 @@ export default function Page() {
       fontWeight: "bold",
       textDecoration: "none",
     }}
-  >
+  ><div style={{ textAlign: "center", marginBottom: "20px" }}>
+  <img
+    src="/michelle.jpg"
+    alt="Michelle"
+    style={{
+      width: "200px",
+      borderRadius: "50%",
+      boxShadow: "0 4px 10px rgba(0,0,0,0.3)"
+    }}
+  />
+</div>
     Explore Devotionals
   </a>
 
