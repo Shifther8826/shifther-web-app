@@ -62,7 +62,8 @@ export default function Page() {
       fontWeight: "bold",
       textDecoration: "none",
     }}
-  ><div style={{ textAlign: "center", marginBottom: "20px" }}>
+  >
+    <div style={{ textAlign: "center", marginBottom: "20px" }}>
   <img
     src="/michelle.jpg"
     alt="Michelle"
