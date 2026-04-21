@@ -45,12 +45,25 @@ export default function Page() {
               maxWidth: "700px",
               marginBottom: "28px",
             }}
-          >
-            Welcome to the SHIFTHer app. This is your space for encouragement,
-            devotionals, events, prayer, and practical resources to help you move
-            forward with intention.
-          </p>
-       <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
+         <p>
+  Welcome to the SHIFTHer app. This is your space for encouragement,
+  devotionals, events, prayer, and practical resources to help you move
+  forward with intention.
+</p>
+
+<div style={{ textAlign: "center", marginBottom: "20px" }}>
+  <img
+    src="/michelle.jpg"
+    alt="Michelle"
+    style={{
+      width: "200px",
+      borderRadius: "50%",
+      boxShadow: "0 4px 10px rgba(0,0,0,0.3)"
+    }}
+  />
+</div>
+
+<div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
   <a
     href="/devotionals"
     style={{
@@ -63,17 +76,6 @@ export default function Page() {
       textDecoration: "none",
     }}
   >
-    <div style={{ textAlign: "center", marginBottom: "20px" }}>
-  <img
-    src="/michelle.jpg"
-    alt="Michelle"
-    style={{
-      width: "200px",
-      borderRadius: "50%",
-      boxShadow: "0 4px 10px rgba(0,0,0,0.3)"
-    }}
-  />
-</div>
     Explore Devotionals
   </a>
 
@@ -93,7 +95,7 @@ export default function Page() {
   >
     Submit Prayer Request
   </a>
-
+</div>
   <button
     style={{
       backgroundColor: "transparent",
