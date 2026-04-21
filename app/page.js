@@ -67,7 +67,7 @@ export default function Page() {
   </a>
 
   <a
-    href="PASTE-YOUR-GOOGLE-FORM-LINK-HERE"
+    href=https://forms.gle/pNgSug4vDDtzsFXNA
     target="_blank"
     rel="noopener noreferrer"
     style={{
