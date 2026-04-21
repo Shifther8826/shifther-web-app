@@ -50,7 +50,7 @@ export default function Page() {
             devotionals, events, prayer, and practical resources to help you move
             forward with intention.
           </p>
-         <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
+       <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
   <a
     href="/devotionals"
     style={{
@@ -65,22 +65,24 @@ export default function Page() {
   >
     Explore Devotionals
   </a>
-<a
-  href=https://forms.gle/V9VZFgBjdWXKSvqW9
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{
-    display: "inline-block",
-    backgroundColor: "#642a9d",
-    color: "white",
-    borderRadius: "10px",
-    padding: "14px 20px",
-    fontWeight: "bold",
-    textDecoration: "none",
-  }}
->
-  Submit Prayer Request
-</a>
+
+  <a
+    href="PASTE-YOUR-GOOGLE-FORM-LINK-HERE"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: "inline-block",
+      backgroundColor: "#642a9d",
+      color: "white",
+      borderRadius: "10px",
+      padding: "14px 20px",
+      fontWeight: "bold",
+      textDecoration: "none",
+    }}
+  >
+    Submit Prayer Request
+  </a>
+
   <button
     style={{
       backgroundColor: "transparent",
