@@ -276,7 +276,76 @@ export default function HomePage() {
     Get SHIFTHer 2026 Updates
   </a>
 </div>
+<div
+  style={{
+    marginTop: "24px",
+    padding: "24px",
+    borderRadius: "16px",
+    backgroundColor: "rgba(255,255,255,0.06)",
+    maxWidth: "700px",
+    marginLeft: "auto",
+    marginRight: "auto",
+    textAlign: "center",
+  }}
+>
+  <h2
+    style={{
+      color: "#ffeb3b",
+      fontSize: "24px",
+      margin: "0 0 10px 0",
+    }}
+  >
+    Today’s Devotional
+  </h2>
 
+  <p
+    style={{
+      color: "#ffeb3b",
+      fontSize: "13px",
+      marginBottom: "10px",
+      letterSpacing: "2px",
+      opacity: 0.8,
+    }}
+  >
+    KEEP GOING DEEPER
+  </p>
+
+  <p
+    style={{
+      color: "white",
+      fontSize: "16px",
+      marginBottom: "10px",
+    }}
+  >
+    Week 1 — Drawing Near to God
+  </p>
+
+  <p
+    style={{
+      color: "#d9d9d9",
+      fontSize: "15px",
+      marginBottom: "20px",
+      lineHeight: "1.6",
+    }}
+  >
+    Today’s focus: Draw near to Him and He will draw near to you.
+  </p>
+
+  <a
+    href="/devotionals"
+    style={{
+      display: "inline-block",
+      backgroundColor: "#ffeb3b",
+      color: "#0d1b2a",
+      borderRadius: "10px",
+      padding: "14px 22px",
+      fontWeight: "700",
+      textDecoration: "none",
+    }}
+  >
+    Read Today’s Devotional
+  </a>
+</div>
 </section>
     </main>
   );
