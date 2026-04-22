@@ -231,10 +231,29 @@ export default function HomePage() {
   >
     SHIFTHer 2026 is coming. This is for the woman who wants to stay connected,
     hear what is next, and be the first to know when new details are released.
-  </p>
+ </p>
 
-  <a
-    href="https://forms.gle/xWpN5UGEktvpGQx29"
+<div
+  style={{
+    display: "flex",
+    justifyContent: "center",
+    marginBottom: "20px",
+  }}
+>
+  <img
+    src="/shifther-2026-flyer.jpg"
+    alt="SHIFTHer 2026 Flyer"
+    style={{
+      width: "100%",
+      maxWidth: "420px",
+      borderRadius: "14px",
+      boxShadow: "0 12px 30px rgba(0,0,0,0.35)",
+    }}
+  />
+</div>
+
+<a
+  href="https://forms.gle/xWpN5UGEktvpGQx29"
     target="_blank"
     rel="noopener noreferrer"
     style={{
