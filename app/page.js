@@ -240,16 +240,23 @@ export default function HomePage() {
     marginBottom: "20px",
   }}
 >
-  <img
-   src="/shifther-2026-flyer.png"
-    alt="SHIFTHer 2026 Flyer"
-    style={{
-      width: "100%",
-      maxWidth: "420px",
-      borderRadius: "14px",
-      boxShadow: "0 12px 30px rgba(0,0,0,0.35)",
-    }}
-  />
+  <a
+    href="/shifther-2026-flyer.png"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="/shifther-2026-flyer.png"
+      alt="SHIFTHer 2026 Flyer"
+      style={{
+        width: "100%",
+        maxWidth: "420px",
+        borderRadius: "14px",
+        boxShadow: "0 12px 30px rgba(0,0,0,0.35)",
+        cursor: "pointer",
+      }}
+    />
+  </a>
 </div>
 
 <a
