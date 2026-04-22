@@ -102,3 +102,122 @@ What you choose as your “one thing” will shape your life.`,
     prayerFocus: "Lord, become my one focus again. Realign my desires toward You.",
   },
 ];
+    {
+    week: "Week 2 — Positioning the Heart to Hear God",
+    day: "Day 8 — John 10:27",
+    scripture: "My sheep hear my voice, and I know them, and they follow me.",
+    reflection: `God is always speaking, but not every heart is positioned to hear Him clearly. Hearing God is not reserved for a select few—it is the inheritance of those who belong to Him.
+
+The question is not if He is speaking. The question is if you are listening in a way that recognizes Him.
+
+His voice carries consistency, clarity, and alignment with His nature. As you draw near, your awareness sharpens. What once felt unclear begins to become familiar.
+
+Hearing God begins with believing that you can.`,
+    heartWork:
+      "Do I truly believe that God speaks to me personally, or have I doubted my ability to hear Him?",
+    prayerFocus:
+      "Lord, remove doubt and sharpen my ability to recognize Your voice.",
+  },
+
+  {
+    week: "Week 2 — Positioning the Heart to Hear God",
+    day: "Day 9 — 1 Kings 19:12",
+    scripture: "A still small voice.",
+    reflection: `God does not always speak through noise or intensity. Many times, His voice comes quietly—steady, gentle, and easily missed if you are not attentive.
+
+If your life is filled with constant noise, distraction, or internal chaos, it becomes difficult to discern what is Him.
+
+Stillness is not weakness. It is positioning. It is where clarity begins.
+
+When you slow down, you begin to hear what was always there.`,
+    heartWork:
+      "What noise or distractions have been making it difficult for me to recognize God's voice?",
+    prayerFocus:
+      "Lord, quiet what is loud within me so I can hear You clearly.",
+  },
+
+  {
+    week: "Week 2 — Positioning the Heart to Hear God",
+    day: "Day 10 — Jeremiah 33:3",
+    scripture: "Call unto me, and I will answer thee.",
+    reflection: `God responds to invitation. He does not force communication—He responds to pursuit.
+
+Many times we want clarity, but we have not created conversation. Calling on Him is not a ritual—it is a relational exchange.
+
+When you begin to ask, seek, and listen, God meets you in that place.
+
+He is not silent. He is waiting for engagement.`,
+    heartWork:
+      "Have I been expecting God to speak without intentionally calling on Him?",
+    prayerFocus:
+      "Lord, teach me to engage with You in a way that invites Your response.",
+  },
+
+  {
+    week: "Week 2 — Positioning the Heart to Hear God",
+    day: "Day 11 — Isaiah 30:21",
+    scripture: "This is the way, walk ye in it.",
+    reflection: `God’s voice brings direction. It does not leave you confused—it leads you.
+
+Sometimes we hesitate because we are waiting for something dramatic, but His voice often comes as a simple instruction.
+
+Clarity grows through obedience. When you follow what you hear, you position yourself to hear more.
+
+Direction is not always loud, but it is always intentional.`,
+    heartWork:
+      "Have I ignored or delayed acting on what I sense God is showing me?",
+    prayerFocus:
+      "Lord, give me the courage to follow Your direction when You speak.",
+  },
+
+  {
+    week: "Week 2 — Positioning the Heart to Hear God",
+    day: "Day 12 — Hebrews 5:14",
+    scripture: "Those who by reason of use have their senses exercised.",
+    reflection: `Discernment develops with use. The more you engage, the sharper you become.
+
+Hearing God is not just a moment—it is a practice. It requires attention, testing, and growth.
+
+At first, it may feel uncertain. But over time, your spiritual senses begin to recognize what aligns with Him and what does not.
+
+Maturity is built through consistent engagement.`,
+    heartWork:
+      "Am I actively developing my ability to discern, or avoiding it because it feels unfamiliar?",
+    prayerFocus:
+      "Lord, train my spiritual senses to recognize what is from You.",
+  },
+
+  {
+    week: "Week 2 — Positioning the Heart to Hear God",
+    day: "Day 13 — Proverbs 3:5-6",
+    scripture: "Trust in the Lord with all thine heart.",
+    reflection: `Hearing God requires trust. Not everything He says will align with your logic, your comfort, or your expectations.
+
+If you only follow what makes sense, you will miss what requires faith.
+
+Trust positions you to follow without full understanding. It anchors you when clarity feels incomplete.
+
+His voice leads, but trust sustains your response.`,
+    heartWork:
+      "Where has my need for understanding been blocking my willingness to trust God?",
+    prayerFocus:
+      "Lord, strengthen my trust so I can follow You even when I don’t fully understand.",
+  },
+
+  {
+    week: "Week 2 — Positioning the Heart to Hear God",
+    day: "Day 14 — James 1:22",
+    scripture: "Be ye doers of the word, and not hearers only.",
+    reflection: `Hearing without responding creates stagnation. God’s voice is not given for information—it is given for transformation.
+
+Every time you hear and respond, your sensitivity increases. Every time you hear and ignore, your sensitivity dulls.
+
+Obedience keeps your connection alive. It turns what you hear into movement.
+
+You are not just called to hear—you are called to respond.`,
+    heartWork:
+      "Have I been hearing God without taking action on what He has shown me?",
+    prayerFocus:
+      "Lord, help me to not just hear You, but to respond in obedience.",
+  }
+];
