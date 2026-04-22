@@ -156,19 +156,15 @@ export default function HomePage() {
               margin: "0 0 10px 0",
             }}
           >
-            Today’s Focus
-          </h2>
+    <h2>Today’s Focus</h2>
 
-          <p
-            style={{
-              color: "white",
-              fontSize: "16px",
-              lineHeight: "1.6",
-              margin: 0,
-            }}
-          >
-            {focus[today]}
-          </p>
+<p style={{ color: "#ffeb3b", fontSize: "14px", marginBottom: "6px" }}>
+  DAILY FOCUS
+</p>
+
+<p>
+  {focus[today]}
+</p>       
         </div>
       </section>
     </main>
