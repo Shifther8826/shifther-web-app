@@ -28,20 +28,18 @@ export default function Page() {
           >
             SHIFTHer
           </p>
-          <h1
-            style={{
-              fontSize: "42px",
-              lineHeight: "1.15",
-              margin: "0 0 16px 0",
-              maxWidth: "700px",
-            }}
-          >
-            A place for women to grow in faith, healing, and purpose
-         <h1
+      <h1
   style={{
-    ...
+    color: "#ffeb3b",
+    fontSize: "42px",
+    fontWeight: "bold",
+    marginBottom: "28px",
+    textAlign: "center",
   }}
 >
+  Welcome to SHIFTHer
+</h1>
+
 <p
   style={{
     color: "white",
@@ -49,6 +47,7 @@ export default function Page() {
     lineHeight: "1.6",
     maxWidth: "700px",
     margin: "0 auto 20px",
+    textAlign: "center",
   }}
 >
   Welcome to the SHIFTHer app. This is your space for encouragement,
@@ -111,7 +110,7 @@ export default function Page() {
   >
     View Upcoming Events
   </a>
-</div>
+</div> 
 
       <section style={{ maxWidth: "1100px", margin: "0 auto", padding: "40px 24px" }}>
         <div
