@@ -330,21 +330,20 @@ export default function HomePage() {
   >
     Today’s focus: Draw near to Him and He will draw near to you.
   </p>
-
-  <a
-    href="/devotionals"
-    style={{
-      display: "inline-block",
-      backgroundColor: "#ffeb3b",
-      color: "#0d1b2a",
-      borderRadius: "10px",
-      padding: "14px 22px",
-      fontWeight: "700",
-      textDecoration: "none",
-    }}
-  >
-    Read Today’s Devotional
-  </a>
+<a
+  href="/devotionals/today"
+  style={{
+    display: "inline-block",
+    backgroundColor: "#ffeb3b",
+    color: "#0d1b2a",
+    borderRadius: "10px",
+    padding: "14px 20px",
+    fontWeight: "700",
+    textDecoration: "none",
+  }}
+>
+  Explore Devotionals
+</a>
 </div>
 </section>
     </main>
