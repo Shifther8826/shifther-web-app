@@ -89,20 +89,20 @@ export default function HomePage() {
             marginBottom: "30px",
           }}
         >
-          <a
-            /devotionals/today
-            style={{
-              display: "inline-block",
-              backgroundColor: "#ffeb3b",
-              color: "#0d1b2a",
-              borderRadius: "10px",
-              padding: "14px 20px",
-              fontWeight: "700",
-              textDecoration: "none",
-            }}
-          >
-            Explore Devotionals
-          </a>
+         <a
+  href="/devotionals/today"
+  style={{
+    display: "inline-block",
+    backgroundColor: "#ffeb3b",
+    color: "#0d1b2a",
+    borderRadius: "10px",
+    padding: "14px 20px",
+    fontWeight: "700",
+    textDecoration: "none",
+  }}
+>
+  Explore Devotionals
+</a>
 
           <a
             href="https://forms.gle/pNgSug4vDDtzsFXNA"
