@@ -221,3 +221,108 @@ You are not just called to hear—you are called to respond.`,
       "Lord, help me to not just hear You, but to respond in obedience.",
   }
 ];
+,
+{
+  week: "Week 3 — Identity & Alignment",
+  day: "Day 15 — 2 Corinthians 5:17",
+  scripture: "If any man be in Christ, he is a new creature.",
+  reflection: `Transformation begins with identity. If you still see yourself the way you used to be, you will continue to live from what no longer defines you.
+
+Being in Christ is not a small change—it is a complete shift in nature. The old patterns may try to pull you back, but they no longer have authority over who you are becoming.
+
+You don’t become new by effort. You become new by alignment.`,
+  heartWork:
+    "Where am I still identifying with who I used to be instead of who I am in Christ?",
+  prayerFocus:
+    "Lord, align my thinking with the truth of who I am in You.",
+},
+
+{
+  week: "Week 3 — Identity & Alignment",
+  day: "Day 16 — Romans 12:2",
+  scripture: "Be transformed by the renewing of your mind.",
+  reflection: `Your life follows your thinking. If your mind is not renewed, your actions will stay connected to old patterns.
+
+Transformation is not automatic—it requires intentional renewal. What you consistently think will shape what you consistently do.
+
+When your mind shifts, your life begins to follow.`,
+  heartWork:
+    "What thoughts have I been allowing that do not align with truth?",
+  prayerFocus:
+    "Lord, renew my mind so my life begins to reflect Your truth.",
+},
+
+{
+  week: "Week 3 — Identity & Alignment",
+  day: "Day 17 — Ephesians 2:6",
+  scripture: "Seated together in heavenly places in Christ Jesus.",
+  reflection: `Your position has already been established, but your awareness of it must grow.
+
+You are not trying to reach a place in God—you have already been positioned in Him. When you understand where you are seated, you stop striving and begin to walk with confidence.
+
+Identity removes striving and replaces it with authority.`,
+  heartWork:
+    "Do I live like I am already positioned in Christ, or like I am still trying to earn it?",
+  prayerFocus:
+    "Lord, help me walk in the authority of where You have already placed me.",
+},
+
+{
+  week: "Week 3 — Identity & Alignment",
+  day: "Day 18 — Galatians 2:20",
+  scripture: "It is no longer I who live, but Christ lives in me.",
+  reflection: `There is a letting go that must happen in order for alignment to take place.
+
+You cannot fully live from your new identity while holding onto old versions of yourself. Surrender is not loss—it is alignment.
+
+As you release what no longer belongs, you make room for what God has already placed within you.`,
+  heartWork:
+    "What part of my old self have I been holding onto that God is asking me to release?",
+  prayerFocus:
+    "Lord, give me the grace to release what no longer aligns with who I am becoming.",
+},
+
+{
+  week: "Week 3 — Identity & Alignment",
+  day: "Day 19 — Colossians 3:2",
+  scripture: "Set your affection on things above.",
+  reflection: `What you focus on shapes what you value. What you value shapes how you live.
+
+If your focus remains on earthly patterns, your life will reflect them. But when your focus shifts upward, your alignment begins to change.
+
+You cannot live differently while thinking the same.`,
+  heartWork:
+    "Where has my focus been, and how has it been shaping my life?",
+  prayerFocus:
+    "Lord, shift my focus so my life aligns with what is eternal.",
+},
+
+{
+  week: "Week 3 — Identity & Alignment",
+  day: "Day 20 — 1 Peter 2:9",
+  scripture: "You are a chosen generation…",
+  reflection: `Identity is not something you create—it is something you receive.
+
+You have been chosen, not by accident, but with intention. When you understand that you are chosen, you stop questioning your value and start walking in purpose.
+
+What God has declared over you is not optional—it is truth.`,
+  heartWork:
+    "Have I fully accepted that I am chosen, or do I still question my worth?",
+  prayerFocus:
+    "Lord, help me embrace the identity You have already given me.",
+},
+
+{
+  week: "Week 3 — Identity & Alignment",
+  day: "Day 21 — Philippians 1:6",
+  scripture: "He who began a good work in you will complete it.",
+  reflection: `You are in process, but you are not without direction. God is actively working, even when you don’t see immediate results.
+
+Growth does not happen overnight, but it does happen consistently when you remain aligned.
+
+Trust the process, but stay committed to the alignment.`,
+  heartWork:
+    "Where have I become discouraged in my growth instead of trusting the process?",
+  prayerFocus:
+    "Lord, strengthen my faith to trust what You are building in me.",
+}
