@@ -1,4 +1,17 @@
 export default function HomePage() {
+
+  const focus = [
+    "Make room for God today. Slow down and draw near.",
+    "Guard your heart today. Be intentional about what you allow in.",
+    "Stay consistent today. Small obedience leads to transformation.",
+    "Trust God fully today. Release what you cannot control.",
+    "Examine your heart today. What is God revealing to you?",
+    "Surrender your plans today. Let God lead your steps.",
+    "Give God your full attention today. Not just a moment, but your focus.",
+  ];
+
+  const today = new Date().getDay();
+
   return (
     <main
       style={{
