@@ -90,7 +90,7 @@ export default function HomePage() {
           }}
         >
           <a
-            href="/devotionals"
+            /devotionals/today
             style={{
               display: "inline-block",
               backgroundColor: "#ffeb3b",
