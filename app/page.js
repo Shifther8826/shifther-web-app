@@ -183,7 +183,75 @@ export default function HomePage() {
     {focus[today]}
   </p>
 </div>
-      </section>
+
+{/* 👇 ADD NEW SECTION HERE */}
+
+<div
+  style={{
+    marginTop: "24px",
+    padding: "24px",
+    borderRadius: "16px",
+    backgroundColor: "rgba(255,255,255,0.06)",
+    maxWidth: "700px",
+    marginLeft: "auto",
+    marginRight: "auto",
+    textAlign: "center",
+  }}
+>
+  <h2
+    style={{
+      color: "#ffeb3b",
+      fontSize: "24px",
+      margin: "0 0 10px 0",
+    }}
+  >
+    SHIFTHer 2026
+  </h2>
+
+  <p
+    style={{
+      color: "#ffeb3b",
+      fontSize: "13px",
+      marginBottom: "10px",
+      letterSpacing: "2px",
+      opacity: 0.8,
+    }}
+  >
+    STAY CONNECTED
+  </p>
+
+  <p
+    style={{
+      color: "white",
+      fontSize: "16px",
+      lineHeight: "1.7",
+      margin: "0 auto 20px auto",
+      maxWidth: "600px",
+    }}
+  >
+    SHIFTHer 2026 is coming. This is for the woman who wants to stay connected,
+    hear what is next, and be the first to know when new details are released.
+  </p>
+
+  <a
+    href="https://forms.gle/xWpN5UGEktvpGQx29"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: "inline-block",
+      backgroundColor: "#ffeb3b",
+      color: "#0d1b2a",
+      borderRadius: "10px",
+      padding: "14px 22px",
+      fontWeight: "700",
+      textDecoration: "none",
+    }}
+  >
+    Get SHIFTHer 2026 Updates
+  </a>
+</div>
+
+</section>
     </main>
   );
 }
