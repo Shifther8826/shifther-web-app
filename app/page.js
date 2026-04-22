@@ -45,12 +45,20 @@ export default function Page() {
               maxWidth: "700px",
               marginBottom: "28px",
             }}
-         <p>
+   <p
+  style={{
+    color: "white",
+    fontSize: "18px",
+    lineHeight: "1.6",
+    maxWidth: "700px",
+    margin: "0 auto 20px",
+  }}
+>
   Welcome to the SHIFTHer app. This is your space for encouragement,
   devotionals, events, prayer, and practical resources to help you move
   forward with intention.
 </p>
-<p style={{ color: "red", fontWeight: "bold" }}>NEW HOME PAGE TEST</p>
+
 <div style={{ textAlign: "center", marginBottom: "20px" }}>
   <img
     src="/michelle.jpg"
@@ -58,7 +66,7 @@ export default function Page() {
     style={{
       width: "200px",
       borderRadius: "50%",
-      boxShadow: "0 4px 10px rgba(0,0,0,0.3)"
+      boxShadow: "0 4px 10px rgba(0,0,0,0.3)",
     }}
   />
 </div>
