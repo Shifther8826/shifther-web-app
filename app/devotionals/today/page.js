@@ -166,6 +166,22 @@ const todayIndex =
         >
           ← Back to Home
         </a>
+           <a
+  href="/devotionals/today"
+  style={{
+    display: "inline-block",
+    marginTop: "12px",
+    marginLeft: "16px",
+    backgroundColor: "#642a9d",
+    color: "white",
+    padding: "12px 18px",
+    borderRadius: "8px",
+    textDecoration: "none",
+    fontWeight: "600",
+  }}
+>
+  Continue the Journey →
+</a>
       </section>
     </main>
   );
