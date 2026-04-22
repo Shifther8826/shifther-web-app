@@ -47,7 +47,20 @@ export default function HomePage() {
           devotionals, events, prayer, and practical resources to help you move
           forward with intention.
         </p>
-
+<div style={{ margin: "0 auto 30px auto" }}>
+  <img
+    src="/michelle.jpg"
+    alt="Michelle"
+    style={{
+      width: "220px",
+      height: "220px",
+      objectFit: "cover",
+      borderRadius: "50%",
+      border: "4px solid #ffeb3b",
+      boxShadow: "0 8px 20px rgba(0,0,0,0.35)",
+    }}
+  />
+</div>
         <div
           style={{
             display: "flex",
