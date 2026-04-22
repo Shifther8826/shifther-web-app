@@ -37,14 +37,11 @@ export default function Page() {
             }}
           >
             A place for women to grow in faith, healing, and purpose
-          </h1>
-          <p
-            style={{
-              fontSize: "18px",
-              lineHeight: "1.6",
-              maxWidth: "700px",
-              marginBottom: "28px",
-            }}
+         <h1
+  style={{
+    ...
+  }}
+>
 <p
   style={{
     color: "white",
