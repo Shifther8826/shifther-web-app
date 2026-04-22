@@ -1,263 +1,143 @@
-export default function Page() {
+export default function HomePage() {
   return (
     <main
       style={{
         minHeight: "100vh",
-        backgroundColor: "#fffef4",
-        fontFamily: "Arial, sans-serif",
-        color: "#0d1b2a",
+        background: "linear-gradient(180deg, #0d1b2a 0%, #1b263b 100%)",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        padding: "40px 20px",
       }}
     >
       <section
         style={{
-          background: "linear-gradient(135deg, #642a9d, #0d1b2a)",
-          color: "white",
-          padding: "60px 24px",
+          width: "100%",
+          maxWidth: "900px",
+          textAlign: "center",
+          backgroundColor: "rgba(255,255,255,0.04)",
+          border: "1px solid rgba(255,255,255,0.08)",
+          borderRadius: "24px",
+          padding: "50px 24px",
+          boxShadow: "0 10px 30px rgba(0,0,0,0.25)",
         }}
       >
-        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
-          <p
-            style={{
-              fontSize: "12px",
-              fontWeight: "bold",
-              letterSpacing: "3px",
-              textTransform: "uppercase",
-              color: "#ffeb3b",
-              marginBottom: "16px",
-            }}
-          >
-            SHIFTHer
-          </p>
-      <h1
-  style={{
-    color: "#ffeb3b",
-    fontSize: "42px",
-    fontWeight: "bold",
-    marginBottom: "28px",
-    textAlign: "center",
-  }}
->
-  Welcome to SHIFTHer
-</h1>
-
-<p
-  style={{
-    color: "white",
-    fontSize: "18px",
-    lineHeight: "1.6",
-    maxWidth: "700px",
-    margin: "0 auto 20px",
-    textAlign: "center",
-  }}
->
-  Welcome to the SHIFTHer app. This is your space for encouragement,
-  devotionals, events, prayer, and practical resources to help you move
-  forward with intention.
-</p>
-
-<div
-  style={{
-    display: "flex",
-    gap: "12px",
-    flexWrap: "wrap",
-    justifyContent: "center",
-  }}
->
-  <a
-    href="/devotionals"
-    style={{
-      display: "inline-block",
-      backgroundColor: "#ffeb3b",
-      color: "#0d1b2a",
-      borderRadius: "10px",
-      padding: "14px 20px",
-      fontWeight: "bold",
-      textDecoration: "none",
-    }}
-  >
-    Explore Devotionals
-  </a>
-
-  <a
-    href="https://forms.gle/pNgSug4vDDtzsFXNA"
-    target="_blank"
-    rel="noopener noreferrer"
-    style={{
-      display: "inline-block",
-      backgroundColor: "#642a9d",
-      color: "white",
-      borderRadius: "10px",
-      padding: "14px 20px",
-      fontWeight: "bold",
-      textDecoration: "none",
-    }}
-  >
-    Submit Prayer Request
-  </a>
-
-  <a
-    href="/events"
-    style={{
-      display: "inline-block",
-      backgroundColor: "transparent",
-      color: "white",
-      border: "1px solid white",
-      borderRadius: "10px",
-      padding: "14px 20px",
-      fontWeight: "bold",
-      textDecoration: "none",
-    }}
-  >
-    View Upcoming Events
-  </a>
-</div> 
-
-      <section style={{ maxWidth: "1100px", margin: "0 auto", padding: "40px 24px" }}>
-        <div
+        <h1
           style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
-            gap: "20px",
-            marginBottom: "40px",
+            color: "#ffeb3b",
+            fontSize: "clamp(2rem, 5vw, 3.5rem)",
+            fontWeight: "800",
+            margin: "0 0 20px 0",
+            lineHeight: "1.1",
           }}
         >
-          <div
-            style={{
-              backgroundColor: "white",
-              borderRadius: "18px",
-              padding: "24px",
-              boxShadow: "0 8px 24px rgba(0,0,0,0.06)",
-            }}
-          >
-            <p style={{ color: "#642a9d", fontWeight: "bold", marginBottom: "8px" }}>
-              Devotionals
-            </p>
-            <h3 style={{ marginTop: 0 }}>Grow consistently</h3>
-            <p style={{ lineHeight: "1.6" }}>
-              Read simple, powerful teachings that strengthen your walk and keep
-              your heart focused.
-            </p>
-          </div>
+          Welcome to SHIFTHer
+        </h1>
 
-          <div
-            style={{
-              backgroundColor: "white",
-              borderRadius: "18px",
-              padding: "24px",
-              boxShadow: "0 8px 24px rgba(0,0,0,0.06)",
-            }}
-          >
-            <p style={{ color: "#642a9d", fontWeight: "bold", marginBottom: "8px" }}>
-              Events
-            </p>
-            <h3 style={{ marginTop: 0 }}>Stay connected</h3>
-            <p style={{ lineHeight: "1.6" }}>
-              Keep up with mentorship gatherings, SHIFTHer experiences, and
-              important community updates.
-            </p>
-          </div>
+        <p
+          style={{
+            color: "white",
+            fontSize: "18px",
+            lineHeight: "1.7",
+            maxWidth: "700px",
+            margin: "0 auto 30px auto",
+          }}
+        >
+          Welcome to the SHIFTHer app. This is your space for encouragement,
+          devotionals, events, prayer, and practical resources to help you move
+          forward with intention.
+        </p>
 
-          <div
+        <div
+          style={{
+            display: "flex",
+            gap: "12px",
+            flexWrap: "wrap",
+            justifyContent: "center",
+            marginBottom: "30px",
+          }}
+        >
+          <a
+            href="/devotionals"
             style={{
-              backgroundColor: "white",
-              borderRadius: "18px",
-              padding: "24px",
-              boxShadow: "0 8px 24px rgba(0,0,0,0.06)",
+              display: "inline-block",
+              backgroundColor: "#ffeb3b",
+              color: "#0d1b2a",
+              borderRadius: "10px",
+              padding: "14px 20px",
+              fontWeight: "700",
+              textDecoration: "none",
             }}
           >
-            <p style={{ color: "#642a9d", fontWeight: "bold", marginBottom: "8px" }}>
-              Prayer
-            </p>
-            <h3 style={{ marginTop: 0 }}>Seek covering</h3>
-            <p style={{ lineHeight: "1.6" }}>
-              Submit prayer requests and stay anchored in a community that knows
-              the value of agreement and intercession.
-            </p>
-          </div>
+            Explore Devotionals
+          </a>
 
-          <div
+          <a
+            href="https://forms.gle/pNgSug4vDDtzsFXNA"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
-              backgroundColor: "white",
-              borderRadius: "18px",
-              padding: "24px",
-              boxShadow: "0 8px 24px rgba(0,0,0,0.06)",
+              display: "inline-block",
+              backgroundColor: "#642a9d",
+              color: "white",
+              borderRadius: "10px",
+              padding: "14px 20px",
+              fontWeight: "700",
+              textDecoration: "none",
             }}
           >
-            <p style={{ color: "#642a9d", fontWeight: "bold", marginBottom: "8px" }}>
-              Resources
-            </p>
-            <h3 style={{ marginTop: 0 }}>Access support</h3>
-            <p style={{ lineHeight: "1.6" }}>
-              Find teachings, worksheets, and tools designed to help you move
-              from pressure into transformation.
-            </p>
-          </div>
+            Submit Prayer Request
+          </a>
+
+          <a
+            href="/events"
+            style={{
+              display: "inline-block",
+              backgroundColor: "transparent",
+              color: "white",
+              border: "1px solid white",
+              borderRadius: "10px",
+              padding: "14px 20px",
+              fontWeight: "700",
+              textDecoration: "none",
+            }}
+          >
+            View Upcoming Events
+          </a>
         </div>
 
         <div
           style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
-            gap: "24px",
+            marginTop: "10px",
+            padding: "20px",
+            borderRadius: "16px",
+            backgroundColor: "rgba(255,255,255,0.06)",
+            maxWidth: "700px",
+            marginLeft: "auto",
+            marginRight: "auto",
           }}
         >
-          <div
+          <h2
             style={{
-              backgroundColor: "white",
-              borderRadius: "18px",
-              padding: "28px",
-              boxShadow: "0 8px 24px rgba(0,0,0,0.06)",
+              color: "#ffeb3b",
+              fontSize: "24px",
+              margin: "0 0 10px 0",
             }}
           >
-            <p
-              style={{
-                fontSize: "12px",
-                fontWeight: "bold",
-                letterSpacing: "2px",
-                textTransform: "uppercase",
-                color: "#642a9d",
-              }}
-            >
-              Today’s Focus
-            </p>
-            <h2 style={{ marginTop: "10px" }}>James 4:8</h2>
-            <p style={{ lineHeight: "1.7" }}>
-              Draw near to God, and he will draw near to you.
-            </p>
-            <p style={{ lineHeight: "1.7" }}>
-              This week, let your focus be consistency over perfection. Every
-              small step toward God matters.
-            </p>
-          </div>
+            Today’s Focus
+          </h2>
 
-          <div
+          <p
             style={{
-              backgroundColor: "white",
-              borderRadius: "18px",
-              padding: "28px",
-              boxShadow: "0 8px 24px rgba(0,0,0,0.06)",
+              color: "white",
+              fontSize: "16px",
+              lineHeight: "1.6",
+              margin: 0,
             }}
           >
-            <p
-              style={{
-                fontSize: "12px",
-                fontWeight: "bold",
-                letterSpacing: "2px",
-                textTransform: "uppercase",
-                color: "#642a9d",
-              }}
-            >
-              Coming Up
-            </p>
-            <h2 style={{ marginTop: "10px" }}>SHIFTHer Prayer Circle</h2>
-            <p style={{ lineHeight: "1.7" }}>
-              Wednesday at 5:00 AM
-            </p>
-            <p style={{ lineHeight: "1.7" }}>
-              Join us for prayer, encouragement, and strengthening as women who
-              are committed to healing, identity, and purpose.
-            </p>
-          </div>
+            Make room for God today. Slow down, draw near, and let His presence
+            reset your heart.
+          </p>
         </div>
       </section>
     </main>
