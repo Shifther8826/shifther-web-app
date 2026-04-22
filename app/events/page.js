@@ -89,48 +89,58 @@ export default function EventsPage() {
           }}
         >
           <h2 style={{ color: "#ffeb3b" }}>
-            SHIFTHer Midweek Prayer
-          </h2>
+{/* Midweek Prayer */}
+<div
+  style={{
+    padding: "24px",
+    borderRadius: "16px",
+    backgroundColor: "rgba(255,255,255,0.06)",
+    marginBottom: "30px",
+  }}
+>
+  <h2 style={{ color: "#ffeb3b" }}>
+    SHIFTHer Midweek Prayer
+  </h2>
 
-          <p
-            style={{
-              color: "white",
-              margin: "10px 0 15px 0",
-              fontSize: "16px",
-            }}
-          >
-            Join us for a time of prayer, alignment, and spiritual refreshing in the middle of your week.
-          </p>
+  <p
+    style={{
+      color: "white",
+      margin: "10px 0 15px 0",
+      fontSize: "16px",
+    }}
+  >
+    Join us for a time of prayer, alignment, and spiritual refreshing in the middle of your week.
+  </p>
 
-          <p
-            style={{
-              color: "#d9d9d9",
-              fontSize: "15px",
-              marginBottom: "20px",
-            }}
-          >
-            Wednesdays • 5:00 AM EST
-            <br />
-            Virtual Gathering
-          </p>
+  <p
+    style={{
+      color: "#d9d9d9",
+      fontSize: "15px",
+      marginBottom: "20px",
+    }}
+  >
+    Wednesdays • 5:00 AM EST
+    <br />
+    Virtual Prayer Gathering
+  </p>
 
-          <a
-            href="https://studio.restream.io/eat-wdbn-wjj"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              display: "inline-block",
-              backgroundColor: "#642a9d",
-              color: "white",
-              padding: "12px 20px",
-              borderRadius: "8px",
-              fontWeight: "bold",
-              textDecoration: "none",
-            }}
-          >
-            Join Prayer
-          </a>
-        </div>
+  <a
+    href="https://us02web.zoom.us/j/89531120046"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: "inline-block",
+      backgroundColor: "#642a9d",
+      color: "white",
+      padding: "12px 20px",
+      borderRadius: "8px",
+      fontWeight: "bold",
+      textDecoration: "none",
+    }}
+  >
+    Get Prayer Access
+  </a>
+</div>
         <a
           href="/"
           style={{
