@@ -241,7 +241,7 @@ export default function HomePage() {
   }}
 >
   <img
-    src="/shifther-2026-flyer.jpg"
+   src="/shifther-2026-flyer.png"
     alt="SHIFTHer 2026 Flyer"
     style={{
       width: "100%",
