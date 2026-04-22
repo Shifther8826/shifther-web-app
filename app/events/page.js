@@ -36,7 +36,6 @@ export default function EventsPage() {
           Stay connected with what’s happening in SHIFTHer.
         </p>
 
-        {/* SHIFTHer 2026 Card */}
         <div
           style={{
             padding: "24px",
@@ -45,10 +44,19 @@ export default function EventsPage() {
             marginBottom: "30px",
           }}
         >
-          <h2 style={{ color: "#ffeb3b" }}>SHIFTHer 2026</h2>
+          <h2 style={{ color: "#ffeb3b", marginBottom: "10px" }}>
+            SHIFTHer 2026
+          </h2>
 
-          <p style={{ color: "white", margin: "10px 0 20px 0" }}>
-            A gathering for women ready to grow, heal, and move into what is next.
+          <p
+            style={{
+              color: "white",
+              margin: "10px 0 20px 0",
+              lineHeight: "1.6",
+            }}
+          >
+            A gathering for women ready to grow, heal, and move into what is
+            next.
           </p>
 
           <img
@@ -79,7 +87,7 @@ export default function EventsPage() {
             Get Updates
           </a>
         </div>
-        {/* Midweek Prayer */}
+
         <div
           style={{
             padding: "24px",
@@ -88,59 +96,53 @@ export default function EventsPage() {
             marginBottom: "30px",
           }}
         >
-          <h2 style={{ color: "#ffeb3b" }}>
-{/* Midweek Prayer */}
-<div
-  style={{
-    padding: "24px",
-    borderRadius: "16px",
-    backgroundColor: "rgba(255,255,255,0.06)",
-    marginBottom: "30px",
-  }}
->
-  <h2 style={{ color: "#ffeb3b" }}>
-    SHIFTHer Midweek Prayer
-  </h2>
+          <h2 style={{ color: "#ffeb3b", marginBottom: "10px" }}>
+            SHIFTHer Midweek Prayer
+          </h2>
 
-  <p
-    style={{
-      color: "white",
-      margin: "10px 0 15px 0",
-      fontSize: "16px",
-    }}
-  >
-    Join us for a time of prayer, alignment, and spiritual refreshing in the middle of your week.
-  </p>
+          <p
+            style={{
+              color: "white",
+              margin: "10px 0 15px 0",
+              fontSize: "16px",
+              lineHeight: "1.6",
+            }}
+          >
+            Join us for a time of prayer, alignment, and spiritual refreshing in
+            the middle of your week.
+          </p>
 
-  <p
-    style={{
-      color: "#d9d9d9",
-      fontSize: "15px",
-      marginBottom: "20px",
-    }}
-  >
-    Wednesdays • 5:00 AM EST
-    <br />
-    Virtual Prayer Gathering
-  </p>
+          <p
+            style={{
+              color: "#d9d9d9",
+              fontSize: "15px",
+              marginBottom: "20px",
+              lineHeight: "1.6",
+            }}
+          >
+            Wednesdays • 5:00 AM EST
+            <br />
+            Virtual Prayer Gathering
+          </p>
 
-  <a
-    href="https://us02web.zoom.us/j/89531120046"
-    target="_blank"
-    rel="noopener noreferrer"
-    style={{
-      display: "inline-block",
-      backgroundColor: "#642a9d",
-      color: "white",
-      padding: "12px 20px",
-      borderRadius: "8px",
-      fontWeight: "bold",
-      textDecoration: "none",
-    }}
-  >
-    Get Prayer Access
-  </a>
-</div>
+          <a
+            href="https://us02web.zoom.us/j/89531120046"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: "inline-block",
+              backgroundColor: "#642a9d",
+              color: "white",
+              padding: "12px 20px",
+              borderRadius: "8px",
+              fontWeight: "bold",
+              textDecoration: "none",
+            }}
+          >
+            Get Prayer Access
+          </a>
+        </div>
+
         <a
           href="/"
           style={{
