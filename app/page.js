@@ -59,9 +59,14 @@ export default function Page() {
   forward with intention.
 </p>
 
-</div>
-
-<div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
+<div
+  style={{
+    display: "flex",
+    gap: "12px",
+    flexWrap: "wrap",
+    justifyContent: "center",
+  }}
+>
   <a
     href="/devotionals"
     style={{
@@ -94,22 +99,22 @@ export default function Page() {
     Submit Prayer Request
   </a>
 
-  <button
+  <a
+    href="/events"
     style={{
+      display: "inline-block",
       backgroundColor: "transparent",
       color: "white",
       border: "1px solid white",
       borderRadius: "10px",
       padding: "14px 20px",
       fontWeight: "bold",
-      cursor: "pointer",
+      textDecoration: "none",
     }}
   >
     View Upcoming Events
-  </button>
+  </a>
 </div>
-        </div>
-      </section>
 
       <section style={{ maxWidth: "1100px", margin: "0 auto", padding: "40px 24px" }}>
         <div
