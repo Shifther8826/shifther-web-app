@@ -45,7 +45,7 @@ export default function Page() {
               maxWidth: "700px",
               marginBottom: "28px",
             }}
-   <p
+<p
   style={{
     color: "white",
     fontSize: "18px",
@@ -103,7 +103,7 @@ export default function Page() {
   >
     Submit Prayer Request
   </a>
-</div>
+
   <button
     style={{
       backgroundColor: "transparent",
