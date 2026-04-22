@@ -1,7 +1,14 @@
 import { devotionals } from "../../data/devotionals";
 
 export default function TodayDevotionalPage() {
-  const todayIndex = new Date().getDate() % devotionals.length;
+ const startDate = new Date("2026-05-01"); // adjust year if needed
+const today = new Date();
+
+const diffTime = today - startDate;
+const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+const todayIndex =
+  diffDays >= 0 ? diffDays % devotionals.length : 0;
   const devotional = devotionals[todayIndex];
 
   return (
