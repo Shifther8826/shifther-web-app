@@ -167,8 +167,7 @@ export default function HomePage() {
               margin: 0,
             }}
           >
-            Make room for God today. Slow down, draw near, and let His presence
-            reset your heart.
+            {focus[today]}
           </p>
         </div>
       </section>
