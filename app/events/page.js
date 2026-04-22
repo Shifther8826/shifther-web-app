@@ -109,7 +109,7 @@ export default function EventsPage() {
               marginBottom: "20px",
             }}
           >
-            Wednesdays • 7:00 PM EST
+            Wednesdays • 5:00 AM EST
             <br />
             Virtual Gathering
           </p>
