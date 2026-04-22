@@ -139,33 +139,50 @@ export default function HomePage() {
         </div>
 
         <div
-          style={{
-            marginTop: "10px",
-            padding: "20px",
-            borderRadius: "16px",
-            backgroundColor: "rgba(255,255,255,0.06)",
-            maxWidth: "700px",
-            marginLeft: "auto",
-            marginRight: "auto",
-          }}
-        >
-          <h2
-            style={{
-              color: "#ffeb3b",
-              fontSize: "24px",
-              margin: "0 0 10px 0",
-            }}
-          >
-    <h2>Today’s Focus</h2>
+  style={{
+    marginTop: "10px",
+    padding: "20px",
+    borderRadius: "16px",
+    backgroundColor: "rgba(255,255,255,0.06)",
+    maxWidth: "700px",
+    marginLeft: "auto",
+    marginRight: "auto",
+    textAlign: "center",
+  }}
+>
+  <h2
+    style={{
+      color: "#ffeb3b",
+      fontSize: "24px",
+      margin: "0 0 10px 0",
+    }}
+  >
+    Today’s Focus
+  </h2>
 
-<p style={{ color: "#ffeb3b", fontSize: "14px", marginBottom: "6px" }}>
-  DAILY FOCUS
-</p>
+  <p
+    style={{
+      color: "#ffeb3b",
+      fontSize: "13px",
+      marginBottom: "8px",
+      letterSpacing: "2px",
+      opacity: 0.8,
+    }}
+  >
+    DAILY FOCUS
+  </p>
 
-<p>
-  {focus[today]}
-</p>       
-        </div>
+  <p
+    style={{
+      color: "white",
+      fontSize: "16px",
+      lineHeight: "1.6",
+      margin: 0,
+    }}
+  >
+    {focus[today]}
+  </p>
+</div>
       </section>
     </main>
   );
