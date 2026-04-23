@@ -192,32 +192,7 @@ const todayIndex =
           </a>
         </div>
   <a
-    href="/"
-    style={{
-      display: "inline-block",
-      color: "white",
-      textDecoration: "underline",
-      marginRight: "16px",
-    }}
-  >
-    ← Back to Home
-  </a>
-
-  <a
-    href="/devotionals/today"
-    style={{
-      display: "inline-block",
-      backgroundColor: "#642a9d",
-      color: "white",
-      padding: "12px 18px",
-      borderRadius: "8px",
-      textDecoration: "none",
-      fontWeight: "600",
-    }}
-  >
-    Continue the Journey →
-  </a>
-</div>
+    
       </section>
     </main>
   );
