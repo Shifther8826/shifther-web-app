@@ -321,6 +321,7 @@ Growth does not happen overnight, but it does happen consistently when you remai
 Trust the process, but stay committed to the alignment.`,
   heartWork:
     "Where have I become discouraged in my growth instead of trusting the process?",
-  prayerFocus:
+    prayerFocus:
     "Lord, strengthen my faith to trust what You are building in me.",
 }
+];
