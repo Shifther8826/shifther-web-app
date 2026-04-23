@@ -429,4 +429,49 @@ Standing firm requires awareness and discipline. You protect what has been given
   prayerFocus:
     "Lord, help me stand firm in the freedom You have given me.",
 }
+  ,
+{
+  week: "Week 5 — Walking It Out",
+  day: "Day 29 — James 2:17",
+  scripture: "Faith, if it hath not works, is dead.",
+  reflection: `Growth is not proven by what you know—it is revealed in what you do. You can receive insight, understanding, and clarity, but if it never moves into action, it remains incomplete.
+
+Faith requires movement. Not perfect movement, but intentional steps.
+
+What you have learned must now become how you live.`,
+  heartWork:
+    "Where have I gained understanding but not taken action?",
+  prayerFocus:
+    "Lord, help me turn what I have learned into consistent action.",
+},
+
+{
+  week: "Week 5 — Walking It Out",
+  day: "Day 30 — Luke 9:62",
+  scripture: "No man, having put his hand to the plow, and looking back, is fit for the kingdom of God.",
+  reflection: `Forward movement requires focus. When you constantly look back, you weaken your ability to move ahead.
+
+There is nothing behind you that is necessary for your next step.
+
+Commitment means you keep going, even when it feels unfamiliar or uncomfortable.`,
+  heartWork:
+    "What has been pulling my focus backward instead of forward?",
+  prayerFocus:
+    "Lord, help me stay committed to moving forward without looking back.",
+},
+
+{
+  week: "Week 5 — Walking It Out",
+  day: "Day 31 — Galatians 6:9",
+  scripture: "Let us not be weary in well doing.",
+  reflection: `Consistency is where real transformation is built. It is not the intensity of one moment, but the faithfulness of many moments over time.
+
+You may not always see immediate results, but that does not mean nothing is happening.
+
+Do not stop now. What you continue will eventually produce.`,
+  heartWork:
+    "Where am I tempted to stop instead of staying consistent?",
+  prayerFocus:
+    "Lord, strengthen me to remain consistent until I see the fruit.",
+}
 ];
