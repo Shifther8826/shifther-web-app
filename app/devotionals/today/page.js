@@ -133,15 +133,7 @@ const todayIndex =
             borderRadius: "14px",
           }}
         >
-                <div
-          style={{
-            marginBottom: "10px",
-            padding: "20px",
-            backgroundColor: "rgba(255,255,255,0.06)",
-            borderRadius: "14px",
-          }}
-        >
-          <p
+         <p
             style={{
               color: "#ffeb3b",
               fontSize: "13px",
