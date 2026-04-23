@@ -41,7 +41,15 @@ const todayIndex =
         >
           TODAY’S DEVOTIONAL
         </p>
-
+<p
+  style={{
+    color: "#d9d9d9",
+    fontSize: "14px",
+    marginBottom: "10px",
+  }}
+>
+  Day {todayIndex + 1} of {devotionals.length}
+</p>
         <h1
           style={{
             color: "#ffeb3b",
