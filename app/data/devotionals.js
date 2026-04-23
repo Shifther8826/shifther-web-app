@@ -101,7 +101,6 @@ What you choose as your “one thing” will shape your life.`,
     heartWork: "What has taken priority over my desire for God?",
     prayerFocus: "Lord, become my one focus again. Realign my desires toward You.",
   },
-];
     {
     week: "Week 2 — Positioning the Heart to Hear God",
     day: "Day 8 — John 10:27",
@@ -220,7 +219,6 @@ You are not just called to hear—you are called to respond.`,
     prayerFocus:
       "Lord, help me to not just hear You, but to respond in obedience.",
   }
-];
 ,
 {
   week: "Week 3 — Identity & Alignment",
