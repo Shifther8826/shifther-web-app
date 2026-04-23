@@ -324,4 +324,109 @@ Trust the process, but stay committed to the alignment.`,
     prayerFocus:
     "Lord, strengthen my faith to trust what You are building in me.",
 }
+  ,
+{
+  week: "Week 4 — Breaking Internal Resistance",
+  day: "Day 22 — Romans 7:15",
+  scripture: "For what I would, that do I not; but what I hate, that do I.",
+  reflection: `There is often a tension between what you know and what you do. You can be aware of truth and still struggle to walk it out consistently.
+
+This is not a sign of failure—it is a sign that something within you is still being transformed. Resistance often shows up in the gap between intention and action.
+
+Growth requires honesty about that gap. When you acknowledge it, you create space for change.`,
+  heartWork:
+    "Where am I experiencing a gap between what I know is right and what I am actually doing?",
+  prayerFocus:
+    "Lord, help me confront the areas where I am resisting growth.",
+},
+
+{
+  week: "Week 4 — Breaking Internal Resistance",
+  day: "Day 23 — 2 Timothy 1:7",
+  scripture: "God has not given us the spirit of fear.",
+  reflection: `Fear often disguises itself as caution, delay, or overthinking. It convinces you to stay where you are by making the next step feel overwhelming.
+
+But fear is not your source. It is not your guide.
+
+When you recognize fear for what it is, you can choose not to follow it. You don’t have to wait until fear disappears—you move despite it.`,
+  heartWork:
+    "What has fear been causing me to delay or avoid?",
+  prayerFocus:
+    "Lord, give me the courage to move forward even when fear is present.",
+},
+
+{
+  week: "Week 4 — Breaking Internal Resistance",
+  day: "Day 24 — James 1:8",
+  scripture: "A double minded man is unstable in all his ways.",
+  reflection: `Indecision creates instability. When you are constantly going back and forth, you lose momentum.
+
+Resistance often shows up as hesitation. You start, then stop. You decide, then question.
+
+Clarity comes through commitment. When you settle your decision, your direction becomes steady.`,
+  heartWork:
+    "Where have I been double-minded, causing inconsistency in my life?",
+  prayerFocus:
+    "Lord, strengthen my resolve so I can move forward with clarity and consistency.",
+},
+
+{
+  week: "Week 4 — Breaking Internal Resistance",
+  day: "Day 25 — Hebrews 12:1",
+  scripture: "Lay aside every weight…",
+  reflection: `Not everything holding you back is sin—some things are simply weight. They slow you down, drain your energy, and make progress harder than it needs to be.
+
+You cannot move forward carrying what was never meant to go with you.
+
+Letting go is not always easy, but it is necessary for movement.`,
+  heartWork:
+    "What weight am I carrying that is slowing down my growth?",
+  prayerFocus:
+    "Lord, give me the strength to release what is no longer serving Your purpose in my life.",
+},
+
+{
+  week: "Week 4 — Breaking Internal Resistance",
+  day: "Day 26 — Philippians 3:13",
+  scripture: "Forgetting those things which are behind…",
+  reflection: `Your past can either inform you or imprison you. If you stay connected to what has already happened, it becomes difficult to move forward freely.
+
+Letting go of the past does not mean ignoring it—it means refusing to let it define your future.
+
+Forward movement requires release.`,
+  heartWork:
+    "What from my past have I been holding onto that is affecting my present?",
+  prayerFocus:
+    "Lord, help me release the past so I can move forward with clarity.",
+},
+
+{
+  week: "Week 4 — Breaking Internal Resistance",
+  day: "Day 27 — Joshua 1:9",
+  scripture: "Be strong and of a good courage.",
+  reflection: `Strength is not the absence of pressure—it is the decision to stand in the middle of it.
+
+Courage is not a feeling—it is a choice. You will not always feel ready, but readiness is not the requirement for movement.
+
+When you choose courage, you break the cycle of hesitation.`,
+  heartWork:
+    "Where do I need to choose courage instead of waiting to feel ready?",
+  prayerFocus:
+    "Lord, help me walk in courage even when I feel uncertain.",
+},
+
+{
+  week: "Week 4 — Breaking Internal Resistance",
+  day: "Day 28 — Galatians 5:1",
+  scripture: "Stand fast… and be not entangled again.",
+  reflection: `Freedom is not just something you receive—it is something you maintain.
+
+Old patterns will try to pull you back into familiar cycles. If you are not intentional, you can find yourself returning to what you were delivered from.
+
+Standing firm requires awareness and discipline. You protect what has been given to you by refusing to go backward.`,
+  heartWork:
+    "Where am I at risk of returning to old patterns or cycles?",
+  prayerFocus:
+    "Lord, help me stand firm in the freedom You have given me.",
+}
 ];
