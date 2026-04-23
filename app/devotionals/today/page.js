@@ -191,8 +191,6 @@ const todayIndex =
             Continue the Journey →
           </a>
         </div>
-  <a
-    
       </section>
     </main>
   );
