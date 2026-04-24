@@ -68,7 +68,7 @@ export default function ResourcesPage() {
               lineHeight: "1.2",
             }}
           >
-            Resource Center
+            Resource Center 
           </h1>
 
           <p
