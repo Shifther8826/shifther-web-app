@@ -38,13 +38,24 @@ const dateLabel = devotionalDate.toLocaleDateString("en-US", {
   const [isComplete, setIsComplete] = useState(false);
   const [streak, setStreak] = useState(0);
 
-useEffect(() => {
-  const savedDay = localStorage.getItem("current-day");
+  useEffect(() => {
+  const savedJournal = localStorage.getItem(journalKey);
+  const savedComplete = localStorage.getItem(completeKey);
+  const savedStreak = localStorage.getItem(streakKey);
 
-  if (savedDay) {
-    setTodayIndex(Number(savedDay));
+  if (savedJournal) {
+    setJournalText(savedJournal);
   }
 
+  if (savedComplete === "true") {
+    setIsComplete(true);
+  }
+
+  if (savedStreak) {
+    setStreak(Number(savedStreak));
+  }
+}, [journalKey, completeKey]);
+  
   const savedJournal = localStorage.getItem(journalKey);
   const savedComplete = localStorage.getItem(completeKey);
   const savedStreak = localStorage.getItem(streakKey);
