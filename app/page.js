@@ -228,7 +228,72 @@ export default function HomePage() {
     {focus[today]}
   </p>
 </div>
+</div>   // ← Today’s Focus ends here
 
+// 👇 PASTE BELOW THIS
+
+<div
+  style={{
+    marginTop: "24px",
+    padding: "24px",
+    borderRadius: "16px",
+    backgroundColor: "rgba(255,255,255,0.06)",
+    maxWidth: "700px",
+    marginLeft: "auto",
+    marginRight: "auto",
+    textAlign: "center",
+  }}
+>
+  <h2
+    style={{
+      color: "#ffeb3b",
+      fontSize: "24px",
+      margin: "0 0 10px 0",
+    }}
+  >
+    Resources
+  </h2>
+
+  <p
+    style={{
+      color: "#ffeb3b",
+      fontSize: "13px",
+      marginBottom: "10px",
+      letterSpacing: "2px",
+      opacity: 0.8,
+    }}
+  >
+    TOOLS FOR GROWTH
+  </p>
+
+  <p
+    style={{
+      color: "white",
+      fontSize: "16px",
+      lineHeight: "1.7",
+      margin: "0 auto 20px auto",
+      maxWidth: "600px",
+    }}
+  >
+    Access worksheets, teachings, and guides designed to help you stay focused,
+    aligned, and growing in your journey.
+  </p>
+
+  <a
+    href="/resources"
+    style={{
+      display: "inline-block",
+      backgroundColor: "#ffeb3b",
+      color: "#0d1b2a",
+      borderRadius: "10px",
+      padding: "12px 20px",
+      fontWeight: "bold",
+      textDecoration: "none",
+    }}
+  >
+    Explore Resources
+  </a>
+</div>
 {/* 👇 ADD NEW SECTION HERE */}
 
 <div
