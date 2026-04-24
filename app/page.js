@@ -228,9 +228,6 @@ export default function HomePage() {
     {focus[today]}
   </p>
 </div>
-</div>   // ← Today’s Focus ends here
-
-// 👇 PASTE BELOW THIS
 
 <div
   style={{
