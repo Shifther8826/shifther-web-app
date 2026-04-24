@@ -1,10 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import devotionals from "../../data/devotionals";
+import { devotionals } from "../../data/devotionals";
 
 export default function TodayDevotionalPage() {
-  const todayIndex = 0; // Day 1
+  const todayIndex = 0; 
   const devotional = devotionals[todayIndex];
 
   const journalKey = `journal-day-${todayIndex + 1}`;
