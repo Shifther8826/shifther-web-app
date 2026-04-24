@@ -14,7 +14,6 @@ export default function TodayDevotionalPage() {
   day: "numeric",
   year: "numeric",
 });
-const mayDayNumber = today.getDate();
   
   const journalKey = `journal-day-${todayIndex + 1}`;
   const completeKey = `complete-day-${todayIndex + 1}`;
@@ -143,7 +142,7 @@ const handleContinue = () => {
             marginBottom: "12px",
           }}
         >
-          May Day {mayDayNumber} • Day {todayIndex + 1} of {devotionals.length}
+          Day {todayIndex + 1} of {devotionals.length}
         </p>
 
         <div
