@@ -1,30 +1,11 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
-import { devotionals } from "../../data/devotionals";
+import { useEffect, useState } from "react";
+import devotionals from "@/app/data/devotionals";
 
 export default function TodayDevotionalPage() {
-  const startDate = new Date("2026-05-01");
-  const today = new Date();
-
-  const diffTime = today - startDate;
-  const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-
-  const todayIndex = diffDays >= 0 ? diffDays % devotionals.length : 0;
+  const todayIndex = 0; // Day 1 (we’ll make this dynamic later)
   const devotional = devotionals[todayIndex];
-
-  const mayDayNumber = diffDays >= 0 ? diffDays + 1 : 1;
-
-  const dateLabel = useMemo(() => {
-    const displayDate = new Date(startDate);
-    displayDate.setDate(startDate.getDate() + todayIndex);
-
-    return displayDate.toLocaleDateString("en-US", {
-      month: "long",
-      day: "numeric",
-      year: "numeric",
-    });
-  }, [todayIndex]);
 
   const journalKey = `journal-day-${todayIndex + 1}`;
   const completeKey = `complete-day-${todayIndex + 1}`;
