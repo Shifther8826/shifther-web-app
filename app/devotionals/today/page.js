@@ -7,6 +7,15 @@ export default function TodayDevotionalPage() {
   const todayIndex = 0; 
   const devotional = devotionals[todayIndex];
 
+  const today = new Date();
+  const dateLabel = today.toLocaleDateString("en-US", {
+  weekday: "long",
+  month: "long",
+  day: "numeric",
+  year: "numeric",
+});
+const mayDayNumber = today.getDate();
+  
   const journalKey = `journal-day-${todayIndex + 1}`;
   const completeKey = `complete-day-${todayIndex + 1}`;
   const streakKey = "devotional-streak";
