@@ -7,8 +7,9 @@ export default function TodayDevotionalPage() {
   const [todayIndex, setTodayIndex] = useState(0);
   const devotional = devotionals[todayIndex];
 
-  const today = new Date();
-  const dateLabel = today.toLocaleDateString("en-US", {
+  const devotionalDate = new Date(2026, 4, todayIndex + 1);
+
+const dateLabel = devotionalDate.toLocaleDateString("en-US", {
   weekday: "long",
   month: "long",
   day: "numeric",
