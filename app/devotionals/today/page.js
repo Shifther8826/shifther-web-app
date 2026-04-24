@@ -18,9 +18,8 @@ if (calculatedIndex > devotionals.length - 1) {
 
 const todayIndex = calculatedIndex;
 const devotional = devotionals[todayIndex];
-  const devotional = devotionals[todayIndex];
 
-  const devotionalDate = new Date(2026, 4, todayIndex + 1);
+const devotionalDate = new Date(2026, 4, todayIndex + 1);
 
 const dateLabel = devotionalDate.toLocaleDateString("en-US", {
   weekday: "long",
