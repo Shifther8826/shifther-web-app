@@ -8,133 +8,81 @@ export default function ResourcesPage() {
         color: "#0d1b2a",
       }}
     >
-      {/* HEADER */}
-     <section
-  style={{
-    position: "relative",
-    height: "300px",
-    overflow: "hidden",
-  }}
->
-  {/* BACKGROUND IMAGE */}
-  <img
-    src="/resources-header.jpg"
-    alt="SHIFTHer Resources"
-    style={{
-      width: "100%",
-      height: "100%",
-      objectFit: "cover",
-    }}
-  />
+      <section
+        style={{
+          position: "relative",
+          height: "320px",
+          overflow: "hidden",
+        }}
+      >
+        <img
+          src="/resources-header.jpg"
+          alt="SHIFTHer Resources"
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+          }}
+        />
 
-  {/* DARK OVERLAY */}
-  <div
-    style={{
-      position: "absolute",
-      top: 0,
-      left: 0,
-      width: "100%",
-      height: "100%",
-      background: "rgba(13, 27, 42, 0.6)",
-    }}
-  ></div>
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            background: "rgba(13, 27, 42, 0.62)",
+          }}
+        ></div>
 
-  {/* TEXT CONTENT */}
-  <div
-    style={{
-      position: "absolute",
-      top: "50%",
-      left: "50%",
-      transform: "translate(-50%, -50%)",
-      textAlign: "center",
-      color: "white",
-      padding: "0 20px",
-    }}
-  >
-    <p
-      style={{
-        fontSize: "12px",
-        letterSpacing: "3px",
-        textTransform: "uppercase",
-        color: "#ffeb3b",
-        marginBottom: "12px",
-      }}
-    >
-      SHIFTHER
-    </p>
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            textAlign: "center",
+            color: "white",
+            padding: "0 24px",
+          }}
+        >
+          <p
+            style={{
+              fontSize: "12px",
+              letterSpacing: "3px",
+              textTransform: "uppercase",
+              color: "#ffeb3b",
+              marginBottom: "12px",
+              fontWeight: "bold",
+            }}
+          >
+            SHIFTHER
+          </p>
 
-    <h1
-      style={{
-        fontSize: "36px",
-        margin: "0 0 10px 0",
-      }}
-    >
-      Resource Center
-    </h1>
+          <h1
+            style={{
+              fontSize: "42px",
+              margin: "0 0 12px 0",
+              lineHeight: "1.2",
+            }}
+          >
+            Resource Center
+          </h1>
 
-    <p
-      style={{
-        fontSize: "16px",
-        maxWidth: "500px",
-        margin: "0 auto",
-        lineHeight: "1.6",
-      }}
-    >
-      Access tools, teachings, and guides designed to help you stay focused,
-      grow in faith, and move forward with intention.
-    </p>
-  </div>
-</section>
-      <div style={{ maxWidth: "1100px", margin: "0 auto", textAlign: "center" }}>
-  <img
-    src="/resources-header.jpg"
-    alt="SHIFTHer Resources"
-    style={{
-      width: "100%",
-      maxHeight: "240px",
-      objectFit: "cover",
-      borderRadius: "18px",
-      marginBottom: "24px",
-    }}
-  />
-
-  <p
-    style={{
-      fontSize: "12px",
-      letterSpacing: "3px",
-      textTransform: "uppercase",
-      color: "#ffeb3b",
-      marginBottom: "12px",
-    }}
-  >
-    SHIFTHER
-  </p>
-
-  <h1
-    style={{
-      fontSize: "42px",
-      margin: "0 0 12px 0",
-      lineHeight: "1.2",
-    }}
-  >
-    Resource Center
-  </h1>
-
-  <p
-    style={{
-      fontSize: "18px",
-      maxWidth: "650px",
-      margin: "0 auto",
-      lineHeight: "1.6",
-    }}
-  >
-    Access tools, teachings, and guides designed to help you stay focused,
-    grow in faith, and move forward with intention.
-  </p>
-</div>
+          <p
+            style={{
+              fontSize: "17px",
+              maxWidth: "620px",
+              margin: "0 auto",
+              lineHeight: "1.6",
+            }}
+          >
+            Access tools, teachings, and guides designed to help you stay focused,
+            grow in faith, and move forward with intention.
+          </p>
+        </div>
       </section>
 
-      {/* RESOURCE GRID */}
       <section style={{ maxWidth: "1100px", margin: "0 auto", padding: "40px 24px" }}>
         <div
           style={{
@@ -143,8 +91,6 @@ export default function ResourcesPage() {
             gap: "24px",
           }}
         >
-
-          {/* RESOURCE 1 */}
           <div style={card}>
             <p style={label}>Free Download</p>
             <h2>Distraction Detox Worksheet</h2>
@@ -152,10 +98,9 @@ export default function ResourcesPage() {
               Identify what has been pulling your focus and begin resetting your
               attention with intention.
             </p>
-            <a href="#" style={button}>Open Resource</a>
+            <a href="#" style={button}>Open Resource →</a>
           </div>
 
-          {/* RESOURCE 2 */}
           <div style={card}>
             <p style={label}>Teaching</p>
             <h2>Breaking Distractions</h2>
@@ -163,10 +108,9 @@ export default function ResourcesPage() {
               A short teaching to help you understand how distraction works and
               how to overcome it.
             </p>
-            <a href="#" style={button}>Watch Teaching</a>
+            <a href="#" style={button}>Watch Teaching →</a>
           </div>
 
-          {/* RESOURCE 3 */}
           <div style={card}>
             <p style={label}>Workbook</p>
             <h2>Momentum Shift Guide</h2>
@@ -174,10 +118,9 @@ export default function ResourcesPage() {
               A guided workbook to help you move from pressure into
               transformation.
             </p>
-            <a href="#" style={button}>Open Workbook</a>
+            <a href="#" style={button}>Open Workbook →</a>
           </div>
 
-          {/* RESOURCE 4 */}
           <div style={card}>
             <p style={label}>Prayer Guide</p>
             <h2>Focused Prayer Guide</h2>
@@ -185,9 +128,8 @@ export default function ResourcesPage() {
               A simple guide to help you stay intentional in your prayer life
               and eliminate distractions.
             </p>
-            <a href="#" style={button}>Open Guide</a>
+            <a href="#" style={button}>Open Guide →</a>
           </div>
-
         </div>
       </section>
     </main>
@@ -196,13 +138,13 @@ export default function ResourcesPage() {
 
 const card = {
   backgroundColor: "white",
-  borderRadius: "18px",
+  borderRadius: "20px",
   padding: "28px",
-  boxShadow: "0 8px 24px rgba(0,0,0,0.06)",
+  boxShadow: "0 12px 30px rgba(0,0,0,0.08)",
 };
 
 const label = {
-  fontSize: "12px",
+  fontSize: "11px",
   fontWeight: "bold",
   letterSpacing: "2px",
   textTransform: "uppercase",
@@ -211,11 +153,11 @@ const label = {
 
 const button = {
   display: "inline-block",
-  marginTop: "12px",
+  marginTop: "10px",
   backgroundColor: "#ffeb3b",
   color: "#0d1b2a",
-  borderRadius: "10px",
-  padding: "12px 16px",
+  borderRadius: "8px",
+  padding: "10px 16px",
   fontWeight: "bold",
   textDecoration: "none",
 };
