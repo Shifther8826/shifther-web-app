@@ -55,7 +55,7 @@ const dateLabel = devotionalDate.toLocaleDateString("en-US", {
     setStreak(Number(savedStreak));
   }
 }, [journalKey, completeKey]);
-  
+  useEffect(() => {
   const savedJournal = localStorage.getItem(journalKey);
   const savedComplete = localStorage.getItem(completeKey);
   const savedStreak = localStorage.getItem(streakKey);
