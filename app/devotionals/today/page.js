@@ -4,7 +4,20 @@ import { useEffect, useState } from "react";
 import { devotionals } from "../../data/devotionals";
 
 export default function TodayDevotionalPage() {
-  const [todayIndex, setTodayIndex] = useState(0);
+  const today = new Date();
+const startDate = new Date(2026, 4, 1); // May 1, 2026
+
+let calculatedIndex = Math.floor(
+  (today - startDate) / (1000 * 60 * 60 * 24)
+);
+
+if (calculatedIndex < 0) calculatedIndex = 0;
+if (calculatedIndex > devotionals.length - 1) {
+  calculatedIndex = devotionals.length - 1;
+}
+
+const todayIndex = calculatedIndex;
+const devotional = devotionals[todayIndex];
   const devotional = devotionals[todayIndex];
 
   const devotionalDate = new Date(2026, 4, todayIndex + 1);
@@ -414,6 +427,8 @@ const handleContinue = () => {
   }}
 >
   Continue the Journey →
+<button disabled>
+  Next day unlocks tomorrow
 </button>
         </div>
       </section>
