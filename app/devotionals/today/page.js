@@ -413,7 +413,7 @@ const handleContinue = () => {
             ← Back to Home
           </a>
 
-          <button
+  <button
   onClick={handleContinue}
   style={{
     display: "inline-block",
@@ -424,9 +424,12 @@ const handleContinue = () => {
     border: "none",
     fontWeight: "600",
     cursor: "pointer",
+    marginRight: "12px",
   }}
 >
   Continue the Journey →
+</button>
+
 <button
   disabled
   style={{
