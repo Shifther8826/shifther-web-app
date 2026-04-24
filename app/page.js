@@ -1,3 +1,12 @@
+"use client";
+
+import {
+  SignInButton,
+  SignUpButton,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from "@clerk/nextjs";
 export default function HomePage() {
 
   const focus = [
@@ -137,7 +146,43 @@ export default function HomePage() {
             View Upcoming Events
           </a>
         </div>
+<div style={{ marginTop: "20px", display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
+  
+  <SignedOut>
+    <SignInButton mode="modal">
+      <button style={{
+        backgroundColor: "transparent",
+        color: "white",
+        border: "1px solid white",
+        borderRadius: "10px",
+        padding: "12px 18px",
+        fontWeight: "bold",
+        cursor: "pointer",
+      }}>
+        Sign In
+      </button>
+    </SignInButton>
 
+    <SignUpButton mode="modal">
+      <button style={{
+        backgroundColor: "#ffeb3b",
+        color: "#0d1b2a",
+        border: "none",
+        borderRadius: "10px",
+        padding: "12px 18px",
+        fontWeight: "bold",
+        cursor: "pointer",
+      }}>
+        Create Account
+      </button>
+    </SignUpButton>
+  </SignedOut>
+
+  <SignedIn>
+    <UserButton />
+  </SignedIn>
+
+</div>
         <div
   style={{
     marginTop: "10px",
