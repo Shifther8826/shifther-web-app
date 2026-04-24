@@ -26,23 +26,29 @@ const mayDayNumber = today.getDate();
   const [isComplete, setIsComplete] = useState(false);
   const [streak, setStreak] = useState(0);
 
-  useEffect(() => {
-    const savedJournal = localStorage.getItem(journalKey);
-    const savedComplete = localStorage.getItem(completeKey);
-    const savedStreak = localStorage.getItem(streakKey);
+useEffect(() => {
+  const savedDay = localStorage.getItem("current-day");
 
-    if (savedJournal) {
-      setJournalText(savedJournal);
-    }
+  if (savedDay) {
+    setTodayIndex(Number(savedDay));
+  }
 
-    if (savedComplete === "true") {
-      setIsComplete(true);
-    }
+  const savedJournal = localStorage.getItem(journalKey);
+  const savedComplete = localStorage.getItem(completeKey);
+  const savedStreak = localStorage.getItem(streakKey);
 
-    if (savedStreak) {
-      setStreak(Number(savedStreak));
-    }
-  }, [journalKey, completeKey]);
+  if (savedJournal) {
+    setJournalText(savedJournal);
+  }
+
+  if (savedComplete === "true") {
+    setIsComplete(true);
+  }
+
+  if (savedStreak) {
+    setStreak(Number(savedStreak));
+  }
+}, [journalKey, completeKey]);
 
   const handleSaveJournal = () => {
     localStorage.setItem(journalKey, journalText);
