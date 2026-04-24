@@ -427,7 +427,19 @@ const handleContinue = () => {
   }}
 >
   Continue the Journey →
-<button disabled>
+<button
+  disabled
+  style={{
+    display: "inline-block",
+    backgroundColor: "#6b7280",
+    color: "white",
+    padding: "12px 18px",
+    borderRadius: "8px",
+    border: "none",
+    fontWeight: "600",
+    cursor: "not-allowed",
+  }}
+>
   Next day unlocks tomorrow
 </button>
         </div>
