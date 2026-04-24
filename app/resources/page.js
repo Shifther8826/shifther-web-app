@@ -9,13 +9,82 @@ export default function ResourcesPage() {
       }}
     >
       {/* HEADER */}
-      <section
-        style={{
-          background: "linear-gradient(135deg, #642a9d, #0d1b2a)",
-          color: "white",
-          padding: "60px 24px",
-        }}
-      >
+     <section
+  style={{
+    position: "relative",
+    height: "300px",
+    overflow: "hidden",
+  }}
+>
+  {/* BACKGROUND IMAGE */}
+  <img
+    src="/resources-header.jpg"
+    alt="SHIFTHer Resources"
+    style={{
+      width: "100%",
+      height: "100%",
+      objectFit: "cover",
+    }}
+  />
+
+  {/* DARK OVERLAY */}
+  <div
+    style={{
+      position: "absolute",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+      background: "rgba(13, 27, 42, 0.6)",
+    }}
+  ></div>
+
+  {/* TEXT CONTENT */}
+  <div
+    style={{
+      position: "absolute",
+      top: "50%",
+      left: "50%",
+      transform: "translate(-50%, -50%)",
+      textAlign: "center",
+      color: "white",
+      padding: "0 20px",
+    }}
+  >
+    <p
+      style={{
+        fontSize: "12px",
+        letterSpacing: "3px",
+        textTransform: "uppercase",
+        color: "#ffeb3b",
+        marginBottom: "12px",
+      }}
+    >
+      SHIFTHER
+    </p>
+
+    <h1
+      style={{
+        fontSize: "36px",
+        margin: "0 0 10px 0",
+      }}
+    >
+      Resource Center
+    </h1>
+
+    <p
+      style={{
+        fontSize: "16px",
+        maxWidth: "500px",
+        margin: "0 auto",
+        lineHeight: "1.6",
+      }}
+    >
+      Access tools, teachings, and guides designed to help you stay focused,
+      grow in faith, and move forward with intention.
+    </p>
+  </div>
+</section>
       <div style={{ maxWidth: "1100px", margin: "0 auto", textAlign: "center" }}>
   <img
     src="/resources-header.jpg"
