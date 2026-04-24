@@ -16,10 +16,53 @@ export default function ResourcesPage() {
           padding: "60px 24px",
         }}
       >
-        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
-          <h1>SHIFTHer Resources</h1>
-          <p>Tools to support your growth, healing, and alignment</p>
-        </div>
+      <div style={{ maxWidth: "1100px", margin: "0 auto", textAlign: "center" }}>
+  <img
+    src="/resources-header.jpg"
+    alt="SHIFTHer Resources"
+    style={{
+      width: "100%",
+      maxHeight: "240px",
+      objectFit: "cover",
+      borderRadius: "18px",
+      marginBottom: "24px",
+    }}
+  />
+
+  <p
+    style={{
+      fontSize: "12px",
+      letterSpacing: "3px",
+      textTransform: "uppercase",
+      color: "#ffeb3b",
+      marginBottom: "12px",
+    }}
+  >
+    SHIFTHER
+  </p>
+
+  <h1
+    style={{
+      fontSize: "42px",
+      margin: "0 0 12px 0",
+      lineHeight: "1.2",
+    }}
+  >
+    Resource Center
+  </h1>
+
+  <p
+    style={{
+      fontSize: "18px",
+      maxWidth: "650px",
+      margin: "0 auto",
+      lineHeight: "1.6",
+    }}
+  >
+    Access tools, teachings, and guides designed to help you stay focused,
+    grow in faith, and move forward with intention.
+  </p>
+</div>
       </section>
 
       {/* RESOURCE GRID */}
