@@ -1,16 +1,18 @@
 import { ClerkProvider } from "@clerk/nextjs";
 
 export const metadata = {
-  title: "SHIFTHer",
-  description: "SHIFTHer web app",
+  title: "SHIFTHer App",
+  description: "SHIFTHer devotional and prayer app",
 };
 
 export default function RootLayout({ children }) {
   return (
-     <ClerkProvider>
-      <html lang="en">
-        <body>{children}</body>
-      </html>
-    </ClerkProvider>
+    <html lang="en">
+      <body>
+        <ClerkProvider>
+          {children}
+        </ClerkProvider>
+      </body>
+    </html>
   );
 }
