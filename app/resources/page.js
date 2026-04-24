@@ -9,29 +9,31 @@ export default function ResourcesPage() {
       }}
     >
       <section
-        style={{
-          position: "relative",
-          height: "320px",
-          overflow: "hidden",
-        }}
-      >
-        <img
-          src="/resources-header.jpg"
-          alt="SHIFTHer Resources"
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-          }}
-        />
+  style={{
+    position: "relative",
+    height: "320px",
+    overflow: "hidden",
+  }}
+>
+  <img
+    src="/resources-header.jpg"
+    alt="SHIFTHer Resources"
+    style={{
+      width: "100%",
+      height: "100%",
+      objectFit: "cover",
+      objectPosition: "right center",
+    }}
+  />
 
-        <div
-          style={{
-            position: "absolute",
-            inset: 0,
-            background: "rgba(13, 27, 42, 0.62)",
-          }}
-        ></div>
+  <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      background:
+        "linear-gradient(90deg, rgba(13,27,42,0.65) 0%, rgba(13,27,42,0.3) 100%)",
+    }}
+  ></div>
 
         <div
           style={{
