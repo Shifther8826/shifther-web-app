@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { devotionals } from "../../data/devotionals";
 
 export default function TodayDevotionalPage() {
-  const todayIndex = 0; 
+  const [todayIndex, setTodayIndex] = useState(0);
   const devotional = devotionals[todayIndex];
 
   const today = new Date();
@@ -53,31 +53,39 @@ const mayDayNumber = today.getDate();
     }, 2000);
   };
 
-  const handleMarkComplete = () => {
-    if (isComplete) return;
+ const handleMarkComplete = () => {
+  if (isComplete) return;
 
-    const lastCompleted = localStorage.getItem(lastCompletedKey);
-    const currentDay = todayIndex + 1;
+  const lastCompleted = localStorage.getItem(lastCompletedKey);
+  const currentDay = todayIndex + 1;
 
-    let newStreak = 1;
+  let newStreak = 1;
 
-    if (lastCompleted) {
-      const previousDay = Number(lastCompleted);
+  if (lastCompleted) {
+    const previousDay = Number(lastCompleted);
 
-      if (previousDay === currentDay - 1) {
-        newStreak = streak + 1;
-      } else if (previousDay === currentDay) {
-        newStreak = streak;
-      }
+    if (previousDay === currentDay - 1) {
+      newStreak = streak + 1;
+    } else if (previousDay === currentDay) {
+      newStreak = streak;
     }
+  }
 
-    localStorage.setItem(completeKey, "true");
-    localStorage.setItem(lastCompletedKey, String(currentDay));
-    localStorage.setItem(streakKey, String(newStreak));
+  localStorage.setItem(completeKey, "true");
+  localStorage.setItem(lastCompletedKey, String(currentDay));
+  localStorage.setItem(streakKey, String(newStreak));
 
-    setIsComplete(true);
-    setStreak(newStreak);
-  };
+  setIsComplete(true);
+  setStreak(newStreak);
+};
+
+const handleContinue = () => {
+  const nextDay = todayIndex + 1;
+
+  localStorage.setItem("current-day", String(nextDay));
+
+  window.location.reload();
+};
 
   return (
     <main
@@ -386,20 +394,21 @@ const mayDayNumber = today.getDate();
             ← Back to Home
           </a>
 
-          <a
-            href="/devotionals/today"
-            style={{
-              display: "inline-block",
-              backgroundColor: "#642a9d",
-              color: "white",
-              padding: "12px 18px",
-              borderRadius: "8px",
-              textDecoration: "none",
-              fontWeight: "600",
-            }}
-          >
-            Continue the Journey →
-          </a>
+          <button
+  onClick={handleContinue}
+  style={{
+    display: "inline-block",
+    backgroundColor: "#642a9d",
+    color: "white",
+    padding: "12px 18px",
+    borderRadius: "8px",
+    border: "none",
+    fontWeight: "600",
+    cursor: "pointer",
+  }}
+>
+  Continue the Journey →
+</button>
         </div>
       </section>
     </main>
