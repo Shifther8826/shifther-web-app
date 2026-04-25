@@ -153,13 +153,35 @@ const label = {
   color: "#642a9d",
 };
 
+const card = {
+  backgroundColor: "white",
+  borderRadius: "24px",
+  padding: "30px",
+  boxShadow: "0 14px 34px rgba(13,27,42,0.08)",
+  border: "1px solid rgba(100,42,157,0.08)",
+  minHeight: "220px",
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "space-between",
+};
+
+const label = {
+  fontSize: "11px",
+  fontWeight: "bold",
+  letterSpacing: "2.5px",
+  textTransform: "uppercase",
+  color: "#642a9d",
+  marginBottom: "12px",
+};
+
 const button = {
   display: "inline-block",
-  marginTop: "10px",
+  marginTop: "18px",
   backgroundColor: "#ffeb3b",
   color: "#0d1b2a",
-  borderRadius: "8px",
-  padding: "10px 16px",
+  borderRadius: "10px",
+  padding: "12px 18px",
   fontWeight: "bold",
   textDecoration: "none",
+  width: "fit-content",
 };
