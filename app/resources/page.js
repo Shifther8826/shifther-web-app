@@ -136,14 +136,6 @@ export default function ResourcesPage() {
       </section>
     </main>
   );
-}
-
-const card = {
-  backgroundColor: "white",
-  borderRadius: "20px",
-  padding: "28px",
-  boxShadow: "0 12px 30px rgba(0,0,0,0.08)",
-};
 
 const label = {
   fontSize: "11px",
