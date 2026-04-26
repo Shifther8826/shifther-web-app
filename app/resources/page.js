@@ -9,31 +9,31 @@ export default function ResourcesPage() {
       }}
     >
       <section
-  style={{
-    position: "relative",
-    height: "320px",
-    overflow: "hidden",
-  }}
->
-  <img
-    src="/resources-header.jpg"
-    alt="SHIFTHer Resources"
-    style={{
-      width: "100%",
-      height: "100%",
-      objectFit: "cover",
-      objectPosition: "right center",
-    }}
-  />
+        style={{
+          position: "relative",
+          height: "320px",
+          overflow: "hidden",
+        }}
+      >
+        <img
+          src="/resources-header.jpg"
+          alt="SHIFTHer Resources"
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            objectPosition: "center 75%",
+          }}
+        />
 
-  <div
-    style={{
-      position: "absolute",
-      inset: 0,
-      background:
-        "linear-gradient(90deg, rgba(13,27,42,0.65) 0%, rgba(13,27,42,0.3) 100%)",
-    }}
-  ></div>
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            background:
+              "linear-gradient(90deg, rgba(13,27,42,0.65) 0%, rgba(13,27,42,0.3) 100%)",
+          }}
+        ></div>
 
         <div
           style={{
@@ -68,7 +68,7 @@ export default function ResourcesPage() {
               lineHeight: "1.2",
             }}
           >
-            Resource Center 
+            Resource Center
           </h1>
 
           <p
@@ -79,8 +79,8 @@ export default function ResourcesPage() {
               lineHeight: "1.6",
             }}
           >
-            Access tools, teachings, and guides designed to help you stay focused,
-            grow in faith, and move forward with intention.
+            Access tools, teachings, and guides designed to help you reflect,
+            refocus, and move forward with intention.
           </p>
         </div>
       </section>
@@ -94,42 +94,50 @@ export default function ResourcesPage() {
           }}
         >
           <div style={card}>
-            <p style={label}>Free Download</p>
-            <h2>Distraction Detox Worksheet</h2>
-            <p>
-              Identify what has been pulling your focus and begin resetting your
-              attention with intention.
-            </p>
+            <div>
+              <p style={label}>Free Download</p>
+              <h2>Distraction Detox Worksheet</h2>
+              <p>
+                Identify what has been pulling your focus and begin resetting
+                your attention with intention.
+              </p>
+            </div>
             <a href="#" style={button}>Open Resource →</a>
           </div>
 
           <div style={card}>
-            <p style={label}>Teaching</p>
-            <h2>Breaking Distractions</h2>
-            <p>
-              A short teaching to help you understand how distraction works and
-              how to overcome it.
-            </p>
+            <div>
+              <p style={label}>Teaching</p>
+              <h2>Breaking Distractions</h2>
+              <p>
+                A short teaching to help you understand how distraction works
+                and how to overcome it.
+              </p>
+            </div>
             <a href="#" style={button}>Watch Teaching →</a>
           </div>
 
           <div style={card}>
-            <p style={label}>Workbook</p>
-            <h2>Momentum Shift Guide</h2>
-            <p>
-              A guided workbook to help you move from pressure into
-              transformation.
-            </p>
+            <div>
+              <p style={label}>Workbook</p>
+              <h2>Momentum Shift Guide</h2>
+              <p>
+                A guided workbook to help you move from pressure into
+                transformation.
+              </p>
+            </div>
             <a href="#" style={button}>Open Workbook →</a>
           </div>
 
           <div style={card}>
-            <p style={label}>Prayer Guide</p>
-            <h2>Focused Prayer Guide</h2>
-            <p>
-              A simple guide to help you stay intentional in your prayer life
-              and eliminate distractions.
-            </p>
+            <div>
+              <p style={label}>Prayer Guide</p>
+              <h2>Focused Prayer Guide</h2>
+              <p>
+                A simple guide to help you stay intentional in your prayer life
+                and eliminate distractions.
+              </p>
+            </div>
             <a href="#" style={button}>Open Guide →</a>
           </div>
         </div>
@@ -137,13 +145,6 @@ export default function ResourcesPage() {
     </main>
   );
 }
-const label = {
-  fontSize: "11px",
-  fontWeight: "bold",
-  letterSpacing: "2px",
-  textTransform: "uppercase",
-  color: "#642a9d",
-};
 
 const card = {
   backgroundColor: "white",
