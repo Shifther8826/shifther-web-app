@@ -136,7 +136,7 @@ export default function ResourcesPage() {
       </section>
     </main>
   );
-
+}
 const label = {
   fontSize: "11px",
   fontWeight: "bold",
