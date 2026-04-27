@@ -480,7 +480,7 @@ export default function HomePage() {
     fontWeight: "700",
     textDecoration: "none",
   }}
-
+>
   Explore Devotionals
 </a>
     </div>
