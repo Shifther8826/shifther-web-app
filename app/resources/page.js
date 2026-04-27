@@ -63,7 +63,6 @@ export default function ResourcesPage() {
       </main>
     );
   }
-    >
       <section
         style={{
           position: "relative",
@@ -148,7 +147,6 @@ export default function ResourcesPage() {
             gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
             gap: "24px",
           }}
-        >
           <div style={card}>
             <div>
               <p style={label}>Free Download</p>
