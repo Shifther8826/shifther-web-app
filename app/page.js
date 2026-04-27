@@ -180,7 +180,7 @@ export default function HomePage() {
           </a>
         </div>
 <div style={{ marginTop: "20px", display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
-  
+  </div>
   <SignedOut>
     <SignInButton mode="modal">
       <button style={{
@@ -481,7 +481,7 @@ export default function HomePage() {
     fontWeight: "700",
     textDecoration: "none",
   }}
->
+
   Explore Devotionals
 </a>
     </div>
