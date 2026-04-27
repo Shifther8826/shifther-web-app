@@ -68,13 +68,6 @@ export default function TodayDevotionalPage() {
 
   const startDate = new Date(2026, 4, 1); // May 1, 2026
 
-const isLive = false;
-
-import { useEffect, useState } from "react";
-import { devotionals } from "../../data/devotionals";
-import { useEffect, useState } from "react";
-import { devotionals } from "../../data/devotionals";
-
  export default function TodayDevotionalPage() {
   if (!isLive) {
     return (
