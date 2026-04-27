@@ -484,8 +484,8 @@ export default function HomePage() {
 >
   Explore Devotionals
 </a>
-</div>
-</section>
-    </main>
-  );
+    </div>
+   </section>
+</main>
+);
 }
