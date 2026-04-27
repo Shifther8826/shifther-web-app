@@ -1,5 +1,72 @@
 "use client";
-"use client";
+
+import { useEffect, useState } from "react";
+import { devotionals } from "../../data/devotionals";
+
+export default function TodayDevotionalPage() {
+  const launchDate = new Date(2026, 4, 1); // May 1, 2026
+  const today = new Date();
+  const isLive = today >= launchDate;
+
+  if (!isLive) {
+    return (
+      <main
+        style={{
+          minHeight: "100vh",
+          backgroundColor: "#fffef4",
+          fontFamily: "Arial, sans-serif",
+          color: "#0d1b2a",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          textAlign: "center",
+          padding: "24px",
+        }}
+      >
+        <div
+          style={{
+            maxWidth: "650px",
+            backgroundColor: "white",
+            borderRadius: "24px",
+            padding: "40px",
+            boxShadow: "0 12px 30px rgba(13,27,42,0.08)",
+          }}
+        >
+          <p
+            style={{
+              color: "#642a9d",
+              fontWeight: "bold",
+              letterSpacing: "2px",
+              textTransform: "uppercase",
+            }}
+          >
+            Coming May 1
+          </p>
+          <h1>Your daily devotional experience is almost ready.</h1>
+          <p style={{ lineHeight: "1.7" }}>
+            The 31-Day Distraction Detox devotional journey will unlock on May 1.
+          </p>
+          <a
+            href="/"
+            style={{
+              display: "inline-block",
+              marginTop: "20px",
+              backgroundColor: "#ffeb3b",
+              color: "#0d1b2a",
+              borderRadius: "10px",
+              padding: "12px 20px",
+              fontWeight: "bold",
+              textDecoration: "none",
+            }}
+          >
+            Back to Home
+          </a>
+        </div>
+      </main>
+    );
+  }
+
+  const startDate = new Date(2026, 4, 1); // May 1, 2026
 
 const isLive = false;
 
@@ -8,7 +75,6 @@ import { devotionals } from "../../data/devotionals";
 import { useEffect, useState } from "react";
 import { devotionals } from "../../data/devotionals";
 
-export default function TodayDevotionalPage() {
  export default function TodayDevotionalPage() {
   if (!isLive) {
     return (
