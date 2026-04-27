@@ -17,6 +17,7 @@ export default function ResourcesPage() {
           textAlign: "center",
           padding: "24px",
         }}
+    >    
         <div
           style={{
             maxWidth: "650px",
