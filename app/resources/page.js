@@ -4,65 +4,65 @@ export default function ResourcesPage() {
   const isLive = today >= launchDate;
 
   if (!isLive) {
-    return (
-      <main
+  return (
+    <main
+      style={{
+        minHeight: "100vh",
+        backgroundColor: "#fffef4",
+        fontFamily: "Arial, sans-serif",
+        color: "#0d1b2a",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        textAlign: "center",
+        padding: "24px",
+      }}
+    >
+      <div
         style={{
-          minHeight: "100vh",
-          backgroundColor: "#fffef4",
-          fontFamily: "Arial, sans-serif",
-          color: "#0d1b2a",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          textAlign: "center",
-          padding: "24px",
+          maxWidth: "650px",
+          backgroundColor: "white",
+          borderRadius: "24px",
+          padding: "40px",
+          boxShadow: "0 12px 30px rgba(13,27,42,0.08)",
         }}
-    >    
-        <div
+      >
+        <p
           style={{
-            maxWidth: "650px",
-            backgroundColor: "white",
-            borderRadius: "24px",
-            padding: "40px",
-            boxShadow: "0 12px 30px rgba(13,27,42,0.08)",
+            color: "#642a9d",
+            fontWeight: "bold",
+            letterSpacing: "2px",
+            textTransform: "uppercase",
           }}
         >
-          <p
-            style={{
-              color: "#642a9d",
-              fontWeight: "bold",
-              letterSpacing: "2px",
-              textTransform: "uppercase",
-            }}
-          >
-            Coming May 1
-          </p>
+          Coming May 1
+        </p>
 
-          <h1>Resources are almost ready.</h1>
+        <h1>Resources are almost ready.</h1>
 
-          <p style={{ lineHeight: "1.7" }}>
-            Your tools, worksheets, and guides will unlock on May 1.
-          </p>
+        <p style={{ lineHeight: "1.7" }}>
+          Your tools, worksheets, and guides will unlock on May 1.
+        </p>
 
-          <a
-            href="/"
-            style={{
-              display: "inline-block",
-              marginTop: "20px",
-              backgroundColor: "#ffeb3b",
-              color: "#0d1b2a",
-              borderRadius: "10px",
-              padding: "12px 20px",
-              fontWeight: "bold",
-              textDecoration: "none",
-            }}
-          >
-            Back to Home
-          </a>
-        </div>
-      </main>
-    );
-  }
+        <a
+          href="/"
+          style={{
+            display: "inline-block",
+            marginTop: "20px",
+            backgroundColor: "#ffeb3b",
+            color: "#0d1b2a",
+            borderRadius: "10px",
+            padding: "12px 20px",
+            fontWeight: "bold",
+            textDecoration: "none",
+          }}
+        >
+          Back to Home
+        </a>
+      </div>
+    </main>
+  );
+}
       <section
         style={{
           position: "relative",
@@ -140,7 +140,7 @@ export default function ResourcesPage() {
         </div>
       </section>
 
-      <section style={{ maxWidth: "1100px", margin: "0 auto", padding: "40px 24px" }}>
+    <section style={{ maxWidth: "1100px", margin: "0 auto", padding: "40px 24px" }}>
         <div
           style={{
             display: "grid",
