@@ -145,8 +145,7 @@ export default function HomePage() {
 >
   Explore Devotionals
 </a>
-
-          <a
+         <a
             href="https://forms.gle/pNgSug4vDDtzsFXNA"
             target="_blank"
             rel="noopener noreferrer"
