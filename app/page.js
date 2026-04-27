@@ -69,7 +69,40 @@ export default function HomePage() {
           devotionals, events, prayer, and practical resources to help you move
           forward with intention.
         </p>
-<div
+<div>
+  <div
+  style={{
+    marginTop: "24px",
+    padding: "20px",
+    borderRadius: "16px",
+    backgroundColor: "rgba(255,255,255,0.08)",
+    maxWidth: "520px",
+    marginLeft: "auto",
+    marginRight: "auto",
+  }}
+>
+  <p
+    style={{
+      color: "#ffeb3b",
+      fontSize: "12px",
+      fontWeight: "bold",
+      letterSpacing: "2px",
+      textTransform: "uppercase",
+      marginBottom: "10px",
+    }}
+  >
+    SHIFTHer Sound
+  </p>
+
+  <h3 style={{ color: "white", margin: "0 0 12px 0" }}>
+    Press play and enter the experience
+  </h3>
+
+  <audio controls style={{ width: "100%" }}>
+    <source src="/shifther-theme.m4a" type="audio/mp4" />
+  </audio>
+</div>
+  <div
   style={{
     margin: "0 auto 35px auto",
     display: "flex",
