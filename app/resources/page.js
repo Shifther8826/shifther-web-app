@@ -60,10 +60,13 @@ export default function ResourcesPage() {
           Back to Home
         </a>
       </div>
-    </main>
-  );
+  </main>
+);
 }
-      <section
+
+return (
+  <main>
+    <section
         style={{
           position: "relative",
           height: "320px",
