@@ -65,12 +65,6 @@ export default function TodayDevotionalPage() {
       </main>
     );
   }
-
-  const startDate = new Date(2026, 4, 1); // May 1, 2026
-
-  const today = new Date();
-  const startDate = new Date(2026, 4, 1); // May 1, 2026 
-  const today = new Date();
 const startDate = new Date(2026, 4, 1); // May 1, 2026
 
 let calculatedIndex = Math.floor(
