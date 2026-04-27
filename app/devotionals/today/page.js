@@ -68,26 +68,6 @@ export default function TodayDevotionalPage() {
 
   const startDate = new Date(2026, 4, 1); // May 1, 2026
 
- export default function TodayDevotionalPage() {
-  if (!isLive) {
-    return (
-      <main
-        style={{
-          minHeight: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          textAlign: "center",
-        }}
-      >
-        <div>
-          <h1>Coming May 1</h1>
-          <p>Your daily devotional experience will unlock soon.</p>
-        </div>
-      </main>
-    );
-  }
-
   const today = new Date();
   const startDate = new Date(2026, 4, 1); // May 1, 2026 
   const today = new Date();
