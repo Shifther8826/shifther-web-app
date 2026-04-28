@@ -6,6 +6,24 @@ import {
   SignedOut,
   UserButton,
 } from "@clerk/nextjs";
+<SignedIn>
+  <a
+    href="/admin"
+    style={{
+      position: "absolute",
+      top: 70,
+      right: 20,
+      backgroundColor: "#642a9d",
+      color: "white",
+      padding: "10px 16px",
+      borderRadius: "8px",
+      fontWeight: "bold",
+      textDecoration: "none",
+    }}
+  >
+    Admin
+  </a>
+</SignedIn>
 export default function HomePage() {
 
   const focus = [
