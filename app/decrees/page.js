@@ -7,14 +7,11 @@ export default async function DecreesPage() {
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
   );
 
-  const { data: decrees, error } = await supabase
-  .from("weekly_decrees")
-  .select("*")
-  .order("created_at", { ascending: false })
-  .limit(1);
-
-console.log("DECREES:", decrees);
-console.log("ERROR:", error);
+  const { data: decrees } = await supabase
+    .from("weekly_decrees")
+    .select("*")
+    .order("created_at", { ascending: false })
+    .limit(1);
 
   const decree = decrees?.[0];
 
@@ -71,18 +68,14 @@ console.log("ERROR:", error);
                 🔊 Listen to This Week’s Decree
               </p>
 
-             <a href={decree.audio_url} target="_blank">
-  <button
-    style={{
-      backgroundColor: "#ffeb3b",
-      color: "#0d1b2a",
-      border: "none",
-      borderRadius: "10px",
-      padding: "10px 16px",
-      cursor: "pointer",
-      fontWeight: "bold",
-    }}
-  >
-    🔊 Listen to This Week’s Decree
-  </button>
-</a>
+              <audio controls style={{ width: "100%" }}>
+                <source src={decree.audio_url} />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          )}
+        </section>
+      )}
+    </main>
+  );
+}
