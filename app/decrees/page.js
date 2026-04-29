@@ -1,3 +1,4 @@
+"use client";
 import { createClient } from "@supabase/supabase-js";
 
 export default async function DecreesPage() {
@@ -53,7 +54,21 @@ export default async function DecreesPage() {
           <p style={{ lineHeight: "1.7", whiteSpace: "pre-wrap" }}>
             {decree.decree_text}
           </p>
-
+<button
+  onClick={() => saveFavorite(decree.id)}
+  style={{
+    marginTop: "15px",
+    backgroundColor: "#ffeb3b",
+    color: "#0d1b2a",
+    border: "none",
+    borderRadius: "10px",
+    padding: "10px 16px",
+    cursor: "pointer",
+    fontWeight: "bold"
+  }}
+>
+  ❤️ Save Decree
+</button>
           {decree.audio_url && (
             <div
               style={{
