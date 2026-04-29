@@ -7,11 +7,14 @@ export default async function DecreesPage() {
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
   );
 
-  const { data: decrees } = await supabase
-    .from("weekly_decrees")
-    .select("*")
-    .order("created_at", { ascending: false })
-    .limit(1);
+  const { data: decrees, error } = await supabase
+  .from("weekly_decrees")
+  .select("*")
+  .order("created_at", { ascending: false })
+  .limit(1);
+
+console.log("DECREES:", decrees);
+console.log("ERROR:", error);
 
   const decree = decrees?.[0];
 
