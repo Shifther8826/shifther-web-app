@@ -71,14 +71,18 @@ console.log("ERROR:", error);
                 🔊 Listen to This Week’s Decree
               </p>
 
-              <audio controls style={{ width: "100%" }}>
-                <source src={decree.audio_url} />
-                Your browser does not support the audio element.
-              </audio>
-            </div>
-          )}
-        </section>
-      )}
-    </main>
-  );
-}
+             <a href={decree.audio_url} target="_blank">
+  <button
+    style={{
+      backgroundColor: "#ffeb3b",
+      color: "#0d1b2a",
+      border: "none",
+      borderRadius: "10px",
+      padding: "10px 16px",
+      cursor: "pointer",
+      fontWeight: "bold",
+    }}
+  >
+    🔊 Listen to This Week’s Decree
+  </button>
+</a>
