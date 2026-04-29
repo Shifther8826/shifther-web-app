@@ -1,6 +1,6 @@
 "use client";
 import { createClient } from "@supabase/supabase-js";
-
+import FavoriteButton from "./FavoriteButton";
 export default async function DecreesPage() {
   const supabase = createClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL,
@@ -75,6 +75,7 @@ async function saveFavorite(decreeId) {
           <p style={{ lineHeight: "1.7", whiteSpace: "pre-wrap" }}>
             {decree.decree_text}
           </p>
+            <FavoriteButton decreeId={decree.id} />
 <button
   onClick={() => saveFavorite(decree.id)}
   style={{
