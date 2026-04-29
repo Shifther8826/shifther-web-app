@@ -1,50 +1,20 @@
-"use client";
 import { createClient } from "@supabase/supabase-js";
 import FavoriteButton from "./FavoriteButton";
+
 export default async function DecreesPage() {
   const supabase = createClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL,
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
   );
 
-  const { data: decrees, error } = await supabase
+  const { data: decrees } = await supabase
     .from("weekly_decrees")
     .select("*")
     .order("created_at", { ascending: false })
     .limit(1);
 
-  if (error) {
-    return (
-      <main style={{ padding: "30px" }}>
-        <h1>Weekly Decree</h1>
-        <p>Unable to load decree right now.</p>
-      </main>
-    );
-  }
-
   const decree = decrees?.[0];
-async function saveFavorite(decreeId) {
-  try {
-    const res = await fetch("/api/favorites", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ decree_id: decreeId }),
-    });
 
-    const data = await res.json();
-
-    if (!res.ok) {
-      alert("Error saving favorite: " + data.error);
-      return;
-    }
-
-    alert("Saved ❤️");
-  } catch (err) {
-    alert("Something went wrong");
-  }
-}
   return (
     <main
       style={{
@@ -75,22 +45,9 @@ async function saveFavorite(decreeId) {
           <p style={{ lineHeight: "1.7", whiteSpace: "pre-wrap" }}>
             {decree.decree_text}
           </p>
-            <FavoriteButton decreeId={decree.id} />
-<button
-  onClick={() => saveFavorite(decree.id)}
-  style={{
-    marginTop: "15px",
-    backgroundColor: "#ffeb3b",
-    color: "#0d1b2a",
-    border: "none",
-    borderRadius: "10px",
-    padding: "10px 16px",
-    cursor: "pointer",
-    fontWeight: "bold"
-  }}
->
-  ❤️ Save Decree
-</button>
+
+          <FavoriteButton decreeId={decree.id} />
+
           {decree.audio_url && (
             <div
               style={{
