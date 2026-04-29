@@ -1,51 +1,42 @@
-"use client";
+import { auth } from "@clerk/nextjs/server";
+import { createClient } from "@supabase/supabase-js";
+import { NextResponse } from "next/server";
 
-import { useState } from "react";
+export async function POST(request) {
+  const { userId } = await auth();
 
-export default function FavoriteButton({ decreeId }) {
-  const [message, setMessage] = useState("");
-
-  async function saveFavorite() {
-    const res = await fetch("/api/favorites", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ decree_id: decreeId }),
-    });
-
-    const data = await res.json();
-
-    if (!res.ok) {
-      setMessage(data.error || "Error saving favorite");
-      return;
-    }
-
-    setMessage(data.message || "Saved ❤️");
+  if (!userId) {
+    return NextResponse.json({ error: "Please sign in first." }, { status: 401 });
   }
 
-  return (
-    <div style={{ marginTop: "15px" }}>
-      <button
-        onClick={saveFavorite}
-        style={{
-          backgroundColor: "#ffeb3b",
-          color: "#0d1b2a",
-          border: "none",
-          borderRadius: "10px",
-          padding: "10px 16px",
-          cursor: "pointer",
-          fontWeight: "bold",
-        }}
-      >
-        ❤️ Save Decree
-      </button>
+  const body = await request.json();
 
-      {message && (
-        <p style={{ color: "#ffeb3b", marginTop: "10px" }}>
-          {message}
-        </p>
-      )}
-    </div>
+  const supabase = createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL,
+    process.env.SUPABASE_SERVICE_ROLE_KEY
   );
+
+  const { data: existing } = await supabase
+    .from("favorite_decrees")
+    .select("id")
+    .eq("user_id", userId)
+    .eq("decree_id", body.decree_id)
+    .maybeSingle();
+
+  if (existing) {
+    return NextResponse.json({ success: true, message: "Already saved ❤️" });
+  }
+
+  const { error } = await supabase.from("favorite_decrees").insert([
+    {
+      user_id: userId,
+      decree_id: body.decree_id,
+    },
+  ]);
+
+  if (error) {
+    return NextResponse.json({ error: error.message }, { status: 500 });
+  }
+
+  return NextResponse.json({ success: true, message: "Saved ❤️" });
 }
