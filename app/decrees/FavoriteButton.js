@@ -2,9 +2,7 @@
 
 export default function FavoriteButton({ decreeId }) {
   async function saveFavorite() {
-    alert("button clicked");
-    
-    const res = await fetch("/api/favorites", {
+     const res = await fetch("/api/favorites", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
