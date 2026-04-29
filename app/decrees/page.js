@@ -23,7 +23,28 @@ export default async function DecreesPage() {
   }
 
   const decree = decrees?.[0];
+async function saveFavorite(decreeId) {
+  try {
+    const res = await fetch("/api/favorites", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ decree_id: decreeId }),
+    });
 
+    const data = await res.json();
+
+    if (!res.ok) {
+      alert("Error saving favorite: " + data.error);
+      return;
+    }
+
+    alert("Saved ❤️");
+  } catch (err) {
+    alert("Something went wrong");
+  }
+}
   return (
     <main
       style={{
