@@ -1,11 +1,13 @@
-import { currentUser } from "@clerk/nextjs/server";
+import { auth } from "@clerk/nextjs/server";
 import { createClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
 
 export async function POST(request) {
-  const user = await currentUser();
+const { userId } = auth();
 
-  if (!user || user.publicMetadata?.role !== "admin") {
+if (!userId) {
+  return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+}
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
