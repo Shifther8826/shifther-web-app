@@ -47,34 +47,41 @@ export default async function DecreesPage() {
           }}
         >
           <h2 style={{ color: "#ffeb3b" }}>{decree.title}</h2>
+
           <p style={{ fontWeight: "bold" }}>{decree.scripture}</p>
+
           <p style={{ lineHeight: "1.7", whiteSpace: "pre-wrap" }}>
             {decree.decree_text}
           </p>
 
-{decree.audio_url && (
-  <div
-    style={{
-      marginTop: "25px",
-      padding: "20px",
-      borderRadius: "14px",
-      backgroundColor: "rgba(255,255,255,0.1)",
-      border: "1px solid rgba(255,255,255,0.15)",
-    }}
-  >
-    <p
-      style={{
-        color: "#ffeb3b",
-        fontWeight: "bold",
-        marginBottom: "12px",
-      }}
-    >
-      🔊 Listen to This Week’s Decree
-    </p>
+          {decree.audio_url && (
+            <div
+              style={{
+                marginTop: "25px",
+                padding: "20px",
+                borderRadius: "14px",
+                backgroundColor: "rgba(255,255,255,0.1)",
+                border: "1px solid rgba(255,255,255,0.15)",
+              }}
+            >
+              <p
+                style={{
+                  color: "#ffeb3b",
+                  fontWeight: "bold",
+                  marginBottom: "12px",
+                }}
+              >
+                🔊 Listen to This Week’s Decree
+              </p>
 
-    <audio controls style={{ width: "100%" }}>
-      <source src={decree.audio_url} />
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-)}
+              <audio controls style={{ width: "100%" }}>
+                <source src={decree.audio_url} />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          )}
+        </section>
+      )}
+    </main>
+  );
+}
