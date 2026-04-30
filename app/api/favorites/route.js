@@ -24,7 +24,16 @@ export async function POST(request) {
     .maybeSingle();
 
   if (existing) {
-    return NextResponse.json({ success: true, message: "Already saved ❤️" });
+    const { error } = await supabase
+      .from("favorite_decrees")
+      .delete()
+      .eq("id", existing.id);
+
+    if (error) {
+      return NextResponse.json({ error: error.message }, { status: 500 });
+    }
+
+    return NextResponse.json({ success: true, saved: false, message: "Removed from saved decrees" });
   }
 
   const { error } = await supabase.from("favorite_decrees").insert([
@@ -38,5 +47,5 @@ export async function POST(request) {
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 
-  return NextResponse.json({ success: true, message: "Saved ❤️" });
+  return NextResponse.json({ success: true, saved: true, message: "Saved ❤️" });
 }
