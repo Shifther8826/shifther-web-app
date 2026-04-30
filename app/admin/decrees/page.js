@@ -22,7 +22,7 @@ export default function DecreePage() {
   scripture,
   decree_text: decree,
   audio_url: audio,
-  release_date: releaseDate,
+  release_date: new Date(releaseDate).toISOString(),
 }),
     });
 
