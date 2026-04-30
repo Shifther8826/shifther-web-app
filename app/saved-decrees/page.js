@@ -33,26 +33,16 @@ export default async function SavedDecreesPage() {
     );
   }
 
-  const decreeIds = favorites?.map((favorite) => favorite.decree_id) || [];
+  const decreeIds = favorites?.map((fav) => fav.decree_id) || [];
 
-  const { data: decrees, error: decreesError } = await supabase
-    .from("weekly_decrees")
-    .select("*")
-    .in("id", decreeIds);
-
-  if (decreesError) {
-    return (
-      <main style={{ padding: "30px" }}>
-        <h1>Saved Decrees</h1>
-        <p>Unable to load decree details right now.</p>
-      </main>
-    );
-  }
+  const { data: decrees } = decreeIds.length
+    ? await supabase.from("weekly_decrees").select("*").in("id", decreeIds)
+    : { data: [] };
 
   const savedDecrees =
-    favorites?.map((favorite) => {
-      const decree = decrees?.find((item) => item.id === favorite.decree_id);
-      return { ...favorite, decree };
+    favorites?.map((fav) => {
+      const decree = decrees?.find((item) => item.id === fav.decree_id);
+      return { ...fav, decree };
     }) || [];
 
   return (
@@ -64,7 +54,13 @@ export default async function SavedDecreesPage() {
         color: "white",
       }}
     >
-      <h1 style={{ color: "#ffeb3b" }}>Saved Decrees</h1>
+      <a href="/decrees" style={{ color: "#ffeb3b" }}>
+        ← Back to Weekly Decree
+      </a>
+
+      <h1 style={{ color: "#ffeb3b", fontSize: "32px", marginTop: "20px" }}>
+        Saved Decrees
+      </h1>
 
       {savedDecrees.length === 0 ? (
         <p>You have not saved any decrees yet.</p>
@@ -75,13 +71,18 @@ export default async function SavedDecreesPage() {
               key={favorite.id}
               style={{
                 backgroundColor: "rgba(255,255,255,0.08)",
-                padding: "22px",
+                padding: "24px",
                 borderRadius: "16px",
                 border: "1px solid rgba(255,255,255,0.15)",
+                maxWidth: "700px",
               }}
             >
               <h2 style={{ color: "#ffeb3b" }}>{favorite.decree?.title}</h2>
-              <p style={{ fontWeight: "bold" }}>{favorite.decree?.scripture}</p>
+
+              <p style={{ fontWeight: "bold" }}>
+                {favorite.decree?.scripture}
+              </p>
+
               <p style={{ whiteSpace: "pre-wrap", lineHeight: "1.7" }}>
                 {favorite.decree?.decree_text}
               </p>
