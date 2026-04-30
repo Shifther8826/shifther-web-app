@@ -18,11 +18,12 @@ export async function POST(request) {
 
   const { error } = await supabase.from("weekly_decrees").insert([
     {
-      title: body.title,
-      scripture: body.scripture,
-      decree_text: body.decree_text,
-      audio_url: body.audio_url,
-    },
+  title: body.title,
+  scripture: body.scripture,
+  decree_text: body.decree_text,
+  audio_url: body.audio_url,
+  release_date: body.release_date,
+}
   ]);
 
   if (error) {
