@@ -17,14 +17,18 @@ export default async function DecreesPage() {
   const decree = decrees?.[0];
 
   return (
-    <main
-      style={{
-        padding: "30px",
-        backgroundColor: "#0d1b2a",
-        minHeight: "100vh",
-        color: "white",
-      }}
-    >
+  <main
+    style={{
+      padding: "30px",
+      minHeight: "100vh",
+      color: "white",
+      backgroundImage:
+        "linear-gradient(rgba(13, 27, 42, 0.88), rgba(13, 27, 42, 0.92)), url('/decree-bg.jpg')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundAttachment: "fixed",
+    }}
+  >
       <h1 style={{ color: "#ffeb3b", fontSize: "32px" }}>Weekly Decree</h1>
 
       {!decree ? (
