@@ -8,10 +8,11 @@ export default async function DecreesPage() {
   );
 
   const { data: decrees } = await supabase
-    .from("weekly_decrees")
-    .select("*")
-    .order("created_at", { ascending: false })
-    .limit(1);
+.from("weekly_decrees")
+.select("*")
+.lte("release_date", new Date().toISOString())
+.order("release_date", { ascending: false })
+.limit(1);
 
   const decree = decrees?.[0];
 
