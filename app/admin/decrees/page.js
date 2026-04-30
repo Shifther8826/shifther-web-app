@@ -7,7 +7,8 @@ export default function DecreePage() {
   const [scripture, setScripture] = useState("");
   const [decree, setDecree] = useState("");
   const [audio, setAudio] = useState("");
-
+  const [releaseDate, setReleaseDate] = useState("");
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -17,11 +18,12 @@ export default function DecreePage() {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        title,
-        scripture,
-        decree_text: decree,
-        audio_url: audio,
-      }),
+  title,
+  scripture,
+  decree_text: decree,
+  audio_url: audio,
+  release_date: releaseDate,
+}),
     });
 
     const result = await response.json();
@@ -92,7 +94,12 @@ export default function DecreePage() {
           onChange={(e) => setAudio(e.target.value)}
           style={inputStyle}
         />
-
+<input
+  type="datetime-local"
+  value={releaseDate}
+  onChange={(e) => setReleaseDate(e.target.value)}
+  style={inputStyle}
+/>
         <button type="submit" style={buttonStyle}>
           Save Decree
         </button>
