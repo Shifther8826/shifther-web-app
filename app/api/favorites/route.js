@@ -8,7 +8,30 @@ export async function POST(request) {
   if (!userId) {
     return NextResponse.json({ error: "Please sign in first." }, { status: 401 });
   }
+export async function GET(request) {
+  const { userId } = await auth();
 
+  if (!userId) {
+    return NextResponse.json({ saved: false });
+  }
+
+  const { searchParams } = new URL(request.url);
+  const decreeId = searchParams.get("decree_id");
+
+  const supabase = createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL,
+    process.env.SUPABASE_SERVICE_ROLE_KEY
+  );
+
+  const { data } = await supabase
+    .from("favorite_decrees")
+    .select("id")
+    .eq("user_id", userId)
+    .eq("decree_id", decreeId)
+    .maybeSingle();
+
+  return NextResponse.json({ saved: !!data });
+}
   const body = await request.json();
 
   const supabase = createClient(
