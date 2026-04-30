@@ -18,9 +18,23 @@ export default async function SavedDecreesPage() {
     process.env.SUPABASE_SERVICE_ROLE_KEY
   );
 
-  const { data: favorites, error: favoritesError } = await supabase
-    .from("favorite_decrees")
-    .select("id, decree_id, created_at")
+  const { data: favorites } = await supabase
+  .from("favorite_decrees")
+  .select("decree_id");
+const counts = {};
+
+favorites?.forEach((f) => {
+  counts[f.decree_id] = (counts[f.decree_id] || 0) + 1;
+});
+const { data: decrees } = await supabase
+  .from("weekly_decrees")
+  .select("*");
+const ranked = decrees
+  ?.map((d) => ({
+    ...d,
+    saves: counts[d.id] || 0,
+  }))
+  .sort((a, b) => b.saves - a.saves);
     .eq("user_id", userId)
     .order("created_at", { ascending: false });
 
@@ -62,11 +76,36 @@ export default async function SavedDecreesPage() {
         Saved Decrees
       </h1>
 
-      {savedDecrees.length === 0 ? (
-        <p>You have not saved any decrees yet.</p>
-      ) : (
-        <div style={{ display: "grid", gap: "20px", marginTop: "25px" }}>
-          {savedDecrees.map((favorite) => (
+      {!ranked || ranked.length === 0 ? (
+  <p>You have not saved any decrees yet.</p>
+) : (
+  <div style={{ display: "grid", gap: "20px", marginTop: "25px" }}>
+    {ranked.map((d) => (
+      <section
+        key={d.id}
+        style={{
+          backgroundColor: "rgba(255,255,255,0.08)",
+          padding: "24px",
+          borderRadius: "16px",
+          border: "1px solid rgba(255,255,255,0.15)",
+          maxWidth: "700px",
+        }}
+      >
+        <h2 style={{ color: "#ffeb3b" }}>{d.title}</h2>
+
+        <p style={{ fontWeight: "bold" }}>{d.scripture}</p>
+
+        <p style={{ lineHeight: "1.7", whiteSpace: "pre-wrap" }}>
+          {d.decree_text}
+        </p>
+
+        <p style={{ color: "#ffeb3b", fontWeight: "bold" }}>
+          💜 {d.saves} saves
+        </p>
+      </section>
+    ))}
+  </div>
+)}
             <section
               key={favorite.id}
               style={{
