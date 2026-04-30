@@ -1,8 +1,13 @@
 "use client";
 
+import { useState } from "react";
+
 export default function FavoriteButton({ decreeId }) {
-  async function saveFavorite() {
-     const res = await fetch("/api/favorites", {
+  const [saved, setSaved] = useState(false);
+  const [message, setMessage] = useState("");
+
+  async function toggleFavorite() {
+    const res = await fetch("/api/favorites", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -13,28 +18,36 @@ export default function FavoriteButton({ decreeId }) {
     const data = await res.json();
 
     if (!res.ok) {
-      alert("Error saving favorite: " + data.error);
+      setMessage(data.error || "Error saving favorite");
       return;
     }
 
-    alert("Saved ❤️");
+    setSaved(data.saved);
+    setMessage(data.message);
   }
 
   return (
-    <button
-      onClick={saveFavorite}
-      style={{
-        marginTop: "15px",
-        backgroundColor: "#ffeb3b",
-        color: "#0d1b2a",
-        border: "none",
-        borderRadius: "10px",
-        padding: "10px 16px",
-        cursor: "pointer",
-        fontWeight: "bold",
-      }}
-    >
-      ❤️ Save Decree
-    </button>
+    <div style={{ marginTop: "15px" }}>
+      <button
+        onClick={toggleFavorite}
+        style={{
+          backgroundColor: saved ? "#642a9d" : "#ffeb3b",
+          color: saved ? "white" : "#0d1b2a",
+          border: "none",
+          borderRadius: "10px",
+          padding: "10px 16px",
+          cursor: "pointer",
+          fontWeight: "bold",
+        }}
+      >
+        {saved ? "💜 Saved" : "❤️ Save Decree"}
+      </button>
+
+      {message && (
+        <p style={{ color: "#ffeb3b", marginTop: "10px" }}>
+          {message}
+        </p>
+      )}
+    </div>
   );
 }
