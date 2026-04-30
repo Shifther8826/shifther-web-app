@@ -1,10 +1,23 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function FavoriteButton({ decreeId }) {
   const [saved, setSaved] = useState(false);
   const [message, setMessage] = useState("");
+
+  useEffect(() => {
+    async function checkSaved() {
+      const res = await fetch(`/api/favorites?decree_id=${decreeId}`);
+      const data = await res.json();
+
+      setSaved(data.saved === true);
+    }
+
+    if (decreeId) {
+      checkSaved();
+    }
+  }, [decreeId]);
 
   async function toggleFavorite() {
     const res = await fetch("/api/favorites", {
@@ -18,12 +31,12 @@ export default function FavoriteButton({ decreeId }) {
     const data = await res.json();
 
     if (!res.ok) {
-      setMessage(data.error || "Error saving favorite");
+      setMessage(data.error || "Error saving");
       return;
     }
 
-    setSaved(data.saved);
-    setMessage(data.message);
+    setSaved(data.saved === true);
+    setMessage(data.message || "");
   }
 
   return (
