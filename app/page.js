@@ -290,6 +290,25 @@ export default function HomePage() {
     textAlign: "center",
   }}
 >
+  <div style={{ textAlign: "center", marginTop: "30px" }}>
+  <a href="/decrees">
+    <button
+      style={{
+        backgroundColor: "#ffeb3b",
+        color: "#0d1b2a",
+        border: "none",
+        borderRadius: "12px",
+        padding: "16px 24px",
+        fontWeight: "bold",
+        fontSize: "18px",
+        cursor: "pointer",
+        boxShadow: "0 8px 20px rgba(0,0,0,0.25)",
+      }}
+    >
+      SHIFT Weekly Decree
+    </button>
+  </a>
+</div>
   <h2
     style={{
       color: "#ffeb3b",
