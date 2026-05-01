@@ -364,20 +364,32 @@ export default function HomePage() {
     aligned, and growing in your journey.
   </p>
 
-  <a
-    href="/resources"
+ <div style={{ textAlign: "center" }}>
+  <button
     style={{
-      display: "inline-block",
       backgroundColor: "#ffeb3b",
       color: "#0d1b2a",
-      borderRadius: "10px",
-      padding: "12px 20px",
+      border: "none",
+      borderRadius: "12px",
+      padding: "14px 22px",
       fontWeight: "bold",
-      textDecoration: "none",
+      fontSize: "16px",
+      opacity: 0.7,
+      cursor: "not-allowed"
     }}
   >
     Explore Resources
-  </a>
+  </button>
+
+  <p style={{
+    color: "#ffeb3b",
+    fontSize: "12px",
+    marginTop: "6px",
+    letterSpacing: "1px"
+  }}>
+    COMING SOON
+  </p>
+</div>
 
 <div
   style={{
