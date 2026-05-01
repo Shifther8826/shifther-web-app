@@ -375,7 +375,6 @@ export default function HomePage() {
     Explore Resources
   </a>
 </div>
-{/* 👇 ADD NEW SECTION HERE */}
 
 <div
   style={{
