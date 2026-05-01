@@ -299,9 +299,13 @@ export default function HomePage() {
     THIS WEEK
   </p>
 
-  <h2 style={{ marginBottom: "12px" }}>
-    SHIFT Weekly Decree
-  </h2>
+ <h2 style={{ 
+  color: "#ffeb3b", 
+  fontSize: "24px", 
+  marginBottom: "10px" 
+}}>
+  SHIFT Weekly Decree
+</h2>
 
  <p style={{ color: "white", opacity: 0.85 }}>
     Step into alignment, silence distraction, and anchor your focus for this week.
