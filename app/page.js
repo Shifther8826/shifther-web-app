@@ -374,7 +374,7 @@ export default function HomePage() {
   >
     Explore Resources
   </a>
-</div>
+
 <div
   style={{
     marginTop: "24px",
