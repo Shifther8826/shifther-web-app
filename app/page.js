@@ -277,20 +277,37 @@ export default function HomePage() {
     {focus[today]}
   </p>
 </div>
-
+</div>   ← Today’s Focus ends
 <div
   style={{
-    marginTop: "24px",
+    marginTop: "25px",
     padding: "24px",
-    borderRadius: "16px",
+    borderRadius: "18px",
     backgroundColor: "rgba(255,255,255,0.06)",
     maxWidth: "700px",
     marginLeft: "auto",
     marginRight: "auto",
     textAlign: "center",
+    border: "1px solid rgba(255,235,59,0.2)",
   }}
 >
-  <div style={{ textAlign: "center", marginTop: "30px" }}>
+  <p style={{
+    color: "#ffeb3b",
+    letterSpacing: "2px",
+    fontSize: "12px",
+    marginBottom: "8px"
+  }}>
+    THIS WEEK
+  </p>
+
+  <h2 style={{ marginBottom: "12px" }}>
+    SHIFT Weekly Decree
+  </h2>
+
+  <p style={{ opacity: 0.8, marginBottom: "18px" }}>
+    Step into alignment, silence distraction, and anchor your focus for this week.
+  </p>
+
   <a href="/decrees">
     <button
       style={{
@@ -298,26 +315,26 @@ export default function HomePage() {
         color: "#0d1b2a",
         border: "none",
         borderRadius: "12px",
-        padding: "16px 24px",
+        padding: "14px 22px",
         fontWeight: "bold",
-        fontSize: "18px",
+        fontSize: "16px",
         cursor: "pointer",
         boxShadow: "0 8px 20px rgba(0,0,0,0.25)",
       }}
     >
-      SHIFT Weekly Decree
+      Enter This Week’s Decree
     </button>
   </a>
 </div>
-  <h2
-    style={{
-      color: "#ffeb3b",
-      fontSize: "24px",
-      margin: "0 0 10px 0",
-    }}
-  >
-    Resources
-  </h2>
+<h2
+  style={{
+    color: "#ffeb3b",
+    fontSize: "24px",
+    margin: "0 0 10px 0",
+  }}
+>
+  Resources
+</h2>
 
   <p
     style={{
