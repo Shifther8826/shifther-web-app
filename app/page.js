@@ -303,7 +303,7 @@ export default function HomePage() {
     SHIFT Weekly Decree
   </h2>
 
-  <p style={{ opacity: 0.8, marginBottom: "18px" }}>
+ <p style={{ color: "white", opacity: 0.85 }}>
     Step into alignment, silence distraction, and anchor your focus for this week.
   </p>
 
