@@ -403,7 +403,6 @@ export default function HomePage() {
       margin: "0 0 10px 0",
     }}
   >
-<a
  <div
   style={{
     background: "rgba(255, 255, 255, 0.08)",
