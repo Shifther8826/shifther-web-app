@@ -152,52 +152,74 @@ return (
           }}
       >
           <div style={card}>
-            <div>
-              <p style={label}>Free Download</p>
-              <h2>Distraction Detox Worksheet</h2>
-              <p>
-                Identify what has been pulling your focus and begin resetting
-                your attention with intention.
-              </p>
-            </div>
-            <a href="#" style={button}>Open Resource →</a>
-          </div>
+  <div>
+    <p style={label}>Start Here</p>
+    <h2>How to Use the SHIFTHer App</h2>
+    <p>
+      A simple guide to help you understand the app, where to begin, and
+      how to use each section with intention.
+    </p>
+  </div>
+  <a href="#" style={button}>Open Guide →</a>
+</div>
 
           <div style={card}>
-            <div>
-              <p style={label}>Teaching</p>
-              <h2>Breaking Distractions</h2>
-              <p>
-                A short teaching to help you understand how distraction works
-                and how to overcome it.
-              </p>
-            </div>
-            <a href="#" style={button}>Watch Teaching →</a>
-          </div>
+  <div>
+    <p style={label}>Focus Reset</p>
+    <h2>7-Day Focus Reset</h2>
+    <p>
+      A 7-day reset to help you refocus your mind, quiet distractions,
+      and return to intentional growth.
+    </p>
+  </div>
+  <a href="#" style={button}>Start Reset →</a>
+</div>
+
+          <<div style={card}>
+  <div>
+    <p style={label}>Worksheet</p>
+    <h2>Discipline Protects Purpose Worksheet</h2>
+    <p>
+      A guided worksheet to help you build structure around your purpose,
+      peace, progress, and obedience.
+    </p>
+  </div>
+  <a href="#" style={button}>Open Worksheet →</a>
+</div>
 
           <div style={card}>
-            <div>
-              <p style={label}>Workbook</p>
-              <h2>Momentum Shift Guide</h2>
-              <p>
-                A guided workbook to help you move from pressure into
-                transformation.
-              </p>
-            </div>
-            <a href="#" style={button}>Open Workbook →</a>
-          </div>
-
-          <div style={card}>
-            <div>
-              <p style={label}>Prayer Guide</p>
-              <h2>Focused Prayer Guide</h2>
-              <p>
-                A simple guide to help you stay intentional in your prayer life
-                and eliminate distractions.
-              </p>
-            </div>
-            <a href="#" style={button}>Open Guide →</a>
-          </div>
+  <div>
+    <p style={label}>Prayer Guide</p>
+    <h2>Prayer for Alignment</h2>
+    <p>
+      A focused prayer to help you realign your heart, thoughts, decisions,
+      and steps with God’s will.
+    </p>
+  </div>
+  <a href="#" style={button}>Open Prayer →</a>
+</div>
+      <div style={card}>
+  <div>
+    <p style={label}>Scripture Guide</p>
+    <h2>Identity in Christ Scripture Guide</h2>
+    <p>
+      A scripture guide to help you stand firm in who you are in Christ and
+      reject every false identity.
+    </p>
+  </div>
+  <a href="#" style={button}>Open Scriptures →</a>
+</div>
+        <div style={card}>
+  <div>
+    <p style={label}>Reflection Sheet</p>
+    <h2>Mid-Year Reset Reflection Sheet</h2>
+    <p>
+      A guided reflection sheet to help you pause, evaluate, realign, and
+      prepare for the next part of the year.
+    </p>
+  </div>
+  <a href="#" style={button}>Open Reflection →</a>
+</div>
         </div>
       </section>
     </main>
