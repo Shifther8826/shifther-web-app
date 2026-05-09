@@ -406,6 +406,7 @@ export default function HomePage() {
 <div
   style={{
     marginTop: "28px",
+    marginBottom: "56px",
     textAlign: "center",
   }}
 >
