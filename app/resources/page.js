@@ -160,9 +160,8 @@ return (
       how to use each section with intention.
     </p>
   </div>
-  <a href="#" style={button}>Open Guide →</a>
+  <a href="/resources/how-to-use" style={button}>Open Guide →</a>
 </div>
-
           <div style={card}>
   <div>
     <p style={label}>Focus Reset</p>
