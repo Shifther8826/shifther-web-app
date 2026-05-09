@@ -403,6 +403,57 @@ export default function HomePage() {
       margin: "0 0 10px 0",
     }}
   >
+<a
+ <div
+  style={{
+    background: "rgba(255, 255, 255, 0.08)",
+    border: "1px solid rgba(255, 255, 255, 0.16)",
+    borderRadius: "20px",
+    padding: "28px",
+    textAlign: "center",
+    boxShadow: "0 20px 40px rgba(0,0,0,0.25)",
+  }}
+>
+  <h2
+    style={{
+      fontSize: "26px",
+      marginBottom: "12px",
+      color: "#ffeb3b",
+    }}
+  >
+    Bible Study & Reflection
+  </h2>
+
+  <p
+    style={{
+      fontSize: "16px",
+      lineHeight: "1.6",
+      color: "#f8f5ff",
+      marginBottom: "22px",
+    }}
+  >
+    Search scriptures, save verses, and reflect on God’s Word with intention.
+  </p>
+
+  <a
+    href="/bible"
+    style={{
+      display: "inline-block",
+      backgroundColor: "#ffeb3b",
+      color: "#0d1b2a",
+      border: "none",
+      borderRadius: "12px",
+      padding: "14px 22px",
+      fontWeight: "bold",
+      fontSize: "16px",
+      textDecoration: "none",
+      cursor: "pointer",
+    }}
+  >
+    Open Bible Study
+  </a>
+</div>
+</a>
     SHIFTHer 2026
   </h2>
 
