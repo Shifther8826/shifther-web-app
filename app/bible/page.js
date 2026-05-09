@@ -9,7 +9,7 @@ const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
 );
 
-const scriptures = [
+const curatedScriptures = [
   {
     topic: "Focus",
     reference: "Hebrews 12:2",
@@ -35,28 +35,12 @@ const scriptures = [
       "What area of your life needs discipline so your purpose can remain protected?",
   },
   {
-    topic: "Discipline",
-    reference: "Galatians 6:9",
-    text:
-      "And let us not be weary in well doing: for in due season we shall reap, if we faint not.",
-    prompt:
-      "Where are you tempted to grow weary, and what would consistency look like this week?",
-  },
-  {
     topic: "Identity",
     reference: "2 Corinthians 5:17",
     text:
       "Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new.",
     prompt:
       "What old label do you need to stop carrying because you are now in Christ?",
-  },
-  {
-    topic: "Identity",
-    reference: "Ephesians 2:10",
-    text:
-      "For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them.",
-    prompt:
-      "What does it mean for you to live like you are God’s workmanship?",
   },
   {
     topic: "Peace",
@@ -77,16 +61,13 @@ const scriptures = [
   {
     topic: "Obedience",
     reference: "John 14:15",
-    text:
-      "If ye love me, keep my commandments.",
-    prompt:
-      "What instruction from God do you need to obey without delay?",
+    text: "If ye love me, keep my commandments.",
+    prompt: "What instruction from God do you need to obey without delay?",
   },
   {
     topic: "Strength",
     reference: "Philippians 4:13",
-    text:
-      "I can do all things through Christ which strengtheneth me.",
+    text: "I can do all things through Christ which strengtheneth me.",
     prompt:
       "Where do you need to stop relying on your own strength and receive strength from Christ?",
   },
@@ -94,17 +75,21 @@ const scriptures = [
 
 export default function BiblePage() {
   const { user, isLoaded } = useUser();
+
   const [search, setSearch] = useState("");
-  const [selectedVerse, setSelectedVerse] = useState(scriptures[0]);
+  const [lookupReference, setLookupReference] = useState("");
+  const [selectedVerse, setSelectedVerse] = useState(curatedScriptures[0]);
   const [savedVerses, setSavedVerses] = useState([]);
   const [statusMessage, setStatusMessage] = useState("");
+  const [lookupMessage, setLookupMessage] = useState("");
+  const [loadingLookup, setLoadingLookup] = useState(false);
 
   const filteredScriptures = useMemo(() => {
     const query = search.toLowerCase().trim();
 
-    if (!query) return scriptures;
+    if (!query) return curatedScriptures;
 
-    return scriptures.filter((item) => {
+    return curatedScriptures.filter((item) => {
       return (
         item.topic.toLowerCase().includes(query) ||
         item.reference.toLowerCase().includes(query) ||
@@ -133,6 +118,53 @@ export default function BiblePage() {
 
     loadSavedVerses();
   }, [isLoaded, user]);
+
+  async function lookupBibleReference() {
+    const reference = lookupReference.trim();
+
+    if (!reference) {
+      setLookupMessage("Type a scripture reference first.");
+      return;
+    }
+
+    setLoadingLookup(true);
+    setLookupMessage("");
+    setStatusMessage("");
+
+    try {
+      const response = await fetch(
+        `https://bible-api.com/${encodeURIComponent(
+          reference
+        )}?translation=kjv`
+      );
+
+      const data = await response.json();
+
+      if (!response.ok || data.error) {
+        setLookupMessage(
+          "I could not find that scripture. Try a format like John 3:16 or Psalm 23."
+        );
+        setLoadingLookup(false);
+        return;
+      }
+
+      const lookedUpVerse = {
+        topic: "Bible Lookup",
+        reference: data.reference,
+        text: data.text.trim(),
+        prompt:
+          "What is God highlighting to you through this scripture, and how can you apply it today?",
+      };
+
+      setSelectedVerse(lookedUpVerse);
+      setLookupMessage("Scripture loaded.");
+    } catch (error) {
+      console.error("Bible lookup error:", error);
+      setLookupMessage("There was a problem looking up that scripture.");
+    }
+
+    setLoadingLookup(false);
+  }
 
   async function saveVerse() {
     if (!user) {
@@ -200,14 +232,13 @@ export default function BiblePage() {
     >
       <section style={{ maxWidth: "1100px", margin: "0 auto" }}>
         <div style={heroCard}>
-          <p style={label}>Scripture Lookup</p>
+          <p style={label}>Bible Study</p>
 
-          <h1 style={title}>Bible Study & Reflection</h1>
+          <h1 style={title}>Bible Lookup & Reflection</h1>
 
           <p style={introText}>
-            Search scriptures by topic or reference, save verses to your
-            SHIFTHer account, and use the reflection prompt to help you apply
-            the Word with intention.
+            Look up a scripture, save verses to your SHIFTHer account, and use
+            the reflection prompt to help you apply the Word with intention.
           </p>
 
           {!user && isLoaded && (
@@ -217,9 +248,38 @@ export default function BiblePage() {
           )}
         </div>
 
+        <div style={lookupCard}>
+          <h2 style={yellowHeading}>Look Up Any Scripture</h2>
+
+          <p style={introText}>
+            Type a reference like John 3:16, Psalm 23, Romans 8:1, or Genesis
+            1:1.
+          </p>
+
+          <div style={lookupRow}>
+            <input
+              type="text"
+              value={lookupReference}
+              onChange={(e) => setLookupReference(e.target.value)}
+              placeholder="Example: John 3:16"
+              style={searchInput}
+            />
+
+            <button
+              onClick={lookupBibleReference}
+              style={primaryButton}
+              disabled={loadingLookup}
+            >
+              {loadingLookup ? "Looking..." : "Look Up"}
+            </button>
+          </div>
+
+          {lookupMessage && <p style={statusStyle}>{lookupMessage}</p>}
+        </div>
+
         <div style={grid}>
           <div style={card}>
-            <h2 style={yellowHeading}>Search Scriptures</h2>
+            <h2 style={yellowHeading}>SHIFTHer Scripture Library</h2>
 
             <input
               type="text"
@@ -236,6 +296,7 @@ export default function BiblePage() {
                   onClick={() => {
                     setSelectedVerse(item);
                     setStatusMessage("");
+                    setLookupMessage("");
                   }}
                   style={{
                     ...verseButton,
@@ -327,6 +388,15 @@ const heroCard = {
   textAlign: "center",
 };
 
+const lookupCard = {
+  background: "rgba(250, 204, 21, 0.12)",
+  border: "1px solid rgba(250, 204, 21, 0.35)",
+  borderRadius: "24px",
+  padding: "28px",
+  boxShadow: "0 20px 50px rgba(0,0,0,0.25)",
+  marginBottom: "26px",
+};
+
 const card = {
   background: "rgba(255, 255, 255, 0.08)",
   border: "1px solid rgba(255, 255, 255, 0.16)",
@@ -344,6 +414,14 @@ const grid = {
   display: "grid",
   gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
   gap: "24px",
+};
+
+const lookupRow = {
+  display: "flex",
+  gap: "14px",
+  flexWrap: "wrap",
+  marginTop: "18px",
+  alignItems: "center",
 };
 
 const label = {
@@ -373,6 +451,8 @@ const yellowHeading = {
 };
 
 const searchInput = {
+  flex: "1",
+  minWidth: "240px",
   width: "100%",
   borderRadius: "14px",
   border: "1px solid rgba(255,255,255,0.25)",
@@ -400,6 +480,7 @@ const scriptureText = {
   color: "#f8f5ff",
   marginBottom: "18px",
   fontStyle: "italic",
+  whiteSpace: "pre-line",
 };
 
 const reflectionBox = {
