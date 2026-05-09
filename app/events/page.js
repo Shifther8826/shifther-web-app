@@ -1,156 +1,278 @@
 export default function EventsPage() {
+  const events = [
+    {
+      category: "Weekly Prayer",
+      title: "SHIFTHer Midweek Prayer",
+      date: "Every Wednesday",
+      time: "5:00 AM EST",
+      description:
+        "Start the middle of your week in prayer, focus, and spiritual alignment.",
+      button: "Prayer Details",
+      link: "#",
+    },
+    {
+      category: "App Growth",
+      title: "Weekly Decree Release",
+      date: "Every Week",
+      time: "Available inside the app",
+      description:
+        "A fresh weekly decree to help you speak truth, silence distractions, and stay anchored in purpose.",
+      button: "View Decree",
+      link: "/decrees",
+    },
+    {
+      category: "Community",
+      title: "Monthly SHIFTHer Focus",
+      date: "Monthly",
+      time: "New theme each month",
+      description:
+        "Each month includes a focus area designed to help you grow in discipline, healing, identity, purpose, and spiritual maturity.",
+      button: "Explore Resources",
+      link: "/resources",
+    },
+    {
+      category: "Gathering",
+      title: "SHIFTHer 2026",
+      date: "December 3–5, 2026",
+      time: "Details coming soon",
+      description:
+        "A powerful gathering created for women who are ready to level up, heal, grow, and walk boldly in purpose.",
+      button: "Stay Updated",
+      link: "#",
+    },
+  ];
+
   return (
     <main
       style={{
         minHeight: "100vh",
-        background: "linear-gradient(180deg, #0d1b2a 0%, #1b263b 100%)",
+        background: "linear-gradient(180deg, #2d0f45 0%, #14051f 100%)",
+        color: "white",
         padding: "40px 20px",
-        display: "flex",
-        justifyContent: "center",
       }}
     >
       <section
         style={{
-          width: "100%",
-          maxWidth: "900px",
-          textAlign: "center",
+          maxWidth: "1100px",
+          margin: "0 auto",
         }}
       >
-        <h1
-          style={{
-            color: "#ffeb3b",
-            fontSize: "36px",
-            marginBottom: "20px",
-          }}
-        >
-          Upcoming Events
-        </h1>
-
-        <p
-          style={{
-            color: "white",
-            fontSize: "16px",
-            marginBottom: "30px",
-          }}
-        >
-          Stay connected with what’s happening in SHIFTHer.
-        </p>
-
         <div
           style={{
-            padding: "24px",
-            borderRadius: "16px",
-            backgroundColor: "rgba(255,255,255,0.06)",
-            marginBottom: "30px",
+            textAlign: "center",
+            marginBottom: "36px",
           }}
         >
-          <h2 style={{ color: "#ffeb3b", marginBottom: "10px" }}>
-            SHIFTHer 2026
-          </h2>
+          <p
+            style={{
+              color: "#facc15",
+              fontWeight: "bold",
+              textTransform: "uppercase",
+              letterSpacing: "1px",
+              marginBottom: "10px",
+            }}
+          >
+            SHIFTHer Calendar
+          </p>
+
+          <h1
+            style={{
+              fontSize: "42px",
+              lineHeight: "1.1",
+              marginBottom: "16px",
+            }}
+          >
+            Upcoming Events
+          </h1>
 
           <p
             style={{
-              color: "white",
-              margin: "10px 0 20px 0",
-              lineHeight: "1.6",
+              maxWidth: "720px",
+              margin: "0 auto",
+              fontSize: "18px",
+              lineHeight: "1.7",
+              color: "#f3e8ff",
             }}
           >
-            A gathering for women ready to grow, heal, and move into what is
-            next.
+            Stay connected to upcoming prayer gatherings, app releases, growth
+            resources, teachings, and special moments inside the SHIFTHer
+            movement.
           </p>
-
-          <img
-            src="/shifther-2026-flyer.png"
-            alt="SHIFTHer 2026"
-            style={{
-              width: "100%",
-              maxWidth: "400px",
-              borderRadius: "12px",
-              marginBottom: "20px",
-            }}
-          />
-
-          <a
-            href="https://forms.gle/xWpN5UGEktvpGQx29"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              display: "inline-block",
-              backgroundColor: "#ffeb3b",
-              color: "#0d1b2a",
-              padding: "12px 20px",
-              borderRadius: "8px",
-              fontWeight: "bold",
-              textDecoration: "none",
-            }}
-          >
-            Get Updates
-          </a>
         </div>
 
         <div
           style={{
-            padding: "24px",
-            borderRadius: "16px",
-            backgroundColor: "rgba(255,255,255,0.06)",
-            marginBottom: "30px",
+            background: "rgba(250, 204, 21, 0.12)",
+            border: "1px solid rgba(250, 204, 21, 0.35)",
+            borderRadius: "24px",
+            padding: "28px",
+            marginBottom: "28px",
+            textAlign: "center",
           }}
         >
-          <h2 style={{ color: "#ffeb3b", marginBottom: "10px" }}>
-            SHIFTHer Midweek Prayer
+          <h2
+            style={{
+              color: "#facc15",
+              fontSize: "28px",
+              marginBottom: "12px",
+            }}
+          >
+            This Space Keeps You Connected
           </h2>
 
           <p
             style={{
-              color: "white",
-              margin: "10px 0 15px 0",
-              fontSize: "16px",
-              lineHeight: "1.6",
+              fontSize: "18px",
+              lineHeight: "1.7",
+              color: "#f8f5ff",
+              maxWidth: "760px",
+              margin: "0 auto",
             }}
           >
-            Join us for a time of prayer, alignment, and spiritual refreshing in
-            the middle of your week.
+            Use this page to know what is happening next. As new app moments,
+            prayer gatherings, teachings, and SHIFTHer updates are released,
+            they will be added here.
           </p>
+        </div>
+
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+            gap: "22px",
+          }}
+        >
+          {events.map((event) => (
+            <div
+              key={event.title}
+              style={{
+                background: "rgba(255, 255, 255, 0.08)",
+                border: "1px solid rgba(255, 255, 255, 0.16)",
+                borderRadius: "22px",
+                padding: "26px",
+                boxShadow: "0 18px 40px rgba(0,0,0,0.22)",
+              }}
+            >
+              <p
+                style={{
+                  color: "#facc15",
+                  fontWeight: "bold",
+                  textTransform: "uppercase",
+                  letterSpacing: "1px",
+                  fontSize: "13px",
+                  marginBottom: "10px",
+                }}
+              >
+                {event.category}
+              </p>
+
+              <h2
+                style={{
+                  fontSize: "24px",
+                  marginBottom: "12px",
+                }}
+              >
+                {event.title}
+              </h2>
+
+              <p
+                style={{
+                  fontSize: "16px",
+                  color: "#facc15",
+                  fontWeight: "bold",
+                  marginBottom: "6px",
+                }}
+              >
+                {event.date}
+              </p>
+
+              <p
+                style={{
+                  fontSize: "15px",
+                  color: "#f3e8ff",
+                  marginBottom: "16px",
+                }}
+              >
+                {event.time}
+              </p>
+
+              <p
+                style={{
+                  fontSize: "16px",
+                  lineHeight: "1.7",
+                  color: "#f8f5ff",
+                  marginBottom: "22px",
+                }}
+              >
+                {event.description}
+              </p>
+
+              <a
+                href={event.link}
+                style={{
+                  display: "inline-block",
+                  backgroundColor: "#facc15",
+                  color: "#2d0f45",
+                  textDecoration: "none",
+                  fontWeight: "bold",
+                  borderRadius: "999px",
+                  padding: "12px 20px",
+                }}
+              >
+                {event.button} →
+              </a>
+            </div>
+          ))}
+        </div>
+
+        <div
+          style={{
+            marginTop: "32px",
+            background: "rgba(255, 255, 255, 0.08)",
+            border: "1px solid rgba(255, 255, 255, 0.16)",
+            borderRadius: "22px",
+            padding: "28px",
+            textAlign: "center",
+          }}
+        >
+          <h2
+            style={{
+              fontSize: "26px",
+              color: "#facc15",
+              marginBottom: "12px",
+            }}
+          >
+            More Dates Will Be Added
+          </h2>
 
           <p
             style={{
-              color: "#d9d9d9",
-              fontSize: "15px",
-              marginBottom: "20px",
-              lineHeight: "1.6",
+              fontSize: "17px",
+              lineHeight: "1.7",
+              color: "#f8f5ff",
+              maxWidth: "720px",
+              margin: "0 auto",
             }}
           >
-            Wednesdays • 5:00 AM EST
-            <br />
-            Virtual Prayer Gathering
+            Check back often for new SHIFTHer updates, prayer opportunities,
+            resource releases, and upcoming gatherings.
           </p>
-
-          <a
-            href="https://us02web.zoom.us/j/89531120046"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              display: "inline-block",
-              backgroundColor: "#642a9d",
-              color: "white",
-              padding: "12px 20px",
-              borderRadius: "8px",
-              fontWeight: "bold",
-              textDecoration: "none",
-            }}
-          >
-            Get Prayer Access
-          </a>
         </div>
 
         <a
           href="/"
           style={{
+            display: "inline-block",
+            marginTop: "28px",
+            backgroundColor: "rgba(255,255,255,0.12)",
             color: "white",
-            textDecoration: "underline",
+            textDecoration: "none",
+            fontWeight: "bold",
+            borderRadius: "999px",
+            padding: "12px 22px",
           }}
         >
-          ← Back to Home
+          ← Back Home
         </a>
       </section>
     </main>
