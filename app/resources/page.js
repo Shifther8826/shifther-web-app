@@ -206,7 +206,7 @@ return (
       reject every false identity.
     </p>
   </div>
-  <a href="#" style={button}>Open Scriptures →</a>
+ <a href="/resources/identity-in-christ" style={button}>Open Scriptures →</a>
 </div>
         <div style={card}>
   <div>
