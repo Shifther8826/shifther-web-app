@@ -195,7 +195,7 @@ return (
       and steps with God’s will.
     </p>
   </div>
-  <a href="#" style={button}>Open Prayer →</a>
+<a href="/resources/prayer-alignment" style={button}>Open Prayer →</a>
 </div>
       <div style={card}>
   <div>
