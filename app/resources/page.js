@@ -217,7 +217,7 @@ return (
       prepare for the next part of the year.
     </p>
   </div>
-  <a href="#" style={button}>Open Reflection →</a>
+<a href="/resources/mid-year-reset" style={button}>Open Reflection →</a>
 </div>
         </div>
       </section>
