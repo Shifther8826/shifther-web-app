@@ -403,20 +403,16 @@ export default function HomePage() {
       margin: "0 0 10px 0",
     }}
   >
- <div
+<div
   style={{
-    background: "rgba(255, 255, 255, 0.08)",
-    border: "1px solid rgba(255, 255, 255, 0.16)",
-    borderRadius: "20px",
-    padding: "28px",
+    marginTop: "28px",
     textAlign: "center",
-    boxShadow: "0 20px 40px rgba(0,0,0,0.25)",
   }}
 >
   <h2
     style={{
       fontSize: "26px",
-      marginBottom: "12px",
+      marginBottom: "8px",
       color: "#ffeb3b",
     }}
   >
@@ -425,10 +421,24 @@ export default function HomePage() {
 
   <p
     style={{
-      fontSize: "16px",
-      lineHeight: "1.6",
+      color: "#ffeb3b",
+      fontSize: "12px",
+      fontWeight: "bold",
+      letterSpacing: "1px",
+      textTransform: "uppercase",
+      marginBottom: "12px",
+    }}
+  >
+    Scripture + Application
+  </p>
+
+  <p
+    style={{
       color: "#f8f5ff",
-      marginBottom: "22px",
+      fontSize: "16px",
+      lineHeight: "1.7",
+      margin: "0 auto 20px",
+      maxWidth: "620px",
     }}
   >
     Search scriptures, save verses, and reflect on God’s Word with intention.
