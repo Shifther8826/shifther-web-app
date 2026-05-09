@@ -175,7 +175,7 @@ return (
   <a href="#" style={button}>Start Reset →</a>
 </div>
 
-          <<div style={card}>
+         <div style={card}>
   <div>
     <p style={label}>Worksheet</p>
     <h2>Discipline Protects Purpose Worksheet</h2>
