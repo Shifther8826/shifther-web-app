@@ -171,7 +171,7 @@ return (
       and return to intentional growth.
     </p>
   </div>
-  <a href="#" style={button}>Start Reset →</a>
+ <a href="/resources/focus-reset" style={button}>Start Reset →</a>
 </div>
 
          <div style={card}>
