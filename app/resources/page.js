@@ -183,7 +183,7 @@ return (
       peace, progress, and obedience.
     </p>
   </div>
-  <a href="#" style={button}>Open Worksheet →</a>
+  <a href="/resources/discipline-purpose" style={button}>Open Worksheet →</a>
 </div>
 
           <div style={card}>
