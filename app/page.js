@@ -452,7 +452,6 @@ export default function HomePage() {
     Open Bible Study
   </a>
 </div>
-</a>
     SHIFTHer 2026
   </h2>
 
