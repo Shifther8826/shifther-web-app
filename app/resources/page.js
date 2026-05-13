@@ -218,7 +218,27 @@ return (
     </p>
   </div>
 <a href="/resources/mid-year-reset" style={button}>Open Reflection →</a>
+<div style={card}>
+  <div>
+    <p style={label}>Worksheet</p>
+
+    <h2>BuildHER App Vision Worksheet™</h2>
+
+    <p>
+      Clarify your app vision, audience, content, and experience before you begin building.
+    </p>
+  </div>
+
+  <a
+    href="https://drive.google.com/file/d/1Hnenl6_6ZiHS9rEDYZkXw2U0SuLCdvw7/view?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={button}
+  >
+    Download Worksheet →
+  </a>
 </div>
+        </div>
         </div>
       </section>
     </main>
