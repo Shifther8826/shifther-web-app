@@ -210,6 +210,12 @@ return (
 </div>
         <div style={card}>
   <div>
+        <div style={card}>
+  <div>
+    <p style={label}>Worksheet</p>
+
+    <h2>BuildHER App Vision Worksheet™</h2>
+
     <p style={label}>Reflection Sheet</p>
     <h2>Mid-Year Reset Reflection Sheet</h2>
     <p>
@@ -218,12 +224,6 @@ return (
     </p>
   </div>
 <a href="/resources/mid-year-reset" style={button}>Open Reflection →</a>
-<div style={card}>
-  <div>
-    <p style={label}>Worksheet</p>
-
-    <h2>BuildHER App Vision Worksheet™</h2>
-
     <p>
       Clarify your app vision, audience, content, and experience before you begin building.
     </p>
