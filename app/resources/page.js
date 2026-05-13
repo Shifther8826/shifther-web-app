@@ -223,6 +223,7 @@ return (
       prepare for the next part of the year.
     </p>
   </div>
+        
 <a href="/resources/mid-year-reset" style={button}>Open Reflection →</a>
     <p>
       Clarify your app vision, audience, content, and experience before you begin building.
