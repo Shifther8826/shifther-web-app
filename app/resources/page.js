@@ -247,11 +247,11 @@ return (
     style={button}
   >
     Download Worksheet →
-  </a>
-        </div>
-      </section>
-    </main>
-  );
+      </a>
+    </div>
+  </section>
+</main>
+);
 }
 
 const card = {
