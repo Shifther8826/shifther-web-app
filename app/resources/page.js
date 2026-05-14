@@ -245,8 +245,10 @@ return (
     target="_blank"
     rel="noopener noreferrer"
     style={button}
+  >
     Download Worksheet →
-    </a>
+  </a>
+</div>
 </div>
 </section>
 </main>
