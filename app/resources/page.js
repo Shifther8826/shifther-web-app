@@ -143,112 +143,84 @@ return (
         </div>
       </section>
 
-    <section style={{ maxWidth: "1100px", margin: "0 auto", padding: "40px 24px" }}>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-            gap: "24px",
-          }}
+<section style={{ maxWidth: "1100px", margin: "0 auto", padding: "40px 24px" }}>
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+      gap: "24px",
+    }}
+  >
+    <div style={card}>
+      <div>
+        <p style={label}>Start Here</p>
+        <h2>How to Use the SHIFTHer App</h2>
+        <p>A simple guide to help you understand the app, where to begin, and how to use each section with intention.</p>
+      </div>
+      <a href="/resources/how-to-use" style={button}>Open Guide →</a>
+    </div>
+
+    <div style={card}>
+      <div>
+        <p style={label}>Focus Reset</p>
+        <h2>7-Day Focus Reset</h2>
+        <p>A 7-day reset to help you refocus your mind, quiet distractions, and return to intentional growth.</p>
+      </div>
+      <a href="/resources/focus-reset" style={button}>Start Reset →</a>
+    </div>
+
+    <div style={card}>
+      <div>
+        <p style={label}>Worksheet</p>
+        <h2>Discipline Protects Purpose Worksheet</h2>
+        <p>A guided worksheet to help you build structure around your purpose, peace, progress, and obedience.</p>
+      </div>
+      <a href="/resources/discipline-purpose" style={button}>Open Worksheet →</a>
+    </div>
+
+    <div style={card}>
+      <div>
+        <p style={label}>Prayer Guide</p>
+        <h2>Prayer for Alignment</h2>
+        <p>A focused prayer to help you realign your heart, thoughts, decisions, and steps with God’s will.</p>
+      </div>
+      <a href="/resources/prayer-alignment" style={button}>Open Prayer →</a>
+    </div>
+
+    <div style={card}>
+      <div>
+        <p style={label}>Scripture Guide</p>
+        <h2>Identity in Christ Scripture Guide</h2>
+        <p>A scripture guide to help you stand firm in who you are in Christ and reject every false identity.</p>
+      </div>
+      <a href="/resources/identity-in-christ" style={button}>Open Scriptures →</a>
+    </div>
+
+    <div style={card}>
+      <div>
+        <p style={label}>Worksheet</p>
+        <h2>BuildHER App Vision Worksheet™</h2>
+        <p>Clarify your app vision, audience, content, and experience before you begin building.</p>
+      </div>
+      <a
+        href="https://drive.google.com/file/d/1Hnenl6_6ZiHS9rEDYZkXw2U0SuLCdvw7/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={button}
       >
-          <div style={card}>
-  <div>
-    <p style={label}>Start Here</p>
-    <h2>How to Use the SHIFTHer App</h2>
-    <p>
-      A simple guide to help you understand the app, where to begin, and
-      how to use each section with intention.
-    </p>
-  </div>
-  <a href="/resources/how-to-use" style={button}>Open Guide →</a>
-</div>
-          <div style={card}>
-  <div>
-    <p style={label}>Focus Reset</p>
-    <h2>7-Day Focus Reset</h2>
-    <p>
-      A 7-day reset to help you refocus your mind, quiet distractions,
-      and return to intentional growth.
-    </p>
-  </div>
- <a href="/resources/focus-reset" style={button}>Start Reset →</a>
-</div>
+        Download Worksheet →
+      </a>
+    </div>
 
-         <div style={card}>
-  <div>
-    <p style={label}>Worksheet</p>
-    <h2>Discipline Protects Purpose Worksheet</h2>
-    <p>
-      A guided worksheet to help you build structure around your purpose,
-      peace, progress, and obedience.
-    </p>
+    <div style={card}>
+      <div>
+        <p style={label}>Reflection Sheet</p>
+        <h2>Mid-Year Reset Reflection Sheet</h2>
+        <p>A guided reflection sheet to help you pause, evaluate, realign, and prepare for the next part of the year.</p>
+      </div>
+      <a href="/resources/mid-year-reset" style={button}>Open Reflection →</a>
+    </div>
   </div>
-  <a href="/resources/discipline-purpose" style={button}>Open Worksheet →</a>
-</div>
-
-          <div style={card}>
-  <div>
-    <p style={label}>Prayer Guide</p>
-    <h2>Prayer for Alignment</h2>
-    <p>
-      A focused prayer to help you realign your heart, thoughts, decisions,
-      and steps with God’s will.
-    </p>
-  </div>
-<a href="/resources/prayer-alignment" style={button}>Open Prayer →</a>
-</div>
-      <div style={card}>
-  <div>
-    <p style={label}>Scripture Guide</p>
-    <h2>Identity in Christ Scripture Guide</h2>
-    <p>
-      A scripture guide to help you stand firm in who you are in Christ and
-      reject every false identity.
-    </p>
-  </div>
- <a href="/resources/identity-in-christ" style={button}>Open Scriptures →</a>
-</div>
-        <div style={card}>
-  <div>
-        <div style={card}>
-  <div>
-    <p style={label}>Worksheet</p>
-
-    <h2>BuildHER App Vision Worksheet™</h2>
-
-  <div style={card}>
-  <div>
-    <p style={label}>Reflection Sheet</p>
-    <h2>Mid-Year Reset Reflection Sheet</h2>
-    <p>
-      A guided reflection sheet to help you pause, evaluate, realign, and
-      prepare for the next part of the year.
-    </p>
-  </div>
-
-  <a href="/resources/mid-year-reset" style={button}>
-    Open Reflection →
-  </a>
-</div>
-
-<div style={card}>
-  <div>
-    <p style={label}>Worksheet</p>
-    <h2>BuildHER App Vision Worksheet™</h2>
-    <p>
-      Clarify your app vision, audience, content, and experience before you begin building.
-    </p>
-  </div>
-
-  <a
-  href="https://drive.google.com/file/d/1Hnenl6_6ZiHS9rEDYZkXw2U0SuLCdvw7/view?usp=sharing"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={button}
->
-  Download Worksheet →
-</a>
-</div>
 </section>
 </main>
 );
