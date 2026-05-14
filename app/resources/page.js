@@ -248,8 +248,6 @@ return (
   >
     Download Worksheet →
   </a>
-</div>
-        </div>
         </div>
       </section>
     </main>
