@@ -455,6 +455,20 @@ const handleContinue = () => {
             >
               {isComplete ? "Completed" : "Mark as Complete"}
             </button>
+              <a
+  href="/devotionals"
+  style={{
+    backgroundColor: "#374151",
+    color: "white",
+    textDecoration: "none",
+    borderRadius: "8px",
+    padding: "12px 18px",
+    fontWeight: "700",
+    display: "inline-block",
+  }}
+>
+  Revisit the Journey
+</a>
           </div>
 
           {savedMessage && (
