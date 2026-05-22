@@ -6,18 +6,21 @@ import { devotionals } from "../data/devotionals";
 export default function DevotionalArchivePage() {
   const today = new Date();
 
-  const unlockedDevotionals = devotionals.filter((devotional) => {
-    const devotionalMonth = devotional.month || 5;
-    const devotionalYear = devotional.year || 2026;
+  const unlockedDevotionals = devotionals.filter((devotional, index) => {
+  const devotionalMonth = devotional.month || 5;
+  const devotionalYear = devotional.year || 2026;
 
-    const devotionalDate = new Date(
-      devotionalYear,
-      devotionalMonth - 1,
-      devotional.day
-    );
+  const devotionalDay =
+    typeof devotional.day === "number" ? devotional.day : index + 1;
 
-    return devotionalDate <= today;
-  });
+  const devotionalDate = new Date(
+    devotionalYear,
+    devotionalMonth - 1,
+    devotionalDay
+  );
+
+  return devotionalDate <= today;
+});
 
   return (
     <main
@@ -102,7 +105,9 @@ export default function DevotionalArchivePage() {
                   marginBottom: "8px",
                 }}
               >
-                Day {devotional.day} — {devotional.scripture}
+                {typeof devotional.day === "number"
+  ? `Day ${devotional.day} — ${devotional.scripture}`
+  : devotional.day}
               </h2>
 
               <p
