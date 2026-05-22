@@ -473,5 +473,429 @@ Do not stop now. What you continue will eventually produce.`,
     "Where am I tempted to stop instead of staying consistent?",
   prayerFocus:
     "Lord, strengthen me to remain consistent until I see the fruit.",
-}
+  },
+  {
+  month: 6,
+  year: 2026,
+  week: "Week 1 — Created with Intention",
+  day: 1,
+  scripture: "Psalm 139:14",
+  verse: "I will praise thee; for I am fearfully and wonderfully made.",
+  reflection:
+    "You were not born by mistake. Your life carries design, intention, and divine purpose. Before people knew your name, God already knew your assignment. This month, begin by thanking God for creating you with purpose.",
+  heartWork:
+    "Where have I treated my life as ordinary when God created me with intention?",
+  prayerFocus:
+    "Lord, help me see myself the way You created me to be."
+},
+{
+  month: 6,
+  year: 2026,
+    week: "Week 1 — Created with Intention",
+    day: 2,
+    scripture: "Jeremiah 1:5",
+    verse: "Before I formed thee in the belly I knew thee.",
+    reflection:
+      "God’s knowledge of you came before your birth. Your purpose did not begin with your pain, your past, or people’s opinions. It began in the heart of God. You were known before you were formed.",
+    heartWork:
+      "What part of my identity do I need to stop allowing my past to define?",
+    prayerFocus:
+      "Lord, remind me that You knew me before life tried to shape me."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 1 — Created with Intention",
+    day: 3,
+    scripture: "Ephesians 2:10",
+    verse: "For we are his workmanship, created in Christ Jesus unto good works.",
+    reflection:
+      "You are God’s workmanship. That means He did not throw you together. He formed you with care, value, and purpose. There are good works connected to your life, and this is not the season to shrink back from them.",
+    heartWork:
+      "What good work has God been placing on my heart that I need to take seriously?",
+    prayerFocus:
+      "Lord, help me walk in the work You created me to do."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 1 — Created with Intention",
+    day: 4,
+    scripture: "Isaiah 43:1",
+    verse: "Fear not: for I have redeemed thee, I have called thee by thy name; thou art mine.",
+    reflection:
+      "You belong to God. Before you belong to an assignment, a title, a role, or a responsibility, you belong to Him. Purpose must always flow from belonging. You do not have to prove your worth. You are His.",
+    heartWork:
+      "Where have I been trying to prove what God has already settled?",
+    prayerFocus:
+      "Lord, settle my heart in the truth that I belong to You."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 1 — Created with Intention",
+    day: 5,
+    scripture: "Romans 8:28",
+    verse: "And we know that all things work together for good to them that love God.",
+    reflection:
+      "God wastes nothing. Even the pieces you did not understand can become part of the purpose He is revealing in your life. Your story still has value, and your process still has meaning.",
+    heartWork:
+      "What part of my story do I need to trust God to use for good?",
+    prayerFocus:
+      "Lord, help me trust You with every piece of my journey."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 1 — Created with Intention",
+    day: 6,
+    scripture: "Proverbs 19:21",
+    verse: "There are many devices in a man's heart; nevertheless the counsel of the LORD, that shall stand.",
+    reflection:
+      "You may have plans, desires, and ideas, but God’s purpose is what stands. This is a beautiful reminder that your life is safest when it is surrendered to His counsel.",
+    heartWork:
+      "What plan do I need to surrender so God’s purpose can stand in my life?",
+    prayerFocus:
+      "Lord, align my plans with Your purpose."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 1 — Created with Intention",
+    day: 7,
+    scripture: "Psalm 57:2",
+    verse: "I will cry unto God most high; unto God that performeth all things for me.",
+    reflection:
+      "The God who called you is also the God who performs what concerns you. You do not have to force what God has promised. Stay surrendered, stay faithful, and let Him complete what He started.",
+    heartWork:
+      "Where have I been trying to force what I should be trusting God to perform?",
+    prayerFocus:
+      "Lord, perform Your purpose in me and through me."
+  },
+
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 2 — Preserved for Purpose",
+    day: 8,
+    scripture: "Philippians 1:6",
+    verse: "He which hath begun a good work in you will perform it until the day of Jesus Christ.",
+    reflection:
+      "God did not bring you this far to leave you unfinished. The work He began in you is still alive. Even when you feel delayed, God is still developing what He placed inside of you.",
+    heartWork:
+      "Where have I become discouraged because I cannot yet see the finished work?",
+    prayerFocus:
+      "Lord, strengthen my faith to trust the work You are completing in me."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 2 — Preserved for Purpose",
+    day: 9,
+    scripture: "Psalm 138:8",
+    verse: "The LORD will perfect that which concerneth me.",
+    reflection:
+      "God is concerned about what concerns you. Your purpose, your healing, your growth, your family, your future, and your obedience matter to Him. He is perfecting what still feels incomplete.",
+    heartWork:
+      "What concern do I need to place back into God’s hands today?",
+    prayerFocus:
+      "Lord, perfect what concerns me according to Your will."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 2 — Preserved for Purpose",
+    day: 10,
+    scripture: "Isaiah 46:4",
+    verse: "Even to your old age I am he; and even to hoar hairs will I carry you.",
+    reflection:
+      "There is no age where God stops carrying purpose. You are not too late, too old, too delayed, or too far behind. God is still carrying you, and He is still carrying what He placed in you.",
+    heartWork:
+      "Where have I believed the lie that it is too late for me?",
+    prayerFocus:
+      "Lord, renew my confidence that purpose still lives in me."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 2 — Preserved for Purpose",
+    day: 11,
+    scripture: "Lamentations 3:22-23",
+    verse: "It is of the LORD'S mercies that we are not consumed... They are new every morning.",
+    reflection:
+      "You are still here because mercy kept you. Every morning is proof that God is not finished. His mercy did not just preserve your life; it preserved your purpose.",
+    heartWork:
+      "How has the mercy of God kept me when I could have been consumed?",
+    prayerFocus:
+      "Lord, thank You for new mercy and preserved purpose."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 2 — Preserved for Purpose",
+    day: 12,
+    scripture: "Psalm 121:7",
+    verse: "The LORD shall preserve thee from all evil: he shall preserve thy soul.",
+    reflection:
+      "God is not only preserving your body; He is preserving your soul. He is keeping your mind, your emotions, your will, and your inner life so you can continue walking in purpose.",
+    heartWork:
+      "What area of my soul needs the preserving power of God right now?",
+    prayerFocus:
+      "Lord, preserve my soul and keep me aligned with You."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 2 — Preserved for Purpose",
+    day: 13,
+    scripture: "2 Timothy 1:9",
+    verse: "Who hath saved us, and called us with an holy calling.",
+    reflection:
+      "Your calling is holy because it came from God. It is not common, casual, or random. God saved you with purpose in mind, and your life carries a responsibility to answer what He has called you to.",
+    heartWork:
+      "Where have I treated my calling casually instead of holy?",
+    prayerFocus:
+      "Lord, help me honor the holy calling on my life."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 2 — Preserved for Purpose",
+    day: 14,
+    scripture: "Psalm 37:23",
+    verse: "The steps of a good man are ordered by the LORD.",
+    reflection:
+      "Purpose is not only about the destination; it is also about ordered steps. God knows how to lead you one step at a time. Trust the step He is giving you today.",
+    heartWork:
+      "What step has God already given me that I need to obey?",
+    prayerFocus:
+      "Lord, order my steps and help me follow without fear."
+  },
+
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 3 — Becoming Who I Was Born to Be",
+    day: 15,
+    scripture: "Romans 12:2",
+    verse: "Be ye transformed by the renewing of your mind.",
+    reflection:
+      "Purpose requires a renewed mind. You cannot fully walk in what God created you for while holding on to old patterns of thinking. Let this be a season where your mind comes into agreement with your purpose.",
+    heartWork:
+      "What old thought pattern is fighting against who I am becoming?",
+    prayerFocus:
+      "Lord, renew my mind so I can walk in purpose with clarity."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 3 — Becoming Who I Was Born to Be",
+    day: 16,
+    scripture: "2 Corinthians 5:17",
+    verse: "If any man be in Christ, he is a new creature.",
+    reflection:
+      "You are not bound to the old version of yourself. In Christ, you are new. Purpose calls you to stop rehearsing who you used to be and start walking as who God has made you.",
+    heartWork:
+      "What old version of me do I need to stop agreeing with?",
+    prayerFocus:
+      "Lord, help me walk boldly in the new life You have given me."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 3 — Becoming Who I Was Born to Be",
+    day: 17,
+    scripture: "2 Peter 3:18",
+    verse: "But grow in grace, and in the knowledge of our Lord and Saviour Jesus Christ.",
+    reflection:
+      "You were born with purpose, but you must grow into maturity. Growth is not punishment; it is preparation. God gives grace for every stage of becoming.",
+    heartWork:
+      "Where do I need to give myself permission to grow instead of expecting perfection?",
+    prayerFocus:
+      "Lord, help me grow in grace and maturity."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 3 — Becoming Who I Was Born to Be",
+    day: 18,
+    scripture: "Galatians 6:9",
+    verse: "Let us not be weary in well doing: for in due season we shall reap, if we faint not.",
+    reflection:
+      "Purpose requires endurance. You may not see the harvest yet, but your obedience is not wasted. Keep showing up. Keep sowing. Keep believing. Due season is still real.",
+    heartWork:
+      "Where have I become weary in doing what is right?",
+    prayerFocus:
+      "Lord, strengthen me not to faint before the harvest."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 3 — Becoming Who I Was Born to Be",
+    day: 19,
+    scripture: "James 1:4",
+    verse: "But let patience have her perfect work, that ye may be perfect and entire, wanting nothing.",
+    reflection:
+      "Patience has a work to do in you. Some parts of purpose cannot be rushed because God is building stability, maturity, and wholeness. Do not despise the process that is making you whole.",
+    heartWork:
+      "What process have I been resisting that may actually be maturing me?",
+    prayerFocus:
+      "Lord, give me patience to let Your work be completed in me."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 3 — Becoming Who I Was Born to Be",
+    day: 20,
+    scripture: "John 15:5",
+    verse: "He that abideth in me, and I in him, the same bringeth forth much fruit.",
+    reflection:
+      "Purpose is fruitful when it stays connected to Christ. You do not have to strive to produce what only abiding can grow. Stay connected, and fruit will come.",
+    heartWork:
+      "Where have I been striving instead of abiding?",
+    prayerFocus:
+      "Lord, keep me connected to You so my life can bear fruit."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 3 — Becoming Who I Was Born to Be",
+    day: 21,
+    scripture: "Colossians 2:7",
+    verse: "Rooted and built up in him, and stablished in the faith.",
+    reflection:
+      "God is not just calling you upward; He is rooting you deeply. Purpose needs roots. The deeper your roots, the stronger your life becomes when pressure comes.",
+    heartWork:
+      "What spiritual root needs to be strengthened in my life right now?",
+    prayerFocus:
+      "Lord, root me deeper in You and establish me in faith."
+  },
+
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 4 — Fresh Oil for the Next Chapter",
+    day: 22,
+    scripture: "Psalm 92:10",
+    verse: "I shall be anointed with fresh oil.",
+    reflection:
+      "Fresh purpose requires fresh oil. You cannot carry the next chapter in yesterday’s strength. God has fresh oil for your assignment, your obedience, your voice, and your becoming.",
+    heartWork:
+      "Where do I need fresh oil instead of old strength?",
+    prayerFocus:
+      "Lord, anoint me with fresh oil for this season."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 4 — Fresh Oil for the Next Chapter",
+    day: 23,
+    scripture: "Isaiah 40:31",
+    verse: "They that wait upon the LORD shall renew their strength.",
+    reflection:
+      "Waiting on God is not wasted time. It is where strength is renewed. Purpose does not always require rushing; sometimes it requires waiting until your strength is restored.",
+    heartWork:
+      "Where do I need to wait on God instead of moving in my own strength?",
+    prayerFocus:
+      "Lord, renew my strength as I wait on You."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 4 — Fresh Oil for the Next Chapter",
+    day: 24,
+    scripture: "Psalm 23:5",
+    verse: "Thou anointest my head with oil; my cup runneth over.",
+    reflection:
+      "God knows how to anoint you in the presence of pressure. He knows how to fill your cup until it runs over. Your next chapter is not empty; it is being supplied by God.",
+    heartWork:
+      "Where do I need to receive from God instead of pouring from emptiness?",
+    prayerFocus:
+      "Lord, fill my cup and let my life overflow with Your goodness."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 4 — Fresh Oil for the Next Chapter",
+    day: 25,
+    scripture: "Nehemiah 8:10",
+    verse: "For the joy of the LORD is your strength.",
+    reflection:
+      "Purpose should not be carried without joy. The joy of the Lord strengthens places that pressure tried to drain. This is a season to recover joy, not just responsibility.",
+    heartWork:
+      "Where have I lost joy while trying to carry purpose?",
+    prayerFocus:
+      "Lord, restore my joy and strengthen me from the inside out."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 4 — Fresh Oil for the Next Chapter",
+    day: 26,
+    scripture: "Psalm 5:12",
+    verse: "For thou, LORD, wilt bless the righteous; with favour wilt thou compass him as with a shield.",
+    reflection:
+      "Favor surrounds you like a shield. You do not have to force doors that God has the power to open. Walk in obedience, and trust Him to surround your purpose with favor.",
+    heartWork:
+      "Where do I need to trust God’s favor instead of forcing my own way?",
+    prayerFocus:
+      "Lord, surround me with favor as I walk in purpose."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 4 — Fresh Oil for the Next Chapter",
+    day: 27,
+    scripture: "Isaiah 61:3",
+    verse: "To give unto them beauty for ashes, the oil of joy for mourning.",
+    reflection:
+      "God knows how to turn ashes into beauty. What hurt you does not have to define you. God can take what was painful and use it as part of your purpose, wisdom, and testimony.",
+    heartWork:
+      "What ashes do I need to surrender so God can bring beauty from them?",
+    prayerFocus:
+      "Lord, give me beauty for ashes and joy for mourning."
+  },
+  {
+    month: 6,
+  year: 2026,
+    week: "Week 4 — Fresh Oil for the Next Chapter",
+    day: 28,
+    scripture: "Habakkuk 2:2",
+    verse: "Write the vision, and make it plain upon tables.",
+    reflection:
+      "Purpose needs clarity. There are things God has shown you that need to be written, organized, and stewarded. Do not let vision stay scattered. Make it plain.",
+    heartWork:
+      "What vision do I need to write down and make plain?",
+    prayerFocus:
+      "Lord, give me clarity for the vision You have placed in me."
+  },
+
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 5 — Walking Forward with Purpose",
+    day: 29,
+    scripture: "Proverbs 3:5-6",
+    verse: "Trust in the LORD with all thine heart... and he shall direct thy paths.",
+    reflection:
+      "Purpose requires trust. You may not know every detail, but you can trust the One directing your path. God does not need you to have all the answers; He needs your surrendered yes.",
+    heartWork:
+      "Where do I need to trust God with the next step instead of needing the whole picture?",
+    prayerFocus:
+      "Lord, direct my path and teach me to trust You fully."
+  },
+  {
+   month: 6,
+  year: 2026,
+    week: "Week 5 — Walking Forward with Purpose",
+    day: 30,
+    scripture: "Philippians 3:14",
+    verse: "I press toward the mark for the prize of the high calling of God in Christ Jesus.",
+    reflection:
+      "You were born with purpose, preserved by grace, renewed for the journey, and anointed for what is ahead. As this month closes, do not look backward with regret. Press forward with faith. There is still more in you.",
+    heartWork:
+      "What am I pressing toward as I step into the next part of the year?",
+    prayerFocus:
+      "Lord, help me press forward with purpose, faith, and fresh strength."
+  }
 ];
