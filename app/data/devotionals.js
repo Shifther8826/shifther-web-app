@@ -897,5 +897,440 @@ Do not stop now. What you continue will eventually produce.`,
       "What am I pressing toward as I step into the next part of the year?",
     prayerFocus:
       "Lord, help me press forward with purpose, faith, and fresh strength."
+  },{
+  month: 7,
+  year: 2026,
+  week: "Week 1 — The God Who Reveals Himself",
+  day: 1,
+  scripture: "Elohim — Genesis 1:1",
+  verse: "In the beginning God created the heaven and the earth.",
+  reflection:
+    "Elohim reveals God as Creator. Before anything existed, He was already present, powerful, and intentional. This name reminds us that God does not need perfect conditions to create something meaningful. He can bring order, beauty, and purpose out of what feels empty, dark, or unfinished.",
+  heartWork:
+    "Where do I need to trust God as Creator in my life right now?",
+  prayerFocus:
+    "Lord, reveal Yourself to me as Elohim. Create in me what brings glory to You."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 1 — The God Who Reveals Himself",
+  day: 2,
+  scripture: "Yahweh — Exodus 3:14",
+  verse: "And God said unto Moses, I AM THAT I AM.",
+  reflection:
+    "Yahweh reveals God as the self-existing One. He is not dependent on anyone or anything to be who He is. When life feels unstable, this name reminds us that God remains constant. He is not becoming God. He already is God.",
+  heartWork:
+    "Where have I allowed unstable circumstances to make me forget who God is?",
+  prayerFocus:
+    "Lord, help me rest in the truth that You are Yahweh, the great I AM."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 1 — The God Who Reveals Himself",
+  day: 3,
+  scripture: "Adonai — Psalm 8:1",
+  verse: "O LORD our Lord, how excellent is thy name in all the earth!",
+  reflection:
+    "Adonai means Lord and Master. This name reminds us that God is not only to be admired; He is to be surrendered to. When we call Him Lord, we are acknowledging His authority, His wisdom, and His right to lead our lives.",
+  heartWork:
+    "What area of my life do I need to surrender again to the Lordship of God?",
+  prayerFocus:
+    "Lord, be Adonai over my heart, my decisions, my plans, and my obedience."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 1 — The God Who Reveals Himself",
+  day: 4,
+  scripture: "El Elyon — Psalm 91:1",
+  verse: "He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty.",
+  reflection:
+    "El Elyon means God Most High. There is no power above Him, no authority greater than Him, and no situation beyond Him. This name reminds us that what is over our head is still under His feet.",
+  heartWork:
+    "What situation have I made bigger than the Most High God?",
+  prayerFocus:
+    "Lord, remind me that You are El Elyon, and nothing is higher than You."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 1 — The God Who Reveals Himself",
+  day: 5,
+  scripture: "El Roi — Genesis 16:13",
+  verse: "Thou God seest me.",
+  reflection:
+    "El Roi means the God who sees me. Hagar met God in a painful and lonely place, and God saw her. This name reminds us that we are never invisible to Him. He sees the tears, the obedience, the wounds, and the waiting.",
+  heartWork:
+    "Where have I felt unseen, overlooked, or forgotten?",
+  prayerFocus:
+    "Lord, reveal Yourself to me as El Roi. Help me know that You see me."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 1 — The God Who Reveals Himself",
+  day: 6,
+  scripture: "El Shaddai — Genesis 17:1",
+  verse: "I am the Almighty God; walk before me, and be thou perfect.",
+  reflection:
+    "El Shaddai means God Almighty. This name speaks to His strength, sufficiency, and power. When our strength is not enough, He is still enough. God does not run out of power, provision, patience, or ability.",
+  heartWork:
+    "Where have I been relying on my own strength instead of God’s sufficiency?",
+  prayerFocus:
+    "Lord, show Yourself strong as El Shaddai in my life."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 1 — The God Who Reveals Himself",
+  day: 7,
+  scripture: "El Olam — Genesis 21:33",
+  verse: "And Abraham planted a grove in Beersheba, and called there on the name of the LORD, the everlasting God.",
+  reflection:
+    "El Olam means the Everlasting God. He is not limited by time. He was faithful before this season, He is faithful in this season, and He will remain faithful after this season. His nature does not expire.",
+  heartWork:
+    "Where do I need to trust God beyond what I can see right now?",
+  prayerFocus:
+    "Lord, help me trust You as El Olam, the everlasting God."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 2 — The God Who Provides and Keeps",
+  day: 8,
+  scripture: "Jehovah Jireh — Genesis 22:14",
+  verse: "And Abraham called the name of that place Jehovahjireh.",
+  reflection:
+    "Jehovah Jireh means the Lord will provide. God revealed provision in a place of obedience and trust. This name reminds us that God already sees the need and knows how to provide at the right time.",
+  heartWork:
+    "What need am I carrying that I need to place back in God’s hands?",
+  prayerFocus:
+    "Lord, reveal Yourself as Jehovah Jireh. Teach me to trust Your provision."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 2 — The God Who Provides and Keeps",
+  day: 9,
+  scripture: "Jehovah Nissi — Exodus 17:15",
+  verse: "And Moses built an altar, and called the name of it Jehovahnissi.",
+  reflection:
+    "Jehovah Nissi means the Lord my Banner. A banner represented victory, identity, and covering. This name reminds us that we do not fight uncovered. God goes before us and stands over us.",
+  heartWork:
+    "Where do I need to stop fighting in my own name and stand under God’s banner?",
+  prayerFocus:
+    "Lord, be Jehovah Nissi over my life, my family, and my assignment."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 2 — The God Who Provides and Keeps",
+  day: 10,
+  scripture: "Jehovah Rapha — Exodus 15:26",
+  verse: "For I am the LORD that healeth thee.",
+  reflection:
+    "Jehovah Rapha means the Lord who heals. God is concerned with every place that needs healing: body, soul, mind, memory, and spirit. His healing may be a process, but His nature as Healer is sure.",
+  heartWork:
+    "What area of my life still needs the healing touch of God?",
+  prayerFocus:
+    "Lord, reveal Yourself as Jehovah Rapha and heal what still needs Your hand."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 2 — The God Who Provides and Keeps",
+  day: 11,
+  scripture: "Jehovah Shalom — Judges 6:24",
+  verse: "Then Gideon built an altar there unto the LORD, and called it Jehovahshalom.",
+  reflection:
+    "Jehovah Shalom means the Lord is peace. Gideon discovered this name while he was fearful and unsure. God’s peace does not always come after everything is fixed. Sometimes His peace meets us while we are still learning to obey.",
+  heartWork:
+    "Where do I need God’s peace to settle me?",
+  prayerFocus:
+    "Lord, be Jehovah Shalom in my heart, my home, and my thoughts."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 2 — The God Who Provides and Keeps",
+  day: 12,
+  scripture: "Jehovah Rohi — Psalm 23:1",
+  verse: "The LORD is my shepherd; I shall not want.",
+  reflection:
+    "Jehovah Rohi means the Lord my Shepherd. A shepherd leads, feeds, protects, corrects, and watches over the sheep. This name reminds us that we are not called to lead ourselves without God’s guidance.",
+  heartWork:
+    "Where have I been trying to lead myself instead of following the Shepherd?",
+  prayerFocus:
+    "Lord, shepherd my soul and lead me in the way I should go."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 2 — The God Who Provides and Keeps",
+  day: 13,
+  scripture: "Jehovah Tsidkenu — Jeremiah 23:6",
+  verse: "And this is his name whereby he shall be called, THE LORD OUR RIGHTEOUSNESS.",
+  reflection:
+    "Jehovah Tsidkenu means the Lord our Righteousness. This name reminds us that righteousness is not rooted in our performance, but in God’s covenant and grace. We stand because He makes us right.",
+  heartWork:
+    "Where have I been trying to earn what God gives through grace?",
+  prayerFocus:
+    "Lord, help me rest in You as Jehovah Tsidkenu, my righteousness."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 2 — The God Who Provides and Keeps",
+  day: 14,
+  scripture: "Jehovah M’Kaddesh — Leviticus 20:8",
+  verse: "I am the LORD which sanctify you.",
+  reflection:
+    "Jehovah M’Kaddesh means the Lord who sanctifies. God does not only save us; He sets us apart and shapes us for His purpose. Sanctification is not rejection. It is God preparing us for holy use.",
+  heartWork:
+    "What is God separating me from so He can prepare me for more?",
+  prayerFocus:
+    "Lord, sanctify my heart, my habits, my desires, and my direction."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 3 — The God Who Defends and Delivers",
+  day: 15,
+  scripture: "Jehovah Sabaoth — 1 Samuel 17:45",
+  verse: "I come to thee in the name of the LORD of hosts.",
+  reflection:
+    "Jehovah Sabaoth means the Lord of Hosts. David did not face Goliath in his own strength. He came in the name of the Lord of armies. This name reminds us that heaven is not empty when we are facing battles.",
+  heartWork:
+    "What battle have I been trying to face without remembering who fights for me?",
+  prayerFocus:
+    "Lord, reveal Yourself as Jehovah Sabaoth. Fight for me and strengthen my faith."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 3 — The God Who Defends and Delivers",
+  day: 16,
+  scripture: "Rock — Psalm 18:2",
+  verse: "The LORD is my rock, and my fortress, and my deliverer.",
+  reflection:
+    "God is our Rock. He is stable, strong, and dependable. When emotions shift and circumstances move, God remains firm. This name reminds us that we need more than feelings to stand; we need a foundation.",
+  heartWork:
+    "Where do I need to stand on God instead of standing on my emotions?",
+  prayerFocus:
+    "Lord, be my Rock and help me stand firm in You."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 3 — The God Who Defends and Delivers",
+  day: 17,
+  scripture: "Refuge — Psalm 46:1",
+  verse: "God is our refuge and strength, a very present help in trouble.",
+  reflection:
+    "God is our Refuge. A refuge is a safe place, a covering, and a place of protection. This name reminds us that we do not have to run from God when life is heavy. We run to Him.",
+  heartWork:
+    "Where have I been running for comfort instead of running to God?",
+  prayerFocus:
+    "Lord, be my refuge, my strength, and my present help."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 3 — The God Who Defends and Delivers",
+  day: 18,
+  scripture: "Fortress — Psalm 91:2",
+  verse: "I will say of the LORD, He is my refuge and my fortress: my God; in him will I trust.",
+  reflection:
+    "God is our Fortress. A fortress is not weak or easily shaken. It protects what is inside. This name reminds us that God is not fragile, and His protection is not uncertain.",
+  heartWork:
+    "Where do I need to trust God’s protection instead of living guarded by fear?",
+  prayerFocus:
+    "Lord, be my fortress and teach me to trust Your covering."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 3 — The God Who Defends and Delivers",
+  day: 19,
+  scripture: "Deliverer — Psalm 34:17",
+  verse: "The righteous cry, and the LORD heareth, and delivereth them out of all their troubles.",
+  reflection:
+    "God is our Deliverer. Deliverance means God knows how to bring us out, bring us through, and bring us into freedom. He hears the cry of His people and responds with power and compassion.",
+  heartWork:
+    "What do I need God to deliver me from in this season?",
+  prayerFocus:
+    "Lord, deliver me from anything that is holding me captive."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 3 — The God Who Defends and Delivers",
+  day: 20,
+  scripture: "Shield — Psalm 3:3",
+  verse: "But thou, O LORD, art a shield for me; my glory, and the lifter up of mine head.",
+  reflection:
+    "God is our Shield. He covers what we cannot cover. He protects what we cannot protect. He also lifts our head when shame, fear, or discouragement tries to pull it down.",
+  heartWork:
+    "Where do I need God to lift my head again?",
+  prayerFocus:
+    "Lord, be my shield and the lifter of my head."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 3 — The God Who Defends and Delivers",
+  day: 21,
+  scripture: "Strong Tower — Proverbs 18:10",
+  verse: "The name of the LORD is a strong tower: the righteous runneth into it, and is safe.",
+  reflection:
+    "The name of the Lord is a Strong Tower. His name is not only something we say; it is a place we run into. Safety is found when we return to the truth of who God is.",
+  heartWork:
+    "What name of God do I need to run into today?",
+  prayerFocus:
+    "Lord, teach me to run into Your name and find safety there."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 4 — The God Who Restores and Leads",
+  day: 22,
+  scripture: "Redeemer — Isaiah 43:1",
+  verse: "Fear not: for I have redeemed thee, I have called thee by thy name; thou art mine.",
+  reflection:
+    "God is our Redeemer. Redemption means He buys back, restores value, and claims what belongs to Him. Your past does not have the final right to name you. God does.",
+  heartWork:
+    "Where do I need to receive the truth that I belong to God?",
+  prayerFocus:
+    "Lord, thank You for being my Redeemer and calling me Yours."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 4 — The God Who Restores and Leads",
+  day: 23,
+  scripture: "Restorer — Joel 2:25",
+  verse: "And I will restore to you the years that the locust hath eaten.",
+  reflection:
+    "God is Restorer. He knows how to restore time, strength, joy, vision, and identity. Restoration does not always mean things return exactly as they were. Sometimes God restores by making us whole in a new way.",
+  heartWork:
+    "What area of my life needs the restoring power of God?",
+  prayerFocus:
+    "Lord, restore what has been broken, lost, delayed, or damaged."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 4 — The God Who Restores and Leads",
+  day: 24,
+  scripture: "Father — Matthew 6:9",
+  verse: "Our Father which art in heaven, Hallowed be thy name.",
+  reflection:
+    "God is Father. He is not distant, careless, or disconnected. A good Father covers, corrects, provides, protects, and loves. This name invites us into relationship, not just religion.",
+  heartWork:
+    "Where do I need to receive God’s fatherly care?",
+  prayerFocus:
+    "Father, heal my view of You and help me trust Your love."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 4 — The God Who Restores and Leads",
+  day: 25,
+  scripture: "Potter — Isaiah 64:8",
+  verse: "But now, O LORD, thou art our father; we are the clay, and thou our potter.",
+  reflection:
+    "God is the Potter. He shapes, forms, and works with the clay. Being shaped by God may not always feel comfortable, but it is always purposeful. His hands know what He is making.",
+  heartWork:
+    "Where am I resisting the shaping hand of God?",
+  prayerFocus:
+    "Lord, shape me according to Your purpose and not my preference."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 4 — The God Who Restores and Leads",
+  day: 26,
+  scripture: "Wonderful Counselor — Isaiah 9:6",
+  verse: "And his name shall be called Wonderful, Counsellor.",
+  reflection:
+    "God is Wonderful Counselor. His wisdom is not limited by our confusion. He counsels us with truth, correction, comfort, and direction. When we do not know what to do, His counsel is still available.",
+  heartWork:
+    "What decision do I need to bring before the counsel of God?",
+  prayerFocus:
+    "Lord, counsel me with wisdom, truth, and clarity."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 4 — The God Who Restores and Leads",
+  day: 27,
+  scripture: "Prince of Peace — Isaiah 9:6",
+  verse: "And his name shall be called... The Prince of Peace.",
+  reflection:
+    "Jesus is the Prince of Peace. Peace is not only something He gives; it is part of who He is. When He rules within us, peace has authority over fear, confusion, and unrest.",
+  heartWork:
+    "Where do I need the peace of Christ to rule in me?",
+  prayerFocus:
+    "Prince of Peace, settle my heart and rule over every anxious place."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 4 — The God Who Restores and Leads",
+  day: 28,
+  scripture: "Immanuel — Matthew 1:23",
+  verse: "And they shall call his name Emmanuel, which being interpreted is, God with us.",
+  reflection:
+    "Immanuel means God with us. God did not remain far away from human need. He came near. This name reminds us that we are not walking through life alone. God is present with us.",
+  heartWork:
+    "Where do I need to become more aware of God’s presence with me?",
+  prayerFocus:
+    "Lord, reveal Yourself as Immanuel. Help me walk with awareness that You are with me."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 5 — The Name Above Every Name",
+  day: 29,
+  scripture: "Jesus — Matthew 1:21",
+  verse: "And thou shalt call his name JESUS: for he shall save his people from their sins.",
+  reflection:
+    "The name Jesus means Savior. His name carries the promise of salvation, rescue, and redemption. He did not come only to inspire us; He came to save us and bring us back to the Father.",
+  heartWork:
+    "Where do I need to remember that Jesus is Savior, not just helper?",
+  prayerFocus:
+    "Jesus, thank You for saving me, redeeming me, and bringing me back to the Father."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 5 — The Name Above Every Name",
+  day: 30,
+  scripture: "Lamb of God — John 1:29",
+  verse: "Behold the Lamb of God, which taketh away the sin of the world.",
+  reflection:
+    "Jesus is the Lamb of God. He carried what we could not carry and paid what we could not pay. This name reminds us of sacrifice, mercy, forgiveness, and the depth of God’s love.",
+  heartWork:
+    "Where do I need to receive the finished work of Christ instead of carrying guilt?",
+  prayerFocus:
+    "Lamb of God, thank You for taking away sin and making a way for me."
+},
+{
+  month: 7,
+  year: 2026,
+  week: "Week 5 — The Name Above Every Name",
+  day: 31,
+  scripture: "King of Kings — Revelation 19:16",
+  verse: "And he hath on his vesture and on his thigh a name written, KING OF KINGS, AND LORD OF LORDS.",
+  reflection:
+    "Jesus is King of Kings and Lord of Lords. Every name, power, throne, fear, and situation must bow to Him. As this month closes, remember that the name of the Lord is not weak. His name carries authority, victory, and eternal power.",
+  heartWork:
+    "What needs to bow again to the authority of Jesus in my life?",
+  prayerFocus:
+    "King Jesus, reign in me, rule through me, and be glorified in my life."
   }
 ];
+
+
