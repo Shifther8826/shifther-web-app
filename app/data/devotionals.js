@@ -1330,7 +1330,439 @@ Do not stop now. What you continue will eventually produce.`,
     "What needs to bow again to the authority of Jesus in my life?",
   prayerFocus:
     "King Jesus, reign in me, rule through me, and be glorified in my life."
-  }
+  },
+{
+  month: 8,
+  year: 2026,
+  week: "Week 1 — God Makes All Things New",
+  day: 1,
+  scripture: "Isaiah 43:19",
+  verse: "Behold, I will do a new thing; now it shall spring forth.",
+  reflection:
+    "God is able to do something new in your life. A new beginning does not mean the past never happened. It means the past does not have the final authority over where God is taking you. This month, open your heart to the new thing God wants to reveal, restore, and release.",
+  heartWork:
+    "Where do I need to believe God for a new beginning?",
+  prayerFocus:
+    "Lord, help me recognize the new thing You are doing in my life."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 1 — God Makes All Things New",
+  day: 2,
+  scripture: "2 Corinthians 5:17",
+  verse: "If any man be in Christ, he is a new creature.",
+  reflection:
+    "In Christ, you are not trapped in the old version of yourself. God has made you new. New beginnings start when you agree with what God has already spoken over your identity.",
+  heartWork:
+    "What old label do I need to stop wearing?",
+  prayerFocus:
+    "Lord, help me walk as the new creation You have made me to be."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 1 — God Makes All Things New",
+  day: 3,
+  scripture: "Lamentations 3:22-23",
+  verse: "They are new every morning: great is thy faithfulness.",
+  reflection:
+    "Every morning is evidence of mercy. God does not run out of compassion toward you. A new day is not just another date on the calendar; it is another invitation to receive mercy and begin again.",
+  heartWork:
+    "Where do I need to receive God’s mercy instead of rehearsing my mistakes?",
+  prayerFocus:
+    "Lord, thank You for new mercy and another opportunity to walk with You."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 1 — God Makes All Things New",
+  day: 4,
+  scripture: "Ezekiel 36:26",
+  verse: "A new heart also will I give you, and a new spirit will I put within you.",
+  reflection:
+    "God does not only change circumstances. He changes hearts. A true new beginning often starts on the inside before it shows up on the outside. Let God touch the places that need to be softened, healed, and renewed.",
+  heartWork:
+    "What area of my heart needs to be made new?",
+  prayerFocus:
+    "Lord, give me a renewed heart and a yielded spirit."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 1 — God Makes All Things New",
+  day: 5,
+  scripture: "Romans 12:2",
+  verse: "Be ye transformed by the renewing of your mind.",
+  reflection:
+    "New beginnings require renewed thinking. You cannot fully step into a new season while agreeing with old mindsets. God wants to renew the way you see Him, yourself, your future, and your assignment.",
+  heartWork:
+    "What thought pattern needs to be renewed so I can move forward?",
+  prayerFocus:
+    "Lord, renew my mind and bring my thoughts into agreement with Your truth."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 1 — God Makes All Things New",
+  day: 6,
+  scripture: "Psalm 51:10",
+  verse: "Create in me a clean heart, O God; and renew a right spirit within me.",
+  reflection:
+    "A clean heart makes room for a fresh start. David did not hide from God when he needed renewal. He asked God to create, cleanse, and restore. New beginnings are strengthened by honesty before the Lord.",
+  heartWork:
+    "Where do I need to be honest with God so renewal can begin?",
+  prayerFocus:
+    "Lord, create in me a clean heart and renew a right spirit within me."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 1 — God Makes All Things New",
+  day: 7,
+  scripture: "Isaiah 40:31",
+  verse: "They that wait upon the LORD shall renew their strength.",
+  reflection:
+    "New beginnings require new strength. God does not expect you to carry a new season with exhausted faith. As you wait on Him, He renews what pressure, disappointment, and delay tried to drain.",
+  heartWork:
+    "Where do I need God to renew my strength?",
+  prayerFocus:
+    "Lord, renew my strength as I wait on You."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 2 — Leaving the Old Behind",
+  day: 8,
+  scripture: "Philippians 3:13",
+  verse: "Forgetting those things which are behind, and reaching forth unto those things which are before.",
+  reflection:
+    "A new beginning often requires a holy release. You cannot reach forward while gripping what God is calling you to leave behind. Forgetting does not mean denying what happened. It means refusing to let the past control your movement.",
+  heartWork:
+    "What am I still holding that God is asking me to release?",
+  prayerFocus:
+    "Lord, help me release what is behind so I can reach for what is ahead."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 2 — Leaving the Old Behind",
+  day: 9,
+  scripture: "Isaiah 43:18",
+  verse: "Remember ye not the former things, neither consider the things of old.",
+  reflection:
+    "God knew that old things can take up space in the heart. Sometimes we keep considering what God told us to stop rehearsing. A new beginning needs room, and room is made when we stop giving the former season the seat of authority.",
+  heartWork:
+    "What former thing have I been considering too much?",
+  prayerFocus:
+    "Lord, help me stop rehearsing what You are calling me to move beyond."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 2 — Leaving the Old Behind",
+  day: 10,
+  scripture: "Hebrews 12:1",
+  verse: "Let us lay aside every weight, and the sin which doth so easily beset us.",
+  reflection:
+    "Not everything that weighs you down is obvious at first. Some weights look like responsibilities, relationships, thoughts, fears, or habits. God is calling you to lay aside what slows your obedience.",
+  heartWork:
+    "What weight has been slowing down my forward movement?",
+  prayerFocus:
+    "Lord, show me what to lay aside so I can run with endurance."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 2 — Leaving the Old Behind",
+  day: 11,
+  scripture: "Ephesians 4:22",
+  verse: "That ye put off concerning the former conversation the old man.",
+  reflection:
+    "New beginnings require us to put off what belongs to the old life. God does not call us forward so we can carry the same old patterns into a new place. The old man must be removed so the new life can be revealed.",
+  heartWork:
+    "What old pattern do I need to put off?",
+  prayerFocus:
+    "Lord, help me put off what no longer belongs to my new life in Christ."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 2 — Leaving the Old Behind",
+  day: 12,
+  scripture: "Colossians 3:9-10",
+  verse: "Ye have put off the old man with his deeds; and have put on the new man.",
+  reflection:
+    "God does not only call us to take something off. He also calls us to put something on. A new beginning is not empty. It is filled with new identity, new obedience, new character, and new alignment.",
+  heartWork:
+    "What new way of living do I need to put on today?",
+  prayerFocus:
+    "Lord, clothe me with the new man and help me walk in renewed identity."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 2 — Leaving the Old Behind",
+  day: 13,
+  scripture: "Romans 6:4",
+  verse: "Even so we also should walk in newness of life.",
+  reflection:
+    "Newness of life is not only something we believe; it is something we walk in. God gives grace for a new walk, new choices, new responses, and new rhythms.",
+  heartWork:
+    "What does walking in newness need to look like in my daily life?",
+  prayerFocus:
+    "Lord, teach me to walk in newness of life."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 2 — Leaving the Old Behind",
+  day: 14,
+  scripture: "Galatians 5:1",
+  verse: "Stand fast therefore in the liberty wherewith Christ hath made us free.",
+  reflection:
+    "A new beginning must be protected. Christ has made you free, but you must stand in that freedom. Do not return to what God delivered you from just because it feels familiar.",
+  heartWork:
+    "Where do I need to stand firm and refuse to go backward?",
+  prayerFocus:
+    "Lord, help me stand in the freedom You have given me."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 3 — Walking in a New Way",
+  day: 15,
+  scripture: "Psalm 37:23",
+  verse: "The steps of a good man are ordered by the LORD.",
+  reflection:
+    "New beginnings are built one ordered step at a time. You do not have to know every detail before you obey the next instruction. God knows how to direct your path as you walk with Him.",
+  heartWork:
+    "What is the next step God has already given me?",
+  prayerFocus:
+    "Lord, order my steps and help me obey the next instruction."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 3 — Walking in a New Way",
+  day: 16,
+  scripture: "Proverbs 3:5-6",
+  verse: "Trust in the LORD with all thine heart... and he shall direct thy paths.",
+  reflection:
+    "New paths require trust. God may not reveal the whole road at once, but He will direct the surrendered heart. Trust does not mean you understand everything. It means you believe God is faithful enough to lead.",
+  heartWork:
+    "Where am I struggling to trust God with the path ahead?",
+  prayerFocus:
+    "Lord, direct my path as I trust You with all my heart."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 3 — Walking in a New Way",
+  day: 17,
+  scripture: "Joshua 1:9",
+  verse: "Be strong and of a good courage; be not afraid.",
+  reflection:
+    "A new beginning may require courage. God told Joshua to be strong because the next place required faith, obedience, and movement. Courage is not the absence of fear. It is obedience while trusting God’s presence.",
+  heartWork:
+    "Where do I need courage to obey God in this season?",
+  prayerFocus:
+    "Lord, strengthen me with courage for this new beginning."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 3 — Walking in a New Way",
+  day: 18,
+  scripture: "2 Timothy 1:7",
+  verse: "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.",
+  reflection:
+    "Fear is not the gift God gave you. Power, love, and a sound mind are part of what He has supplied for your walk. A new beginning requires you to stop letting fear lead.",
+  heartWork:
+    "Where has fear been leading my decisions?",
+  prayerFocus:
+    "Lord, help me walk in power, love, and a sound mind."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 3 — Walking in a New Way",
+  day: 19,
+  scripture: "Habakkuk 2:2",
+  verse: "Write the vision, and make it plain upon tables.",
+  reflection:
+    "New beginnings need clarity. God-given vision must be written, ordered, and stewarded. When the vision becomes plain, your steps become more focused.",
+  heartWork:
+    "What vision do I need to write down and make plain?",
+  prayerFocus:
+    "Lord, give me clarity and discipline to steward the vision well."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 3 — Walking in a New Way",
+  day: 20,
+  scripture: "James 1:22",
+  verse: "But be ye doers of the word, and not hearers only.",
+  reflection:
+    "A new beginning is strengthened by obedience. Revelation must become movement. The blessing is not only in hearing what God said, but in responding to what He said.",
+  heartWork:
+    "What instruction do I need to obey instead of just knowing it?",
+  prayerFocus:
+    "Lord, help me become a doer of Your word."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 3 — Walking in a New Way",
+  day: 21,
+  scripture: "Micah 6:8",
+  verse: "What doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?",
+  reflection:
+    "Walking in a new way does not have to be complicated. God calls us to justice, mercy, and humility. A fresh start is not only about where you are going; it is about how you walk with God.",
+  heartWork:
+    "Where do I need to walk more humbly with God?",
+  prayerFocus:
+    "Lord, teach me to walk in justice, mercy, and humility."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 4 — Building the New with God",
+  day: 22,
+  scripture: "Nehemiah 2:18",
+  verse: "Let us rise up and build.",
+  reflection:
+    "New beginnings often require building. Nehemiah did not only cry over what was broken; he rose up to rebuild. God can give you both burden and strategy for what needs to be restored.",
+  heartWork:
+    "What is God calling me to rise up and build?",
+  prayerFocus:
+    "Lord, give me courage and strategy to build what You have assigned."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 4 — Building the New with God",
+  day: 23,
+  scripture: "Zechariah 4:10",
+  verse: "For who hath despised the day of small things?",
+  reflection:
+    "Small beginnings still matter to God. Do not despise what seems small just because it is not fully grown yet. Seeds, foundations, and first steps may look small, but they can carry great purpose.",
+  heartWork:
+    "Where have I been despising a small beginning?",
+  prayerFocus:
+    "Lord, help me honor the small beginnings You are using."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 4 — Building the New with God",
+  day: 24,
+  scripture: "Matthew 7:24",
+  verse: "Whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man.",
+  reflection:
+    "What you build must have the right foundation. Jesus taught that the wise builder hears and obeys His word. A new beginning built on obedience can stand when storms come.",
+  heartWork:
+    "What foundation am I building this season on?",
+  prayerFocus:
+    "Lord, help me build my life on Your word and wisdom."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 4 — Building the New with God",
+  day: 25,
+  scripture: "1 Corinthians 3:10",
+  verse: "But let every man take heed how he buildeth thereupon.",
+  reflection:
+    "How you build matters. God cares about the foundation, the motives, the methods, and the materials. A new beginning is not just about starting; it is about building with wisdom and integrity.",
+  heartWork:
+    "Where do I need to examine how I am building?",
+  prayerFocus:
+    "Lord, teach me to build with wisdom, purity, and obedience."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 4 — Building the New with God",
+  day: 26,
+  scripture: "Psalm 127:1",
+  verse: "Except the LORD build the house, they labour in vain that build it.",
+  reflection:
+    "You do not want to build without God. A new beginning can look successful on the outside and still be empty if the Lord is not the builder. Invite Him into the plans, the process, and the foundation.",
+  heartWork:
+    "Where have I been building in my own strength?",
+  prayerFocus:
+    "Lord, build with me and build through me. Let nothing be done in vain."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 4 — Building the New with God",
+  day: 27,
+  scripture: "Proverbs 24:3",
+  verse: "Through wisdom is an house builded; and by understanding it is established.",
+  reflection:
+    "New beginnings need wisdom and understanding. Excitement can start a thing, but wisdom helps establish it. Ask God for the wisdom to build what can last.",
+  heartWork:
+    "What wisdom do I need for what I am building now?",
+  prayerFocus:
+    "Lord, give me wisdom and understanding to establish what You have given me."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 4 — Building the New with God",
+  day: 28,
+  scripture: "Galatians 6:9",
+  verse: "Let us not be weary in well doing: for in due season we shall reap, if we faint not.",
+  reflection:
+    "New beginnings need consistency. Do not quit just because the fruit is not visible yet. What you continue to sow in faith will produce in due season if you do not faint.",
+  heartWork:
+    "Where do I need to stay consistent instead of becoming weary?",
+  prayerFocus:
+    "Lord, strengthen me to keep building until I see the fruit."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 5 — Entering the New Season",
+  day: 29,
+  scripture: "Revelation 21:5",
+  verse: "Behold, I make all things new.",
+  reflection:
+    "God has the power to make all things new. Not some things. All things. He can renew your hope, restore your vision, revive your strength, and redeem your story. Nothing is too broken for His renewing power.",
+  heartWork:
+    "What do I need to place before God and believe He can make new?",
+  prayerFocus:
+    "Lord, make all things new according to Your will and purpose."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 5 — Entering the New Season",
+  day: 30,
+  scripture: "Isaiah 42:9",
+  verse: "New things do I declare: before they spring forth I tell you of them.",
+  reflection:
+    "God can announce new things before they appear. Just because you do not see the full manifestation yet does not mean God has not spoken. Hold on to what He declared and keep walking in faith.",
+  heartWork:
+    "What has God spoken that I need to keep believing?",
+  prayerFocus:
+    "Lord, help me trust what You have declared even before I see it fully."
+},
+{
+  month: 8,
+  year: 2026,
+  week: "Week 5 — Entering the New Season",
+  day: 31,
+  scripture: "Philippians 3:14",
+  verse: "I press toward the mark for the prize of the high calling of God in Christ Jesus.",
+  reflection:
+    "As this month closes, keep pressing forward. A new beginning is not only a moment; it becomes a lifestyle of obedience, faith, and movement. God has more ahead, and you are graced to keep going.",
+  heartWork:
+    "What am I pressing toward as I enter the next season?",
+  prayerFocus:
+    "Lord, help me press forward with faith, focus, and fresh strength."
+}
 ];
-
-
