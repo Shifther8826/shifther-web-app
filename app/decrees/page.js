@@ -22,7 +22,8 @@ export default async function DecreesPage() {
       padding: "30px",
       minHeight: "100vh",
       color: "white",
-      backgroundImage: backgroundImage: `linear-gradient(rgba(13, 27, 42, 0.78), rgba(13, 27, 42, 0.88)), url(${decree?.image_url || "/decree-bg.jpg"})`,
+      backgroundImage: backgroundImage: 
+        `linear-gradient(rgba(13, 27, 42, 0.78), rgba(13, 27, 42, 0.88)), url(${decree?.image_url || "/decree-bg.jpg"})`,
       backgroundSize: "cover",
       backgroundPosition: "center",
       backgroundAttachment: "fixed",
