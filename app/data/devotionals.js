@@ -1764,5 +1764,425 @@ Do not stop now. What you continue will eventually produce.`,
     "What am I pressing toward as I enter the next season?",
   prayerFocus:
     "Lord, help me press forward with faith, focus, and fresh strength."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 1 — Breathe and Be Still",
+  day: 1,
+  scripture: "Psalm 46:10",
+  verse: "Be still, and know that I am God.",
+  reflection:
+    "September begins with an invitation to be still. Stillness is not weakness, and it is not wasted time. It is a sacred place where the soul slows down long enough to remember who God is. Before you rush into another month, breathe and let your heart settle in His presence.",
+  heartWork:
+    "Where have I been rushing when God is inviting me to be still?",
+  prayerFocus:
+    "Lord, teach me to be still and know that You are God."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 1 — Breathe and Be Still",
+  day: 2,
+  scripture: "Matthew 11:28",
+  verse: "Come unto me, all ye that labour and are heavy laden, and I will give you rest.",
+  reflection:
+    "Jesus does not shame the weary. He invites the weary to come. Rest begins when we stop carrying what He never asked us to carry alone. Today, bring the weight, the pressure, and the heaviness to Him.",
+  heartWork:
+    "What weight have I been carrying that I need to bring to Jesus?",
+  prayerFocus:
+    "Lord, I come to You with every burden and receive Your rest."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 1 — Breathe and Be Still",
+  day: 3,
+  scripture: "Exodus 14:14",
+  verse: "The LORD shall fight for you, and ye shall hold your peace.",
+  reflection:
+    "Some battles require movement, but some battles require trust. God told His people that He would fight for them while they held their peace. You do not have to strive in every situation. Sometimes obedience looks like quiet confidence in God.",
+  heartWork:
+    "Where do I need to stop striving and trust God to fight for me?",
+  prayerFocus:
+    "Lord, help me hold my peace while You work on my behalf."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 1 — Breathe and Be Still",
+  day: 4,
+  scripture: "Isaiah 30:15",
+  verse: "In returning and rest shall ye be saved; in quietness and in confidence shall be your strength.",
+  reflection:
+    "God connects strength with quietness and confidence. This is different from the world’s way of proving, pushing, and performing. Sometimes the strongest thing you can do is return to God and rest in what He has spoken.",
+  heartWork:
+    "Where do I need to return to God instead of pushing forward in my own strength?",
+  prayerFocus:
+    "Lord, let quietness and confidence become my strength."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 1 — Breathe and Be Still",
+  day: 5,
+  scripture: "Psalm 23:2",
+  verse: "He maketh me to lie down in green pastures: he leadeth me beside the still waters.",
+  reflection:
+    "The Shepherd knows when the sheep need rest. God does not only lead you into work; He also leads you beside still waters. Rest is part of His care, not a distraction from your purpose.",
+  heartWork:
+    "Where is God trying to lead me into rest, but I keep resisting?",
+  prayerFocus:
+    "Lord, shepherd me into rest and restore my inner life."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 1 — Breathe and Be Still",
+  day: 6,
+  scripture: "Psalm 4:8",
+  verse: "I will both lay me down in peace, and sleep: for thou, LORD, only makest me dwell in safety.",
+  reflection:
+    "Peaceful rest comes from knowing that safety is in God. You do not have to stay awake rehearsing what only He can handle. God watches over you, your family, your future, and your assignment.",
+  heartWork:
+    "What concern has been disturbing my rest?",
+  prayerFocus:
+    "Lord, help me rest in the safety of Your care."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 1 — Breathe and Be Still",
+  day: 7,
+  scripture: "Mark 6:31",
+  verse: "Come ye yourselves apart into a desert place, and rest a while.",
+  reflection:
+    "Even ministry and assignment require rest. Jesus called His disciples away from the crowd to rest a while. You are not more spiritual because you are always available. Healthy rhythms help you remain faithful for the long journey.",
+  heartWork:
+    "Where do I need to create space to rest without guilt?",
+  prayerFocus:
+    "Lord, help me honor the rhythm of rest You are calling me into."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 2 — Reset My Heart",
+  day: 8,
+  scripture: "Psalm 51:10",
+  verse: "Create in me a clean heart, O God; and renew a right spirit within me.",
+  reflection:
+    "A reset begins in the heart. David asked God to create, cleanse, and renew what had been damaged. God is not only interested in your activity; He cares about the condition of your spirit.",
+  heartWork:
+    "What area of my heart needs a reset before I move forward?",
+  prayerFocus:
+    "Lord, create in me a clean heart and renew a right spirit within me."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 2 — Reset My Heart",
+  day: 9,
+  scripture: "Proverbs 4:23",
+  verse: "Keep thy heart with all diligence; for out of it are the issues of life.",
+  reflection:
+    "Your heart is worth guarding. What enters your heart can shape your words, decisions, relationships, and direction. A reset may require paying attention to what you have allowed to settle inside.",
+  heartWork:
+    "What have I allowed into my heart that I need to guard against now?",
+  prayerFocus:
+    "Lord, help me guard my heart with wisdom and diligence."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 2 — Reset My Heart",
+  day: 10,
+  scripture: "Ezekiel 36:26",
+  verse: "A new heart also will I give you, and a new spirit will I put within you.",
+  reflection:
+    "God knows how to give a new heart. When life makes the heart tired, hard, disappointed, or guarded, God can make it tender again. A reset is not always about doing more. Sometimes it is about letting God heal what is within.",
+  heartWork:
+    "Where has my heart become hard, tired, or guarded?",
+  prayerFocus:
+    "Lord, give me a renewed heart and a softened spirit."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 2 — Reset My Heart",
+  day: 11,
+  scripture: "Lamentations 3:22-23",
+  verse: "They are new every morning: great is thy faithfulness.",
+  reflection:
+    "Mercy gives you permission to begin again. God’s faithfulness meets you every morning, not just on your best days. Today is not ruined because yesterday was heavy. Mercy is fresh.",
+  heartWork:
+    "Where do I need to receive new mercy instead of living under yesterday’s weight?",
+  prayerFocus:
+    "Lord, thank You for fresh mercy and Your great faithfulness."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 2 — Reset My Heart",
+  day: 12,
+  scripture: "Psalm 139:23-24",
+  verse: "Search me, O God, and know my heart: try me, and know my thoughts.",
+  reflection:
+    "A true reset requires honesty with God. David invited God to search his heart and reveal what needed correction. God does not search us to condemn us. He searches us to lead us into the way everlasting.",
+  heartWork:
+    "What do I need to allow God to reveal and correct in me?",
+  prayerFocus:
+    "Lord, search my heart and lead me in Your way."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 2 — Reset My Heart",
+  day: 13,
+  scripture: "Colossians 3:15",
+  verse: "And let the peace of God rule in your hearts.",
+  reflection:
+    "Peace is meant to rule, not fear, confusion, offense, or pressure. When the peace of God rules your heart, it helps govern your responses. A heart reset allows peace to take its proper place again.",
+  heartWork:
+    "What has been ruling my heart besides the peace of God?",
+  prayerFocus:
+    "Lord, let Your peace rule in my heart again."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 2 — Reset My Heart",
+  day: 14,
+  scripture: "Philippians 4:7",
+  verse: "And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus.",
+  reflection:
+    "God’s peace can guard both heart and mind. Even when everything does not make sense, His peace can stand watch over your inner life. You do not have to understand everything to be kept by God.",
+  heartWork:
+    "Where do I need God’s peace to guard my heart and mind?",
+  prayerFocus:
+    "Lord, keep my heart and mind through Christ Jesus."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 3 — Realign My Focus",
+  day: 15,
+  scripture: "Matthew 6:33",
+  verse: "But seek ye first the kingdom of God, and his righteousness.",
+  reflection:
+    "Realignment begins with what comes first. When the kingdom is first, everything else finds its proper place. This is a good time to check your priorities and return God to the center.",
+  heartWork:
+    "What has taken first place that needs to be reordered?",
+  prayerFocus:
+    "Lord, realign my priorities and help me seek Your kingdom first."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 3 — Realign My Focus",
+  day: 16,
+  scripture: "Hebrews 12:2",
+  verse: "Looking unto Jesus the author and finisher of our faith.",
+  reflection:
+    "Focus determines direction. When your eyes are on everything happening around you, your heart can become distracted and weary. Looking unto Jesus brings your faith back into alignment.",
+  heartWork:
+    "What distraction has been pulling my eyes away from Jesus?",
+  prayerFocus:
+    "Lord, help me fix my eyes on You again."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 3 — Realign My Focus",
+  day: 17,
+  scripture: "Proverbs 3:5-6",
+  verse: "Trust in the LORD with all thine heart... and he shall direct thy paths.",
+  reflection:
+    "Realignment requires trust. You may not know every step, but God knows the path. When you acknowledge Him, He knows how to direct your movement and correct your course.",
+  heartWork:
+    "Where have I been leaning on my own understanding instead of trusting God?",
+  prayerFocus:
+    "Lord, direct my path as I acknowledge You."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 3 — Realign My Focus",
+  day: 18,
+  scripture: "Psalm 119:105",
+  verse: "Thy word is a lamp unto my feet, and a light unto my path.",
+  reflection:
+    "God’s Word brings light to your next step. You may want the full map, but God often gives enough light for obedience today. Realignment comes when the Word becomes your guide again.",
+  heartWork:
+    "What area of my life needs to be guided by the Word again?",
+  prayerFocus:
+    "Lord, let Your Word light my path and direct my steps."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 3 — Realign My Focus",
+  day: 19,
+  scripture: "Romans 12:2",
+  verse: "Be ye transformed by the renewing of your mind.",
+  reflection:
+    "A focused life requires a renewed mind. Old thought patterns can pull you out of alignment with God’s truth. Let the Word renew how you think, see, speak, and respond.",
+  heartWork:
+    "What thought pattern needs to be renewed so I can stay aligned?",
+  prayerFocus:
+    "Lord, renew my mind and transform my perspective."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 3 — Realign My Focus",
+  day: 20,
+  scripture: "James 1:8",
+  verse: "A double minded man is unstable in all his ways.",
+  reflection:
+    "Double-mindedness creates instability. Realignment calls us back to a settled yes. You do not have to be pulled in every direction. God can make your heart steady, focused, and faithful.",
+  heartWork:
+    "Where have I been divided in my focus or obedience?",
+  prayerFocus:
+    "Lord, settle my heart and remove double-mindedness from me."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 3 — Realign My Focus",
+  day: 21,
+  scripture: "Isaiah 26:3",
+  verse: "Thou wilt keep him in perfect peace, whose mind is stayed on thee.",
+  reflection:
+    "A stayed mind is a guarded mind. Peace grows where focus is fixed on God. When your mind keeps returning to Him, anxiety loses its authority to lead.",
+  heartWork:
+    "What do I need to stop rehearsing so my mind can stay on God?",
+  prayerFocus:
+    "Lord, keep me in perfect peace as my mind stays on You."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 4 — Restore My Strength",
+  day: 22,
+  scripture: "Isaiah 40:31",
+  verse: "They that wait upon the LORD shall renew their strength.",
+  reflection:
+    "Strength is renewed in waiting. Waiting on God is not passive; it is a place of trust, surrender, and exchange. As you wait, God gives strength that striving cannot produce.",
+  heartWork:
+    "Where do I need to wait on God instead of forcing my own strength?",
+  prayerFocus:
+    "Lord, renew my strength as I wait on You."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 4 — Restore My Strength",
+  day: 23,
+  scripture: "Nehemiah 8:10",
+  verse: "For the joy of the LORD is your strength.",
+  reflection:
+    "Joy is not shallow. The joy of the Lord carries strength. When pressure has drained your soul, God can restore joy that helps you stand, continue, and serve from a healthier place.",
+  heartWork:
+    "Where has my joy been drained, and where do I need God to restore it?",
+  prayerFocus:
+    "Lord, restore my joy and strengthen me from within."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 4 — Restore My Strength",
+  day: 24,
+  scripture: "2 Corinthians 12:9",
+  verse: "My grace is sufficient for thee: for my strength is made perfect in weakness.",
+  reflection:
+    "Weakness is not the end of usefulness. God’s strength is made perfect in the places where you know you cannot do it without Him. Grace meets you where human strength runs out.",
+  heartWork:
+    "Where do I need to stop hiding weakness and receive God’s grace?",
+  prayerFocus:
+    "Lord, let Your strength be made perfect in my weakness."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 4 — Restore My Strength",
+  day: 25,
+  scripture: "Psalm 18:2",
+  verse: "The LORD is my rock, and my fortress, and my deliverer.",
+  reflection:
+    "God is strength when life feels unstable. He is the Rock beneath your feet and the Fortress around your life. You are not standing alone. You are standing in Him.",
+  heartWork:
+    "Where do I need God to be my stability and strength?",
+  prayerFocus:
+    "Lord, be my rock, fortress, and deliverer."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 4 — Restore My Strength",
+  day: 26,
+  scripture: "Psalm 138:3",
+  verse: "In the day when I cried thou answeredst me, and strengthenedst me with strength in my soul.",
+  reflection:
+    "God can strengthen the soul. Sometimes the body is moving, but the soul is tired. When you cry out to Him, He knows how to answer with inner strength that helps you keep going.",
+  heartWork:
+    "Where does my soul need strengthening right now?",
+  prayerFocus:
+    "Lord, strengthen me with strength in my soul."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 4 — Restore My Strength",
+  day: 27,
+  scripture: "Ephesians 6:10",
+  verse: "Finally, my brethren, be strong in the Lord, and in the power of his might.",
+  reflection:
+    "Your strength is not meant to come from yourself alone. Be strong in the Lord. His might is greater than your limits, greater than your weariness, and greater than the pressure around you.",
+  heartWork:
+    "Where have I been trying to be strong apart from the Lord?",
+  prayerFocus:
+    "Lord, help me be strong in You and in the power of Your might."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 4 — Restore My Strength",
+  day: 28,
+  scripture: "Psalm 29:11",
+  verse: "The LORD will give strength unto his people; the LORD will bless his people with peace.",
+  reflection:
+    "God gives both strength and peace. You do not have to choose between being strong and being settled. The Lord knows how to empower you without making you anxious.",
+  heartWork:
+    "Where do I need both strength and peace from God?",
+  prayerFocus:
+    "Lord, give me strength and bless me with peace."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 5 — Move Forward in Peace",
+  day: 29,
+  scripture: "Philippians 3:14",
+  verse: "I press toward the mark for the prize of the high calling of God in Christ Jesus.",
+  reflection:
+    "After you breathe, reset, realign, and receive strength, you can move forward again. Pressing forward does not mean rushing. It means continuing with faith, focus, and peace.",
+  heartWork:
+    "What am I ready to press toward with renewed peace?",
+  prayerFocus:
+    "Lord, help me move forward with faith, focus, and peace."
+},
+{
+  month: 9,
+  year: 2026,
+  week: "Week 5 — Move Forward in Peace",
+  day: 30,
+  scripture: "Numbers 6:24-26",
+  verse: "The LORD bless thee, and keep thee: The LORD make his face shine upon thee, and be gracious unto thee.",
+  reflection:
+    "September closes with blessing. God is able to keep you, shine upon you, be gracious to you, and give you peace. As you move into what is next, do not move anxious. Move covered, kept, restored, and aligned.",
+  heartWork:
+    "What blessing from God do I need to receive as I enter the next month?",
+  prayerFocus:
+    "Lord, bless me, keep me, shine upon me, and give me peace."
 }
 ];
