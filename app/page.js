@@ -133,7 +133,7 @@ export default function HomePage() {
       width: "240px",
       height: "240px",
       objectFit: "cover",
-      objectPosition: "center 25%",
+      objectPosition: "center 20%",
       borderRadius: "50%",
       border: "5px solid #ffeb3b",
       boxShadow: "0 12px 30px rgba(0,0,0,0.45)",
