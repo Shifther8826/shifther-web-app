@@ -70,7 +70,7 @@ export default function HomePage() {
             lineHeight: "1.1",
           }}
         >
-          Welcome to SHIFTHer
+          Welcome to Ascent & Becoming
         </h1>
 
         <p
@@ -82,9 +82,9 @@ export default function HomePage() {
             margin: "0 auto 30px auto",
           }}
         >
-          Welcome to the SHIFTHer app. This is your space for encouragement,
-          devotionals, events, prayer, and practical resources to help you move
-          forward with intention.
+          Welcome to the Ascent & Becoming app. This is your space to grow in faith,
+          identity, and transformation through devotionals, prayer, encouragment,
+          events, and pratical resources.
         </p>
 <div>
   <div
@@ -108,7 +108,7 @@ export default function HomePage() {
       marginBottom: "10px",
     }}
   >
-    SHIFTHer Sound
+    Ascent & Becoming Sound
   </p>
 
   <h3 style={{ color: "white", margin: "0 0 12px 0" }}>
