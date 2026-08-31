@@ -305,7 +305,7 @@ export default function HomePage() {
   fontSize: "24px", 
   marginBottom: "10px" 
 }}>
-  SHIFT Weekly Decree
+  Weekly Decree
 </h2>
 
  <p style={{ color: "white", opacity: 0.85 }}>
