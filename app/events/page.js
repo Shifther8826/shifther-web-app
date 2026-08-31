@@ -37,7 +37,7 @@ export default function EventsPage() {
       time: "Details coming soon",
       description:
         "A powerful gathering for women ready to ascend, become, heal, grow, and walk boldly in purpose.",
-      button: button: "Register Now",
+      button: "Register Now",
       link: "https://form.jotform.com/Lvonean/ascent-2026-conference",
     },
   ];
