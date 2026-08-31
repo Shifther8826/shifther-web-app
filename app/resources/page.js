@@ -75,7 +75,7 @@ return (
       >
         <img
           src="/resources-header.jpg"
-          alt="SHIFTHer Resources"
+          alt="Ascent & Becoming Resources"
           style={{
             width: "100%",
             height: "100%",
@@ -116,7 +116,7 @@ return (
               fontWeight: "bold",
             }}
           >
-            SHIFTHER
+            ASCENT & BECOMING
           </p>
 
           <h1
@@ -154,7 +154,7 @@ return (
     <div style={card}>
       <div>
         <p style={label}>Start Here</p>
-        <h2>How to Use the SHIFTHer App</h2>
+        <h2>How to Use the Ascent & Becoming App</h2>
         <p>A simple guide to help you understand the app, where to begin, and how to use each section with intention.</p>
       </div>
       <a href="/resources/how-to-use" style={button}>Open Guide →</a>
