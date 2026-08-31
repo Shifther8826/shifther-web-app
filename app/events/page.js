@@ -2,7 +2,7 @@ export default function EventsPage() {
   const events = [
     {
       category: "Weekly Prayer",
-      title: "SHIFTHer Midweek Prayer",
+      title: "Ascent & Becoming Midweek Prayer",
       date: "Every Wednesday",
       time: "5:00 AM EST",
       description:
@@ -22,7 +22,7 @@ export default function EventsPage() {
     },
     {
       category: "Community",
-      title: "Monthly SHIFTHer Focus",
+      title: "Monthly Ascent & Becoming Focus",
       date: "Monthly",
       time: "New theme each month",
       description:
@@ -32,11 +32,11 @@ export default function EventsPage() {
     },
     {
       category: "Gathering",
-      title: "SHIFTHer 2026",
+      title: "The Ascent & Becoming Gathering",
       date: "December 3–5, 2026",
       time: "Details coming soon",
       description:
-        "A powerful gathering created for women who are ready to level up, heal, grow, and walk boldly in purpose.",
+        "A powerful gathering for women ready to ascend, become, heal, grow, and walk boldly in purpose.",
       button: "Stay Updated",
       link: "#",
     },
@@ -72,7 +72,7 @@ export default function EventsPage() {
               marginBottom: "10px",
             }}
           >
-            SHIFTHer Calendar
+            Ascent & Becoming Calendar
           </p>
 
           <h1
@@ -94,9 +94,7 @@ export default function EventsPage() {
               color: "#f3e8ff",
             }}
           >
-            Stay connected to upcoming prayer gatherings, app releases, growth
-            resources, teachings, and special moments inside the SHIFTHer
-            movement.
+            Stay connected to upcoming prayer gatherings, app releases, growth resources, teachings, and special moments inside the Ascent & Becoming community.
           </p>
         </div>
 
@@ -129,9 +127,8 @@ export default function EventsPage() {
               margin: "0 auto",
             }}
           >
-            Use this page to know what is happening next. As new app moments,
-            prayer gatherings, teachings, and SHIFTHer updates are released,
-            they will be added here.
+            Use this page to know what is happening next. 
+              As new app moments, prayer gatherings, teachings, and Ascent & Becoming updates are released, they will be added here.
           </p>
         </div>
 
@@ -254,8 +251,7 @@ export default function EventsPage() {
               margin: "0 auto",
             }}
           >
-            Check back often for new SHIFTHer updates, prayer opportunities,
-            resource releases, and upcoming gatherings.
+           Check back often for new Ascent & Becoming updates, prayer opportunities, resource releases, and upcoming gatherings.
           </p>
         </div>
 
