@@ -199,7 +199,7 @@ return (
     <div style={card}>
       <div>
         <p style={label}>Worksheet</p>
-        <h2>BuildHER App Vision Worksheet™</h2>
+        <h2>App Vision Worksheet™</h2>
         <p>Clarify your app vision, audience, content, and experience before you begin building.</p>
       </div>
       <a
