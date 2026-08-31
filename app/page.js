@@ -520,7 +520,7 @@ export default function HomePage() {
 </div>
 
 <a
-  href="https://forms.gle/xWpN5UGEktvpGQx29"
+href="https://form.jotform.com/Lvonean/ascent-2026-conference"
     target="_blank"
     rel="noopener noreferrer"
     style={{
@@ -533,7 +533,7 @@ export default function HomePage() {
       textDecoration: "none",
     }}
   >
-    Get SHIFTHer 2026 Updates
+    Register for the Gathering
   </a>
 </div>
 <div
