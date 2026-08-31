@@ -127,7 +127,7 @@ export default function HomePage() {
   }}
 >
   <img
-    src="/michelle.jpg"
+    src="/michelle-ascent.jpg"
     alt="Michelle"
     style={{
       width: "240px",
