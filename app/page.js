@@ -501,13 +501,13 @@ export default function HomePage() {
   }}
 >
   <a
-    href="/shifther-2026-flyer.png"
+    href="/ascent-becoming-gathering-2026.png"
     target="_blank"
     rel="noopener noreferrer"
   >
     <img
-      src="/shifther-2026-flyer.png"
-      alt="SHIFTHer 2026 Flyer"
+      src="/ascent-becoming-gathering-2026.png"
+      alt="Ascent & Becoming Gathering 2026 Flyer"
       style={{
         width: "100%",
         maxWidth: "420px",
