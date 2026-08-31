@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "Ascent & Becoming App",
     description: "Daily devotionals, weekly decrees, prayer, resources, and encouragement for your journey of ascent and becoming.",
-    images: ["/ascent-app-preview.png"],
+    images: ["/michelle-ascent.jpg"],
   },
 };
 
