@@ -464,7 +464,7 @@ export default function HomePage() {
     Open Bible Study
   </a>
 </div>
-    SHIFTHer 2026
+    The Ascent & Becoming Gathering 2026
   </h2>
 
   <p
@@ -476,7 +476,7 @@ export default function HomePage() {
       opacity: 0.8,
     }}
   >
-    STAY CONNECTED
+    DECEMBER 3–5, 2026
   </p>
 
   <p
@@ -488,8 +488,9 @@ export default function HomePage() {
       maxWidth: "600px",
     }}
   >
-    SHIFTHer 2026 is coming. This is for the woman who wants to stay connected,
-    hear what is next, and be the first to know when new details are released.
+    The Ascent & Becoming Gathering is coming. Join us for a powerful time of faith, 
+      transformation, connection, and becoming. Reserve your place and stay connected
+      for conference updates.
  </p>
 
 <div
